@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Case files</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/gallery.js" defer></script>
+</head>
+<body class="gallery-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="chrome">
+    <div class="site-banner gallery-banner" role="note">★ CASE FILES ★</div>
+    <div id="gallery-marquee" class="site-marquee" aria-hidden="true"></div>
+
+    <div class="strip">
+      <span class="strip-item">Case files on record: <span id="gallery-count" class="gallery-count">…</span></span>
+      <span class="badge">Best viewed at 800×600</span>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="panel masthead" aria-labelledby="gallery-title">
+      <h1 id="gallery-title" class="site-title"></h1>
+      <p id="gallery-subtitle" class="site-subtitle"></p>
+    </section>
+
+    <hr class="rule rule--stars">
+
+    <section class="panel" aria-labelledby="h-gallery-intro">
+      <h2 id="h-gallery-intro" class="section-title">READ THIS FIRST</h2>
+      <div id="gallery-intro" class="intro typewriter"></div>
+    </section>
+
+    <hr class="rule">
+
+    <section class="panel" aria-labelledby="h-gallery-cards">
+      <h2 id="h-gallery-cards" class="section-title">THE CASE FILES</h2>
+      <p id="gallery-status" class="gallery-status" role="status" hidden></p>
+      <ul id="gallery-cards" class="gallery-cards"></ul>
+    </section>
+
+    <section id="grand-theory" class="panel grand-theory" aria-labelledby="theory-title" tabindex="-1" hidden>
+      <hr class="rule rule--stars">
+      <h2 id="theory-title" class="section-title theory-title"></h2>
+      <div id="theory-thesis" class="theory-thesis typewriter"></div>
+      <h3 class="theory-subhead">The chain of events</h3>
+      <ol id="theory-chain" class="theory-chain"></ol>
+      <h3 class="theory-subhead">Recurring motifs</h3>
+      <div id="theory-motifs" class="theory-motifs"></div>
+      <h3 class="theory-subhead">Verdict</h3>
+      <div id="theory-verdict" class="theory-verdict"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p id="gallery-disclaimer" class="disclaimer"></p>
+  </footer>
+</body>
+</html>

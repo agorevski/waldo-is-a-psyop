@@ -1,0 +1,1043 @@
+{
+  "image": {
+    "src": "scene.jpg",
+    "width": 1500,
+    "height": 937,
+    "alt": "Crowded beach scene with striped umbrellas and beach huts, a postcard in the top-left corner, people in the surf, and a hovercraft on the right."
+  },
+  "site": {
+    "title": "WALDO IS A PSYOP",
+    "subtitle": "A Free Investigation Into the Man in the Stripes",
+    "caseNumber": "CASE #WDE-1956-∞",
+    "banner": "⚠ THIS IS MIRROR #4. THE FIRST THREE WERE TAKEN DOWN. SAVE THIS PAGE TO YOUR COMPUTER. ⚠",
+    "marquee": "THEY WANT YOU LOOKING FOR HIM ★ NOBODY ASKS WHO SENT THE POSTCARD ★ COUNT THE STRIPES ★ IF YOU FOUND HIM, ASK WHICH ONE ★ THE POSTMARK HAS A QUESTION MARK ★ THAT IS NOT A FERRY ★",
+    "heroCaption": "EXHIBIT 0: The beach. Every red pin is a proof. Every string is a connection. Click a pin. Click a stripe. LOOK.",
+    "intro": [
+      "If you're reading this, you've been looking for him. Everyone has. Your teacher handed you the book and said FIND HIM, and you did exactly what you were told.",
+      "So did I. For 31 nights I have looked at this ONE beach. Somewhere around night 9 I stopped asking WHERE he is and started asking the question nobody wants you to ask: ==why is the only clear picture of his face on a STAMP?==",
+      "Every proof below has a SEE FOR YOURSELF button. I'm not asking you to trust me. I'm asking you to LOOK. ~~I'm not crazy.~~ Just look.",
+      "Start with the postcard. It always starts with the postcard."
+    ],
+    "hitCounterBase": 1956,
+    "lastUpdated": "Night 31, 8:30 AM",
+    "censusInstructions": "Click every striped thing on the beach above."
+  },
+  "claims": [
+    {
+      "id": "P01",
+      "title": "HE MAILED US A PICTURE OF HIMSELF",
+      "region": {
+        "x": 316,
+        "y": 42,
+        "w": 74,
+        "h": 86
+      },
+      "facts": [
+        {
+          "text": "The postcard in the top-left corner is signed \"Waldo.\"",
+          "region": {
+            "x": 75,
+            "y": 235,
+            "w": 60,
+            "h": 35
+          }
+        },
+        {
+          "text": "The stamp on that postcard is a face: red-and-white bobble hat, round glasses.",
+          "region": {
+            "x": 316,
+            "y": 42,
+            "w": 74,
+            "h": 86
+          }
+        }
+      ],
+      "leap": "Think about that. Who puts their OWN face on a stamp? Nobody. You don't print your own stamps. Stamps are ==ISSUED==. Somebody approved that face, printed it, and handed it to him to stick on his own postcard. That's not a holiday. That's [[REDACTED|a product launch]].",
+      "update": {
+        "time": "3:47 AM",
+        "text": "This stamp is the ONLY clear picture of his whole face anywhere in this image. Remember that. It matters in Proof #7."
+      },
+      "note": "DO NOT TRUST THE STAMP",
+      "stamp": "EXHIBIT A",
+      "asset": "evidence/stamp.png",
+      "alt": "Close-up of the postage stamp: a cartoon face with a red-and-white bobble hat and round glasses on a blue background.",
+      "caption": "the only photo. (it's a drawing.)",
+      "paranoia": 2,
+      "links": [
+        {
+          "to": "P02",
+          "label": "SAME POSTCARD"
+        },
+        {
+          "to": "P07",
+          "label": "COMPARE EVERY FACE TO THIS"
+        }
+      ],
+      "num": 1
+    },
+    {
+      "id": "P02",
+      "title": "THE POST OFFICE IS ASKING THE QUESTION",
+      "region": {
+        "x": 250,
+        "y": 55,
+        "w": 72,
+        "h": 75
+      },
+      "facts": [
+        {
+          "text": "The round postmark reads \"WHERE'S\" across the top, \"ON THE BEACH\" through the middle, and \"WALDO\" along the bottom.",
+          "region": {
+            "x": 250,
+            "y": 55,
+            "w": 72,
+            "h": 75
+          }
+        },
+        {
+          "text": "Look at the very end of it. There is a ==question mark==.",
+          "region": {
+            "x": 268,
+            "y": 106,
+            "w": 45,
+            "h": 24
+          }
+        }
+      ],
+      "leap": "A postmark is official. It's supposed to say where a letter WAS. This one ends in a question. The people who handled this card, stamped it, and sent it on ==don't know where he is either==. Or they want you to think they don't. Either way, the question isn't coming from a children's book. It's coming from the [[REDACTED|postal service]].",
+      "update": {
+        "time": "4:02 AM",
+        "text": "Got out my real postcards and checked. Real postmarks have a town and a date. This one has a question. Why is the post office asking ME?"
+      },
+      "note": "WHO STAMPS A QUESTION??",
+      "stamp": "FOIA REQUEST DENIED",
+      "asset": "evidence/postmark.png",
+      "alt": "Close-up of the circular postmark reading WHERE'S, ON THE BEACH, WALDO with a question mark.",
+      "caption": "look at the END",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P03",
+          "label": "WHO DELIVERED IT?"
+        }
+      ],
+      "num": 2
+    },
+    {
+      "id": "P03",
+      "title": "ADDRESSED TO NOBODY. DELIVERED ANYWAY.",
+      "region": {
+        "x": 250,
+        "y": 155,
+        "w": 145,
+        "h": 60
+      },
+      "facts": [
+        {
+          "text": "The address side says only: \"TO: WALDO-FOLLOWERS, HERE, THERE, EVERYWHERE.\"",
+          "region": {
+            "x": 250,
+            "y": 155,
+            "w": 145,
+            "h": 60
+          }
+        },
+        {
+          "text": "No street. No town. No postcode. And yet it has a stamp AND a postmark.",
+          "region": {
+            "x": 245,
+            "y": 42,
+            "w": 155,
+            "h": 175
+          }
+        }
+      ],
+      "leap": "A card with no address can't be delivered. Unless the people delivering it ==already know where every follower is==. \"Here, there, everywhere\" isn't an address. It's a coverage map. And if you have ever looked for him, you are a follower. ~~You're probably fine.~~ You're on it.",
+      "update": {
+        "time": "4:20 AM",
+        "text": "Closed the curtains."
+      },
+      "note": "HERE + THERE + EVERYWHERE = US",
+      "stamp": "EYES ONLY",
+      "asset": "evidence/address.png",
+      "alt": "The right half of the postcard: stamp, postmark, and the address TO: WALDO-FOLLOWERS HERE, THERE, EVERYWHERE.",
+      "caption": "no street. no town. DELIVERED.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P04",
+          "label": "HE CHOSE WHERE IT LANDED"
+        }
+      ],
+      "num": 3
+    },
+    {
+      "id": "P04",
+      "title": "PEOPLE ARE STANDING UNDER THE POSTCARD",
+      "region": {
+        "x": 100,
+        "y": 262,
+        "w": 300,
+        "h": 48
+      },
+      "facts": [
+        {
+          "text": "The postcard isn't floating in the sky. It's lying ON TOP of the beach, covering the whole top-left corner.",
+          "region": {
+            "x": 50,
+            "y": 50,
+            "w": 352,
+            "h": 240
+          }
+        },
+        {
+          "text": "Look along its bottom edge. Legs and shorts stick out from under it. Whole people, with their top halves hidden by the card.",
+          "region": {
+            "x": 100,
+            "y": 262,
+            "w": 300,
+            "h": 48
+          }
+        }
+      ],
+      "leap": "Every inch of this beach can be searched. EXCEPT ONE. The corner under his postcard. He didn't just send a card; he ==put it down over the one spot you're not allowed to look at==, and there are people standing under it RIGHT NOW. What's under the postcard? Who's under the postcard? Why won't they come out?",
+      "update": {
+        "time": "4:31 AM",
+        "text": "I tried to lift the postcard. It's a picture. You can't lift it. CONVENIENT."
+      },
+      "note": "WHAT'S UNDER THE CARD?",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/postcard-edge.png",
+      "alt": "The bottom edge of the postcard where it overlaps the beach; legs and shorts of several people stick out below it.",
+      "caption": "LEGS. no bodies.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P05",
+          "label": "NOW READ WHAT IT SAYS"
+        }
+      ],
+      "num": 4
+    },
+    {
+      "id": "P05",
+      "title": "HE GAVE US A CHECKLIST",
+      "region": {
+        "x": 70,
+        "y": 120,
+        "w": 170,
+        "h": 60
+      },
+      "facts": [
+        {
+          "text": "The postcard says he saw \"STRIPES ON TOWELS, CLOTHES, UMBRELLAS, AND BEACH HUTS.\"",
+          "region": {
+            "x": 70,
+            "y": 120,
+            "w": 170,
+            "h": 60
+          }
+        },
+        {
+          "text": "And every category on that list is really out there. Start with the blue-and-white striped huts on the left.",
+          "region": {
+            "x": 88,
+            "y": 288,
+            "w": 70,
+            "h": 120
+          }
+        }
+      ],
+      "leap": "Nobody writes a LIST on a holiday postcard. You write \"weather's nice.\" A list of four places stripes can be is a ==camouflage briefing==: here are the four places you can hide in plain sight. Towels. Clothes. Umbrellas. Huts. I went and checked every one. And there is ONE striped thing on this beach that is ==not on his list==. (Proof #8.)",
+      "update": {
+        "time": "5:05 AM",
+        "text": "Use the STRIPE CENSUS below. Click every stripe you can find on the beach. Don't stop. I didn't."
+      },
+      "note": "4 KINDS OF STRIPES. 1 MAN??",
+      "stamp": "EXHIBIT B",
+      "asset": "evidence/checklist.png",
+      "alt": "Postcard text reading STRIPES ON TOWELS, CLOTHES, UMBRELLAS, AND BEACH HUTS.",
+      "caption": "a LIST. on a POSTCARD.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P06",
+          "label": "\"CLOTHES\""
+        },
+        {
+          "to": "P08",
+          "label": "THE ONE HE LEFT OFF"
+        }
+      ],
+      "num": 5
+    },
+    {
+      "id": "P06",
+      "title": "THERE ARE TWO OF HIM",
+      "region": {
+        "x": 905,
+        "y": 298,
+        "w": 48,
+        "h": 74
+      },
+      "facts": [
+        {
+          "text": "Right of center, in a crowd near the top of the sand: red-and-white bobble hat, red-and-white striped shirt, blue trousers. His face is half-blocked by someone else's head.",
+          "region": {
+            "x": 905,
+            "y": 298,
+            "w": 48,
+            "h": 74
+          }
+        },
+        {
+          "text": "Lower down and further right: ANOTHER red-and-white bobble hat on ANOTHER red-and-white striped shirt.",
+          "region": {
+            "x": 1022,
+            "y": 632,
+            "w": 40,
+            "h": 60
+          }
+        }
+      ],
+      "leap": "So you \"found Waldo.\" Congratulations. ==Which one?== If Waldo is one man, there cannot be two of him on the same beach at the same time. Only one explanation fits both: Waldo isn't a person. Waldo is a [[REDACTED|uniform]]. Anyone can put it on. At least two people did.",
+      "update": {
+        "time": "5:40 AM",
+        "text": "Notice the first one's face is blocked by a stranger's head. OF COURSE it is."
+      },
+      "note": "TWO HATS. ONE \"MAN\".",
+      "stamp": "NO FURTHER COMMENT",
+      "asset": "evidence/two-of-him.png",
+      "alt": "Two cropped figures side by side, each wearing a red-and-white bobble hat and a red-and-white striped shirt.",
+      "caption": "#1 and #2. same beach. same day.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P07",
+          "label": "LINE THEM UP"
+        },
+        {
+          "to": "P01",
+          "label": "SAME HAT AS THE STAMP"
+        }
+      ],
+      "num": 6
+    },
+    {
+      "id": "P07",
+      "title": "THE LINEUP: EVERY ONE IS MISSING A PIECE",
+      "region": {
+        "x": 612,
+        "y": 780,
+        "w": 58,
+        "h": 80
+      },
+      "facts": [
+        {
+          "text": "I found five people on this beach wearing his red-and-white stripes. Here's one: a striped one-piece swimsuit, bottom center.",
+          "region": {
+            "x": 612,
+            "y": 780,
+            "w": 58,
+            "h": 80
+          }
+        },
+        {
+          "text": "Now compare every one of them to the stamp. Hat. Glasses. Stripes. Not ONE suspect has all three where you can see them.",
+          "region": {
+            "x": 316,
+            "y": 42,
+            "w": 74,
+            "h": 86
+          }
+        }
+      ],
+      "leap": "Five people. Five near-misses. Each one off by ==a piece or two==. That isn't chance. That's a ==DESIGN SPEC==. They're not hiding Waldo, they're distributing him: a hat here, a shirt there, glasses nowhere. Put the pieces back together and you get the stamp. And the stamp is the only place the whole man exists.",
+      "update": {
+        "time": "6:15 AM",
+        "text": "Sun's up. Doesn't matter. See THE LINEUP below."
+      },
+      "note": "PIECES → STAMP",
+      "stamp": "EYES ONLY",
+      "asset": "evidence/lineup.png",
+      "alt": "The stamp face next to five cropped beach figures, each wearing some red-and-white stripes.",
+      "caption": "1 stamp. 5 pieces.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P01",
+          "label": "COMPARE TO THE STAMP"
+        }
+      ],
+      "num": 7
+    },
+    {
+      "id": "P08",
+      "title": "SOMEONE IS PULLING THE STRINGS. LITERALLY.",
+      "region": {
+        "x": 1030,
+        "y": 282,
+        "w": 52,
+        "h": 76
+      },
+      "facts": [
+        {
+          "text": "Upper right of center: a tall red-and-white striped booth. Same red. Same white. Same stripes as the hat.",
+          "region": {
+            "x": 1030,
+            "y": 282,
+            "w": 52,
+            "h": 76
+          }
+        },
+        {
+          "text": "Look in its window. There are puppets in it. It's a puppet show.",
+          "region": {
+            "x": 1052,
+            "y": 298,
+            "w": 24,
+            "h": 24
+          }
+        }
+      ],
+      "leap": "His checklist says towels, clothes, umbrellas, huts. It does NOT say puppet booth. The one striped thing on this beach he \"forgot\" to mention is the one where ==somebody's hand is up inside a little person, making it move==. Puppets. Strings. A man who only appears when somebody else makes him appear. I'm just asking questions.",
+      "update": {
+        "time": "6:58 AM",
+        "text": "I said \"literally\" in the title and I meant it."
+      },
+      "note": "WHOSE HAND??",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/booth.png",
+      "alt": "A tall red-and-white striped puppet booth with puppets visible in its window.",
+      "caption": "NOT ON THE LIST",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P05",
+          "label": "LEFT OFF THE LIST"
+        },
+        {
+          "to": "P06",
+          "label": "SAME RED & WHITE"
+        }
+      ],
+      "num": 8
+    },
+    {
+      "id": "P09",
+      "title": "THAT IS NOT A FERRY",
+      "region": {
+        "x": 1335,
+        "y": 90,
+        "w": 165,
+        "h": 150
+      },
+      "facts": [
+        {
+          "text": "Far right: a big white-and-blue vessel with propellers mounted on its ROOF.",
+          "region": {
+            "x": 1335,
+            "y": 90,
+            "w": 165,
+            "h": 150
+          }
+        },
+        {
+          "text": "Look underneath. It's sitting on a puffy grey skirt, half in the water and half on the sand. That's a ==hovercraft==.",
+          "region": {
+            "x": 1335,
+            "y": 170,
+            "w": 140,
+            "h": 70
+          }
+        }
+      ],
+      "leap": "A boat needs a dock. A hovercraft doesn't. It's the ONLY vehicle in this picture that can drive straight off the sea, up the beach, and away again. If you needed to get someone OFF this beach without a passenger list, this is what you'd park there. And it's parked there.",
+      "update": {
+        "time": "7:20 AM",
+        "text": "Everyone thinks it's a ferry. I thought it was a ferry. That's how good they are."
+      },
+      "note": "NO DOCK = NO RECORDS",
+      "stamp": "EXIT ROUTE",
+      "asset": "evidence/hovercraft.png",
+      "alt": "A white-and-blue hovercraft with roof propellers and an inflated grey skirt, resting half on the beach.",
+      "caption": "PROPELLERS ON THE ROOF",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P10",
+          "label": "ITS CREW"
+        }
+      ],
+      "num": 9
+    },
+    {
+      "id": "P10",
+      "title": "THE MEN IN BLUE ARE LOOKING FOR SOMEONE",
+      "region": {
+        "x": 1345,
+        "y": 215,
+        "w": 155,
+        "h": 85
+      },
+      "facts": [
+        {
+          "text": "Men in matching blue uniforms and peaked caps have come off the hovercraft and are spread out across the sand.",
+          "region": {
+            "x": 1345,
+            "y": 215,
+            "w": 155,
+            "h": 85
+          }
+        },
+        {
+          "text": "One of them has ==both hands on his head==.",
+          "region": {
+            "x": 1420,
+            "y": 228,
+            "w": 40,
+            "h": 42
+          }
+        }
+      ],
+      "leap": "Nobody else on this beach is in uniform. Everyone else is on holiday. These men are WORKING. They're not swimming, not sunbathing. They're spread out, searching. And one has his hands on his head, which is what you do when you've ==lost someone you were responsible for==. Or when you've just been told the man you're looking for [[REDACTED|never existed]].",
+      "update": {
+        "time": "7:44 AM",
+        "text": "I think they're looking for the same man I am. The difference is they KNOW."
+      },
+      "note": "HANDS ON HEAD = PANIC",
+      "stamp": "EYES ONLY",
+      "asset": "evidence/crew.png",
+      "alt": "Men in blue uniforms and caps on the sand near the hovercraft; one has both hands on his head.",
+      "caption": "uniforms. ON A BEACH.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P06",
+          "label": "LOOKING FOR HIM?"
+        },
+        {
+          "to": "P09",
+          "label": "CAME OFF THE HOVERCRAFT"
+        }
+      ],
+      "num": 10
+    },
+    {
+      "id": "P11",
+      "title": "THE KNIGHT HE UNDERLINED",
+      "region": {
+        "x": 1420,
+        "y": 835,
+        "w": 70,
+        "h": 50
+      },
+      "facts": [
+        {
+          "text": "The postcard says \"a sand castle with a real KNIGHT IN ARMOR inside,\" and \"KNIGHT IN ARMOR\" is UNDERLINED.",
+          "region": {
+            "x": 70,
+            "y": 195,
+            "w": 150,
+            "h": 30
+          }
+        },
+        {
+          "text": "Bottom right corner: the sand castles. Plain sand. Empty. No knight. No armor. I zoomed in until it was just dots.",
+          "region": {
+            "x": 1420,
+            "y": 835,
+            "w": 70,
+            "h": 50
+          }
+        }
+      ],
+      "leap": "You underline the thing you want people to go looking for. He underlined a knight. The knight is the only thing on the postcard that ISN'T on the beach. So either the card is wrong, or it was ==written about a different beach==. Which means the postcard came FIRST, and this beach was built AROUND it. I'm going to need more string.",
+      "update": {
+        "time": "8:10 AM",
+        "text": "Ran out of string."
+      },
+      "note": "UNDERLINED = INSTRUCTIONS",
+      "stamp": "MISSING",
+      "asset": "evidence/castles.png",
+      "alt": "Small plain sand castles in the bottom-right corner of the beach, with nothing inside them.",
+      "caption": "no knight. NO KNIGHT.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P01",
+          "label": "HIS POSTCARD"
+        },
+        {
+          "to": "P04",
+          "label": "WHAT ELSE IS IT HIDING?"
+        }
+      ],
+      "num": 11
+    },
+    {
+      "id": "P12",
+      "title": "THE SIGNAL TOWER",
+      "region": {
+        "x": 990,
+        "y": 100,
+        "w": 100,
+        "h": 115
+      },
+      "facts": [
+        {
+          "text": "In the surf, right of center, swimmers have stacked themselves into a human pyramid.",
+          "region": {
+            "x": 990,
+            "y": 100,
+            "w": 100,
+            "h": 115
+          }
+        },
+        {
+          "text": "One person has climbed to the very top, the highest point anyone reaches in the water.",
+          "region": {
+            "x": 1045,
+            "y": 100,
+            "w": 40,
+            "h": 28
+          }
+        }
+      ],
+      "leap": "You build a pyramid to be SEEN. From the top you can see the ships, the horizon, and the hovercraft. Of everyone in the water, ==the highest one has the clearest view of the exit==. You don't climb that high to wave at your mum.",
+      "update": {
+        "time": "8:30 AM",
+        "text": "Made tea. Didn't drink it."
+      },
+      "note": "SIGNAL → EXIT",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/pyramid.png",
+      "alt": "A human pyramid of swimmers in the surf, with one person at the top.",
+      "caption": "a TOWER. in the SEA.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P09",
+          "label": "IN VIEW OF THE EXIT"
+        }
+      ],
+      "num": 12
+    }
+  ],
+  "lineup": [
+    {
+      "id": "L1",
+      "name": "SUSPECT 1: \"THE CROWD MAN\"",
+      "region": {
+        "x": 905,
+        "y": 298,
+        "w": 48,
+        "h": 74
+      },
+      "asset": "evidence/suspect-1.png",
+      "alt": "Figure in a red-and-white bobble hat and striped shirt, face partly blocked by another person's head.",
+      "has": [
+        "Bobble hat (striped)",
+        "Striped shirt",
+        "Blue trousers"
+      ],
+      "missing": [
+        "Face: blocked by a stranger's head",
+        "Glasses: UNCONFIRMED"
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "SUSPECT 2: \"THE SPARE\"",
+      "region": {
+        "x": 1022,
+        "y": 632,
+        "w": 40,
+        "h": 60
+      },
+      "asset": "evidence/suspect-2.png",
+      "alt": "Small figure in a red-and-white bobble hat and striped shirt.",
+      "has": [
+        "Bobble hat (striped)",
+        "Striped shirt"
+      ],
+      "missing": [
+        "Glasses: too small to confirm",
+        "Trousers: blocked from view"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "SUSPECT 3: \"THE SWIMMER\"",
+      "region": {
+        "x": 612,
+        "y": 780,
+        "w": 58,
+        "h": 80
+      },
+      "asset": "evidence/suspect-3.png",
+      "alt": "Figure in a red-and-white striped one-piece swimsuit, no hat.",
+      "has": [
+        "Red-and-white stripes (full body)"
+      ],
+      "missing": [
+        "Hat",
+        "Glasses",
+        "Any explanation"
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "SUSPECT 4: \"THE TROUSERS\"",
+      "region": {
+        "x": 850,
+        "y": 705,
+        "w": 50,
+        "h": 85
+      },
+      "asset": "evidence/suspect-4.png",
+      "alt": "Figure in red-and-white striped trousers and a yellow top.",
+      "has": [
+        "Red-and-white striped trousers"
+      ],
+      "missing": [
+        "Hat",
+        "Glasses",
+        "Striped top (wearing YELLOW instead)"
+      ]
+    },
+    {
+      "id": "L5",
+      "name": "SUSPECT 5: \"THE BACK\"",
+      "region": {
+        "x": 1105,
+        "y": 480,
+        "w": 45,
+        "h": 45
+      },
+      "asset": "evidence/suspect-5.png",
+      "alt": "Figure seen from behind wearing red-and-white striped shorts.",
+      "has": [
+        "Red-and-white striped shorts"
+      ],
+      "missing": [
+        "Face: he's facing AWAY. Of course he is.",
+        "Hat",
+        "Glasses"
+      ]
+    }
+  ],
+  "lineupReference": {
+    "claim": "P01",
+    "name": "THE STAMP (reference)",
+    "has": [
+      "Red-and-white bobble hat",
+      "Round glasses",
+      "Red-and-white stripes"
+    ],
+    "missing": []
+  },
+  "stripes": [
+    {
+      "id": "S01",
+      "label": "blue-and-white striped hut (left)",
+      "region": {
+        "x": 88,
+        "y": 288,
+        "w": 70,
+        "h": 120
+      }
+    },
+    {
+      "id": "S02",
+      "label": "blue-and-white striped hut (left of center)",
+      "region": {
+        "x": 183,
+        "y": 286,
+        "w": 72,
+        "h": 125
+      }
+    },
+    {
+      "id": "S03",
+      "label": "blue-and-white striped hut (right)",
+      "region": {
+        "x": 1366,
+        "y": 296,
+        "w": 55,
+        "h": 90
+      }
+    },
+    {
+      "id": "S04",
+      "label": "blue-and-white striped hut (far right edge)",
+      "region": {
+        "x": 1476,
+        "y": 305,
+        "w": 24,
+        "h": 95
+      }
+    },
+    {
+      "id": "S05",
+      "label": "red-and-white striped puppet booth",
+      "region": {
+        "x": 1030,
+        "y": 282,
+        "w": 52,
+        "h": 76
+      }
+    },
+    {
+      "id": "S06",
+      "label": "red-and-white umbrella (far left)",
+      "region": {
+        "x": 26,
+        "y": 338,
+        "w": 50,
+        "h": 42
+      }
+    },
+    {
+      "id": "S07",
+      "label": "red-and-yellow umbrella (center)",
+      "region": {
+        "x": 668,
+        "y": 460,
+        "w": 60,
+        "h": 50
+      }
+    },
+    {
+      "id": "S08",
+      "label": "red-and-white umbrella (right)",
+      "region": {
+        "x": 1128,
+        "y": 360,
+        "w": 77,
+        "h": 55
+      }
+    },
+    {
+      "id": "S09",
+      "label": "red-and-white striped windbreak (left)",
+      "region": {
+        "x": 300,
+        "y": 326,
+        "w": 78,
+        "h": 40
+      }
+    },
+    {
+      "id": "S10",
+      "label": "red-and-white striped windbreak (center)",
+      "region": {
+        "x": 668,
+        "y": 538,
+        "w": 85,
+        "h": 50
+      }
+    },
+    {
+      "id": "S11",
+      "label": "red-and-white striped windbreak (right)",
+      "region": {
+        "x": 1292,
+        "y": 458,
+        "w": 56,
+        "h": 42
+      }
+    },
+    {
+      "id": "S12",
+      "label": "red-and-white beach ball",
+      "region": {
+        "x": 922,
+        "y": 683,
+        "w": 50,
+        "h": 50
+      }
+    },
+    {
+      "id": "S13",
+      "label": "Suspect 1's striped shirt",
+      "region": {
+        "x": 905,
+        "y": 298,
+        "w": 48,
+        "h": 74
+      }
+    },
+    {
+      "id": "S14",
+      "label": "Suspect 2's striped shirt",
+      "region": {
+        "x": 1022,
+        "y": 632,
+        "w": 40,
+        "h": 60
+      }
+    },
+    {
+      "id": "S15",
+      "label": "striped swimsuit",
+      "region": {
+        "x": 612,
+        "y": 780,
+        "w": 58,
+        "h": 80
+      }
+    },
+    {
+      "id": "S16",
+      "label": "striped trousers",
+      "region": {
+        "x": 850,
+        "y": 705,
+        "w": 50,
+        "h": 85
+      }
+    },
+    {
+      "id": "S17",
+      "label": "striped shorts",
+      "region": {
+        "x": 1105,
+        "y": 480,
+        "w": 45,
+        "h": 45
+      }
+    }
+  ],
+  "censusComments": [
+    "Noted. Waldo's signature pattern detected.",
+    "Another one. Write it down.",
+    "That's the same red. I'm sure of it.",
+    "Logged. They can't hide them all.",
+    "Stripe confirmed. Do not tell anyone you counted this.",
+    "He told us it would be here. It was.",
+    "Keep going. They're counting on you to stop.",
+    "Horizontal. They're ALWAYS horizontal. Think about it."
+  ],
+  "guestbook": [
+    {
+      "name": "Jen_from_Ohio",
+      "date": "03/14/2004",
+      "text": "found him in like 4 seconds lol. he's in the crowd, top middle-right",
+      "reply": "Which one, Jen. WHICH ONE. (See Proof #6.)",
+      "claim": "P06"
+    },
+    {
+      "name": "Dave",
+      "date": "03/15/2004",
+      "text": "Mate it's a children's book.",
+      "reply": "That is exactly what a children's book would want you to say.",
+      "claim": "P01"
+    },
+    {
+      "name": "puppetman_1987",
+      "date": "03/15/2004",
+      "text": "As a professional puppeteer: Punch and Judy booths are completely normal seaside entertainment.",
+      "reply": "Interesting that a \"professional puppeteer\" found this page so quickly.",
+      "claim": "P08"
+    },
+    {
+      "name": "stripe_truther_77",
+      "date": "03/16/2004",
+      "text": "the umbrella is the same red as the hat. I held my monitor up to my monitor.",
+      "reply": "Thank you. Finally. Somebody who LOOKS.",
+      "claim": "P05"
+    },
+    {
+      "name": "anon",
+      "date": "03/17/2004",
+      "text": "it's literally just a ferry",
+      "reply": "Propellers. On. The. Roof. (Proof #9.)",
+      "claim": "P09"
+    },
+    {
+      "name": "your_sister",
+      "date": "03/18/2004",
+      "text": "Please call Mom. She says you haven't called.",
+      "reply": "Tell Mom to look at the postmark.",
+      "claim": "P02"
+    }
+  ],
+  "updates": [
+    {
+      "time": "Night 1, 11:58 PM",
+      "text": "Started looking for him like a normal person.",
+      "claim": "P01"
+    },
+    {
+      "time": "Night 9, 2:14 AM",
+      "text": "Noticed the question mark on the postmark. Could not un-notice it.",
+      "claim": "P02"
+    },
+    {
+      "time": "Night 17, 4:31 AM",
+      "text": "Found the second one.",
+      "claim": "P06"
+    },
+    {
+      "time": "Night 31, 8:10 AM",
+      "text": "Ran out of string.",
+      "claim": "P11"
+    }
+  ],
+  "receipts": [
+    {
+      "item": "Red yarn, 12 spools",
+      "price": "$38.40",
+      "note": "for the board. need more.",
+      "claim": "P07"
+    },
+    {
+      "item": "Magnifying glass, 10x",
+      "price": "$14.99",
+      "note": "for the postmark",
+      "claim": "P02"
+    },
+    {
+      "item": "Striped beach umbrella",
+      "price": "$22.00",
+      "note": "paid cash. wanted to see how it feels.",
+      "claim": "P05"
+    },
+    {
+      "item": "Hand puppet (secondhand)",
+      "price": "$6.50",
+      "note": "seller wouldn't look me in the eye",
+      "claim": "P08"
+    },
+    {
+      "item": "Hovercraft ticket (enquiry)",
+      "price": "$0.00",
+      "note": "they said \"what hovercraft\"",
+      "claim": "P09"
+    },
+    {
+      "item": "Tea",
+      "price": "$3.20",
+      "note": "didn't drink it",
+      "claim": "P12"
+    }
+  ],
+  "verdict": {
+    "lines": [
+      "Waldo is not a man.",
+      "Waldo is a stamp, a postmark, and a uniform.",
+      "On the postcard he is whole. On the beach he is handed out in pieces: a hat here, a shirt there, glasses nowhere.",
+      "Waldo is a collective of 2,000 people who all agreed to wear stripes.",
+      "And you have spent your whole life looking for him. Exactly like they wanted.",
+      "I'm going to bed. ~~I'm not going to bed.~~"
+    ],
+    "button": "Request Further Investigation"
+  },
+  "cipher": {
+    "cipher": "YRNQ: YBBX HAQRE GUR CBFGPNEQ. FRR CEBBS #4.",
+    "plain": "LEAD: LOOK UNDER THE POSTCARD. SEE PROOF #4.",
+    "claim": "P04"
+  },
+  "footer": "This is a parody. Waldo is a fictional character created by Martin Handford. No actual investigation occurred."
+}

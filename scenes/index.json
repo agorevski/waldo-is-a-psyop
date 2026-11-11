@@ -1,0 +1,16 @@
+{
+  "site": {
+    "title": "WALDO IS A PSYOP",
+    "subtitle": "The case files. Every scene. Every stripe. Every \"coincidence.\"",
+    "intro": [
+      "They tell you to FIND him. Have you ever asked yourself ==why he keeps needing to be found?== One scene is a coincidence. Two is a pattern. I have a whole folder.",
+      "Pick a case file. Look at the evidence. Then look at it ~~again~~ AGAIN. I'm just asking questions."
+    ],
+    "footer": "This is a parody. Waldo is a fictional character created by Martin Handford. No actual investigation occurred. No real person in any picture is identified or targeted."
+  },
+  "scenes": [
+    {
+      "id": "beach"
+    }
+  ]
+}

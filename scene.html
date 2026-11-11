@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Case file</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/scene.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="chrome">
+    <div id="site-banner" class="site-banner" role="note"></div>
+    <div id="site-marquee" class="site-marquee" aria-label="Ticker"><span class="marquee-track"></span></div>
+
+    <div class="strip">
+      <span class="strip-item"><span id="case-number" class="case-number"></span></span>
+      <span id="case-clock" class="strip-item"></span>
+      <span class="strip-item">You are visitor #<span id="hit-counter" class="hit-counter" aria-live="off"></span></span>
+      <span class="strip-item">Last updated: <span id="last-updated"></span></span>
+      <span class="badge">Best viewed at 800×600</span>
+    </div>
+
+    <nav id="scene-nav" class="scene-nav" aria-label="Case files">
+      <a class="scene-nav-home" href="index.html">← All case files</a>
+    </nav>
+    <p id="theory-link" class="theory-link" hidden></p>
+  </header>
+
+  <main id="main">
+    <section id="case-missing" class="panel case-missing" role="alert" hidden>
+      <h2 class="section-title">Case file not found.</h2>
+      <p><a href="index.html">← Back to all case files</a></p>
+    </section>
+
+    <section class="panel masthead" id="sec-hero" aria-labelledby="site-title">
+      <h1 id="site-title" class="site-title"></h1>
+      <p id="site-subtitle" class="site-subtitle"></p>
+
+      <figure id="hero" class="hero">
+        <div class="hero-frame">
+          <img id="hero-image" decoding="async">
+          <svg id="hero-overlay" viewBox="0 0 100 100" preserveAspectRatio="none" aria-label="Pins, strings, and stripe hotspots on the scene"></svg>
+        </div>
+        <figcaption id="hero-caption" class="hero-caption"></figcaption>
+      </figure>
+    </section>
+
+    <hr class="rule">
+
+    <section class="panel" id="sec-intro" aria-labelledby="h-intro">
+      <h2 id="h-intro" class="section-title">READ THIS FIRST</h2>
+      <div id="intro" class="intro typewriter"></div>
+    </section>
+
+    <hr class="rule">
+
+    <section class="panel cork-section" id="sec-board" aria-labelledby="h-board">
+      <h2 id="h-board" class="section-title">THE BOARD</h2>
+      <div id="board" class="board"></div>
+    </section>
+
+    <hr class="rule">
+
+    <section class="panel" id="sec-proofs" aria-labelledby="h-proofs">
+      <h2 id="h-proofs" class="section-title">THE PROOFS</h2>
+      <div id="claims" class="claims"></div>
+    </section>
+
+    <hr class="rule">
+
+    <section class="panel" id="sec-lineup" aria-labelledby="h-lineup">
+      <h2 id="h-lineup" class="section-title">THE LINEUP</h2>
+      <div id="lineup" class="lineup"></div>
+    </section>
+
+    <hr class="rule">
+
+    <section class="panel" id="census" aria-labelledby="h-census">
+      <h2 id="h-census" class="section-title">STRIPE CENSUS</h2>
+      <p id="census-instructions" class="census-instr"></p>
+      <p class="census-count-line">Stripes counted: <span id="census-count" class="census-count">0</span></p>
+      <ol id="census-log" class="census-log" aria-live="polite"></ol>
+    </section>
+
+    <hr class="rule">
+
+    <section class="panel" id="sec-log" aria-labelledby="h-log">
+      <h2 id="h-log" class="section-title">INVESTIGATION LOG</h2>
+      <ol id="updates" class="update-list"></ol>
+    </section>
+
+    <hr class="rule">
+
+    <section class="panel" id="sec-receipts" aria-labelledby="h-receipts">
+      <h2 id="h-receipts" class="section-title">RECEIPTS</h2>
+      <div class="table-wrap">
+        <table class="receipts">
+          <caption class="sr-only">Receipts</caption>
+          <thead>
+            <tr><th scope="col">Item</th><th scope="col">Price</th><th scope="col">Note</th><th scope="col">Proof</th></tr>
+          </thead>
+          <tbody id="receipts"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <section class="panel" id="sec-guestbook" aria-labelledby="h-guestbook">
+      <h2 id="h-guestbook" class="section-title">GUESTBOOK: SIGN IT</h2>
+      <div id="guestbook" class="guestbook"></div>
+    </section>
+
+    <hr class="rule">
+
+    <section class="panel verdict" id="sec-verdict" aria-labelledby="h-verdict">
+      <h2 id="h-verdict" class="section-title">THE VERDICT</h2>
+      <div id="verdict-typewriter" class="verdict-typewriter typewriter" aria-live="polite"></div>
+
+      <div class="meter-row">
+        <span class="meter-label">Paranoia</span>
+        <div id="paranoia-meter" class="paranoia-meter" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Paranoia level" style="--level:0"></div>
+      </div>
+
+      <div class="verdict-actions">
+        <button id="paranoia-reset" type="button" class="see-btn">Reset all</button>
+        <button id="request-investigation" type="button" class="see-btn see-btn--big">Request Further Investigation</button>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <p class="disclaimer"></p>
+    <div class="cipher">
+      <button id="cipher-toggle" type="button" class="see-btn">Toggle cipher</button>
+      <code id="cipher-text" class="cipher-text" aria-live="polite"></code>
+    </div>
+  </footer>
+
+  <dialog id="spotlight" class="spotlight" aria-labelledby="spotlight-caption">
+    <button id="spotlight-close" type="button" class="spotlight-close">Close</button>
+    <div id="spotlight-view" class="spotlight-view" role="img" aria-label="Zoomed view of the evidence region"></div>
+    <p id="spotlight-caption" class="spotlight-caption"></p>
+  </dialog>
+</body>
+</html>
