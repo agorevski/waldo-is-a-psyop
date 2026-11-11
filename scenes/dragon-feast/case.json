@@ -1,0 +1,882 @@
+{
+  "image": {
+    "src": "scene.jpg",
+    "width": 2396,
+    "height": 1595,
+    "alt": "A crowded scene on a white background, full of red-and-white striped men with bobble hats, a teal dragon in the middle, a giant in a green hat covering his face with both hands, and a man standing in front of a yellow heap, his shoes on another man's head."
+  },
+  "site": {
+    "title": "THE DRAGON IN THE CROWD",
+    "subtitle": "A Free Investigation Into the Dragon in the Crowd",
+    "caseNumber": "CASE #WDE-1959-F",
+    "banner": "⚠ THIS IS MIRROR #5. THE FIRST FOUR WERE TAKEN DOWN. SAVE THIS PAGE TO YOUR COMPUTER. ⚠",
+    "marquee": "THE GIANT IS HIDING HIS FACE ★ HATS ON THE RED ★ A HAT WITH NO HEAD ★ THE DRAGON HAS A DRESS CODE ★ STACK THE SHOES ★ WHO IS SHE WAVING AT? ★ WHEN THE ARMS COME DOWN ★ COUNT THE STRIPES ★",
+    "heroCaption": "EXHIBIT 0: The crowd. Every red pin is a proof. Click a pin. Click a stripe. LOOK.",
+    "intro": [
+      "If you're reading this, you've been looking for him in this crowd. Everyone has. You were told to FIND HIM, and you did exactly what you were told: you went through every stripe until your eyes watered.",
+      "So did I. Thirty-one nights on the beach, then one each for the scroll and the shop floor, and now this ONE dragon and this ONE crowd. Somewhere around 4 AM I stopped asking WHERE he is and started asking: ==why is every one of them wearing the same shirt?==",
+      "This is the fourth case file. The beach had a stamp. This one has a dragon. Same thesis, new evidence. Every proof below has a SEE FOR YOURSELF button. I'm not asking you to trust me. ~~I'm not crazy.~~ Just look.",
+      "Start with the man standing in front of the yellow heap. It always starts with whoever is standing on someone."
+    ],
+    "hitCounterBase": 1959,
+    "lastUpdated": "Night 34, 8:40 AM",
+    "censusInstructions": "Click every striped person in the crowd above."
+  },
+  "claims": [
+    {
+      "id": "P01",
+      "num": 1,
+      "title": "HE HAS EVERYTHING. HE IS STANDING ON SOMEONE.",
+      "region": {
+        "x": 1740,
+        "y": 702,
+        "w": 72,
+        "h": 170
+      },
+      "facts": [
+        {
+          "text": "The man standing in front of the yellow heap wears every piece: red-and-white bobble hat, round glasses, red-and-white stripes, blue trousers, brown shoes.",
+          "region": {
+            "x": 1740,
+            "y": 702,
+            "w": 72,
+            "h": 170
+          }
+        },
+        {
+          "text": "His brown shoes are planted on top of a second man's head. Round glasses are visible under them.",
+          "region": {
+            "x": 1738,
+            "y": 816,
+            "w": 55,
+            "h": 42
+          }
+        }
+      ],
+      "leap": "If Waldo is one man, why is he standing on another man's head? You don't need a step-stool to wear one outfit. The top piece is being passed up from underneath, and the man on the bottom is ==still wearing the glasses==.",
+      "update": {
+        "time": "3:31 AM",
+        "text": "I zoomed in until the pixels fell apart. The shoes are on his head. I am not going to say that again."
+      },
+      "note": "THE GLASSES ARE STILL ON",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/yellow-pile.png",
+      "alt": "A man in a red-and-white bobble hat, round glasses, stripes and blue trousers stands in front of a yellow heap, his shoes on a second man's head.",
+      "caption": "one outfit. two heads.",
+      "paranoia": 2,
+      "links": [
+        {
+          "to": "P02",
+          "label": "THE HANDS"
+        },
+        {
+          "to": "P06",
+          "label": "COMPARE TO THE CLEAR ONE"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "num": 2,
+      "title": "HE COVERS THE ONE FACE NOBODY IS SHOWN",
+      "region": {
+        "x": 1455,
+        "y": 568,
+        "w": 250,
+        "h": 455
+      },
+      "facts": [
+        {
+          "text": "A giant in the middle of the crowd holds both hands up in front of his head, fingers spread. You cannot see his face.",
+          "region": {
+            "x": 1460,
+            "y": 645,
+            "w": 130,
+            "h": 45
+          }
+        },
+        {
+          "text": "A green hat sits on top of his head, above the hands.",
+          "region": {
+            "x": 1458,
+            "y": 568,
+            "w": 115,
+            "h": 78
+          }
+        }
+      ],
+      "leap": "Every other man here has his face on show. You don't cover a face unless the face is what gets handed out. This one is being ==kept back until it's issued==, and the hands are holding it on.",
+      "update": {
+        "time": "4:02 AM",
+        "text": "I tried to look at the hands from the left. Still hands."
+      },
+      "note": "WHO HID HIS FACE?",
+      "stamp": "EYES ONLY",
+      "asset": "evidence/giant-hands.png",
+      "alt": "A giant in a green hat covering his face with both hands in the middle of a crowd of striped men.",
+      "caption": "no face. just hands.",
+      "paranoia": 2,
+      "links": [
+        {
+          "to": "P03",
+          "label": "HATS ON THE RED"
+        },
+        {
+          "to": "P01",
+          "label": "SAME GLASSES, SAME STACK"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "num": 3,
+      "title": "HATS ON THE RED, ONE HATLESS MAN",
+      "region": {
+        "x": 1480,
+        "y": 830,
+        "w": 130,
+        "h": 110
+      },
+      "facts": [
+        {
+          "text": "Several men in bobble hats, round glasses and red-and-white stripes stand against the giant's red trousers.",
+          "region": {
+            "x": 1480,
+            "y": 830,
+            "w": 130,
+            "h": 110
+          }
+        },
+        {
+          "text": "Down in the crowd, a man has the black hair, round glasses and stripes, but no hat at all.",
+          "region": {
+            "x": 1440,
+            "y": 1015,
+            "w": 100,
+            "h": 85
+          }
+        }
+      ],
+      "leap": "Hats on the red in one place and a hatless man in another. The hat isn't stuck to the glasses. It is being ==handed out on its own==, and the glasses went to someone who never got one.",
+      "update": {
+        "time": "4:40 AM",
+        "text": "Hats. Plural. I put a ruler on the screen and they are all the same size."
+      },
+      "note": "HATS ARE ISSUED SEPARATELY",
+      "stamp": "NO FURTHER COMMENT",
+      "asset": "evidence/two-hats.png",
+      "alt": "Several men in bobble hats and striped shirts stand against a red background, with a hatless man with glasses in the crowd below.",
+      "caption": "hats on red. 1 hatless.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P04",
+          "label": "THE HAT WITH NO HEAD"
+        },
+        {
+          "to": "P05",
+          "label": "RED ON RED"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "num": 4,
+      "title": "A HAT WITH NOBODY UNDER IT",
+      "region": {
+        "x": 1088,
+        "y": 1020,
+        "w": 62,
+        "h": 85
+      },
+      "facts": [
+        {
+          "text": "A red bobble hat lies flat on bare white ground with nothing under it.",
+          "region": {
+            "x": 1083,
+            "y": 1050,
+            "w": 36,
+            "h": 32
+          }
+        },
+        {
+          "text": "A blue trouser leg and a brown shoe stand right beside it. Nobody bends down to pick it up.",
+          "region": {
+            "x": 1095,
+            "y": 1020,
+            "w": 60,
+            "h": 85
+          }
+        }
+      ],
+      "leap": "Every hat I can find on a man in this crowd has a head under it. This one doesn't. People drop hats and come back for them. Nobody came back for this one. Somebody already has the ==next one==, and the pieces are still being handed out.",
+      "update": {
+        "time": "5:05 AM",
+        "text": "I did not pick it up. I'm not stupid. Proof #3 is about what happens to hats."
+      },
+      "note": "NOBODY CAME BACK FOR IT",
+      "stamp": "EXHIBIT C",
+      "asset": "evidence/loose-hat.png",
+      "alt": "A red bobble hat lying flat on bare white ground, with a blue trouser leg and a brown shoe beside it.",
+      "caption": "a hat. no head.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P03",
+          "label": "THE HATLESS ONE"
+        },
+        {
+          "to": "P10",
+          "label": "THE STICKS"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "department-store",
+          "claim": "P10",
+          "label": "MORE STOCK ON DISPLAY"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "num": 5,
+      "title": "THE BLUE ONE IS THE ORIGINAL",
+      "region": {
+        "x": 1085,
+        "y": 110,
+        "w": 85,
+        "h": 125
+      },
+      "facts": [
+        {
+          "text": "A man in a blue-and-white striped hat and vest stands in the crowd, one arm raised.",
+          "region": {
+            "x": 1085,
+            "y": 110,
+            "w": 85,
+            "h": 125
+          }
+        },
+        {
+          "text": "Right beside him, a red-and-white striped man with round glasses. The same stripes as the rest of the crowd.",
+          "region": {
+            "x": 1085,
+            "y": 108,
+            "w": 55,
+            "h": 85
+          }
+        }
+      ],
+      "leap": "Blue-and-white is the one striped uniform that isn't red. Every red-and-white stripe in this crowd is a copy, and the one striped man standing beside him is wearing the same copy. He is the ==original==. He's the one nobody printed a second batch of.",
+      "update": {
+        "time": "5:40 AM",
+        "text": "The hat is the wrong colour. The wrong colour is the point."
+      },
+      "note": "WRONG COLOUR = ORIGINAL?",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/blue-stripes.png",
+      "alt": "A man in blue-and-white stripes, with a striped hat and vest, beside a man in red-and-white stripes.",
+      "caption": "the blue one. nobody prints him twice.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P06",
+          "label": "LINE THEM UP"
+        },
+        {
+          "to": "P07",
+          "label": "THE DRAGON KNOWS"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "department-store",
+          "claim": "P09",
+          "label": "THE FULL RANGE"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "num": 6,
+      "title": "FOUR NEAR-MISSES AND THE CLEAR ONE",
+      "region": {
+        "x": 646,
+        "y": 228,
+        "w": 74,
+        "h": 108
+      },
+      "facts": [
+        {
+          "text": "One man stands clear of the crowd on the white ground: bobble hat, round glasses, stripes, blue trousers. Every piece.",
+          "region": {
+            "x": 646,
+            "y": 228,
+            "w": 74,
+            "h": 108
+          }
+        },
+        {
+          "text": "Out in the crowd, the man beside the blue one has round glasses, black hair and stripes, but no bobble hat.",
+          "region": {
+            "x": 1085,
+            "y": 108,
+            "w": 55,
+            "h": 85
+          }
+        }
+      ],
+      "leap": "Four men in this crowd, and each one is missing a piece. Put them side by side and the missing pieces add up to the one man with everything. The clear one is the reference. The other four are what is left after the pieces were ==taken out==.",
+      "update": {
+        "time": "6:15 AM",
+        "text": "I stopped counting at four. Then I counted again. Four. Sun's up. Doesn't matter. See THE LINEUP below."
+      },
+      "note": "PIECES → ONE MAN",
+      "stamp": "EYES ONLY",
+      "asset": "evidence/reference.png",
+      "alt": "A man standing clear in the crowd on white ground, in a red-and-white bobble hat, round glasses, red-and-white stripes and blue trousers.",
+      "caption": "1 clear. 4 pieces.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P01",
+          "label": "COMPARE THE STACK"
+        },
+        {
+          "to": "P03",
+          "label": "THE HATLESS MAN"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "beach",
+          "claim": "P07",
+          "label": "THE FIRST LINEUP"
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "num": 7,
+      "title": "THE DRAGON HAS A DRESS CODE",
+      "region": {
+        "x": 551,
+        "y": 607,
+        "w": 575,
+        "h": 356
+      },
+      "facts": [
+        {
+          "text": "A teal, scaly dragon lies across the middle of the crowd. A red eye sits on its head.",
+          "region": {
+            "x": 922,
+            "y": 786,
+            "w": 22,
+            "h": 35
+          }
+        },
+        {
+          "text": "Right beside its head stand red-and-white striped men with bobble hats, all dressed alike.",
+          "region": {
+            "x": 930,
+            "y": 740,
+            "w": 80,
+            "h": 90
+          }
+        }
+      ],
+      "leap": "A dragon doesn't turn up in a crowd by itself. Look who's standing right next to its head: matching shirts, matching hats, lined up. That isn't a crowd. It's a ==costume party== with a dragon in the middle, and somebody handed out the costumes.",
+      "update": {
+        "time": "6:58 AM",
+        "text": "The dragon has no stripes. The men beside it have nothing else. I keep looking at the eye."
+      },
+      "note": "SAME SHIRTS. ONE DRAGON.",
+      "stamp": "NO FURTHER COMMENT",
+      "asset": "evidence/dragon.png",
+      "alt": "A teal dragon in the middle of a crowd of red-and-white striped men with bobble hats standing behind its head.",
+      "caption": "matching shirts. one dragon.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P05",
+          "label": "THE BLUE ONE"
+        },
+        {
+          "to": "P08",
+          "label": "THE ROBE"
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "num": 8,
+      "title": "THE MONK WHO HAS NO STRIPES",
+      "region": {
+        "x": 1100,
+        "y": 1338,
+        "w": 80,
+        "h": 170
+      },
+      "facts": [
+        {
+          "text": "A bald man in a plain blue robe with a rope belt stands in the crowd. He has no stripes at all.",
+          "region": {
+            "x": 1110,
+            "y": 1380,
+            "w": 95,
+            "h": 130
+          }
+        },
+        {
+          "text": "Up and to the left of him, a man in a red bobble hat, round glasses and red-and-white stripes stands in the crowd.",
+          "region": {
+            "x": 1104,
+            "y": 1306,
+            "w": 40,
+            "h": 46
+          }
+        }
+      ],
+      "leap": "Everyone around him has the stripes. He has the robe. Stripes are what you wear over a robe, not the other way round. The man in the blue robe has no stripes, and he is standing near a man who has them. Nobody asks which of them is the ==costume==.",
+      "update": {
+        "time": "7:12 AM",
+        "text": "I checked for a hat. He's bald. That's almost worse."
+      },
+      "note": "ROBE = ORIGINAL?",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/monk.png",
+      "alt": "A bald man in a plain blue robe with a rope belt, with a man in a red bobble hat and red-and-white stripes just above his head.",
+      "caption": "no stripes. a robe.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P07",
+          "label": "THE DRESS CODE"
+        },
+        {
+          "to": "P09",
+          "label": "SHE'S WAVING"
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "num": 9,
+      "title": "THE WOMAN WHO IS CALLING THE STRIPES",
+      "region": {
+        "x": 2100,
+        "y": 1000,
+        "w": 120,
+        "h": 160
+      },
+      "facts": [
+        {
+          "text": "A woman with long yellow hair and a green fish tail sits in the crowd. She is wearing no stripes.",
+          "region": {
+            "x": 2100,
+            "y": 1000,
+            "w": 80,
+            "h": 150
+          }
+        },
+        {
+          "text": "Her hand is raised, palm open, fingers spread.",
+          "region": {
+            "x": 2107,
+            "y": 1013,
+            "w": 26,
+            "h": 28
+          }
+        }
+      ],
+      "leap": "Everyone else is dressed for the job. She is dressed for the sea. Of the few people not wearing the stripes, she is the one ==waving at the stripes==. Who waves at a crowd of uniforms? Whoever is running it.",
+      "update": {
+        "time": "7:40 AM",
+        "text": "She isn't on any list I've found. I looked. I looked again. That's what bothers me."
+      },
+      "note": "WHO IS SHE WAVING AT?",
+      "stamp": "EYES ONLY",
+      "asset": "evidence/blonde.png",
+      "alt": "A woman with long yellow hair and a green fish tail, with one hand raised in the crowd.",
+      "caption": "not in stripes. waving.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P10",
+          "label": "THE SIGNAL"
+        },
+        {
+          "to": "P08",
+          "label": "THE MONK"
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "num": 10,
+      "title": "THE ARMS UP IS THE SIGNAL",
+      "region": {
+        "x": 1080,
+        "y": 1170,
+        "w": 130,
+        "h": 110
+      },
+      "facts": [
+        {
+          "text": "A red creature with both arms in the air wears brown shorts and red boots.",
+          "region": {
+            "x": 1088,
+            "y": 1150,
+            "w": 110,
+            "h": 115
+          }
+        },
+        {
+          "text": "Brown walking sticks lie on the white ground right beside its feet.",
+          "region": {
+            "x": 1135,
+            "y": 1245,
+            "w": 70,
+            "h": 45
+          }
+        }
+      ],
+      "leap": "Arms up, nothing in its hands, sticks on the ground around it. He's the ==signal==. Every man with a stick is waiting for the arms to come down. You don't need Waldo when you have someone who tells the stripes when to move.",
+      "update": {
+        "time": "8:20 AM",
+        "text": "I have watched the arms for four hours. I am not blinking as much. Is it the arms, or is it me?"
+      },
+      "note": "WHEN THE ARMS COME DOWN",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/signal.png",
+      "alt": "A red creature with both arms raised, standing near a pair of brown walking sticks lying on the white ground.",
+      "caption": "arms up = go",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P09",
+          "label": "WAVING AT"
+        },
+        {
+          "to": "P04",
+          "label": "THE STICKS"
+        }
+      ]
+    }
+  ],
+  "lineupReference": {
+    "claim": "P06",
+    "name": "THE CLEAR WALDO (reference)",
+    "has": [
+      "Red-and-white bobble hat",
+      "Round glasses",
+      "Red-and-white stripes",
+      "Blue trousers"
+    ],
+    "missing": []
+  },
+  "lineup": [
+    {
+      "id": "L1",
+      "name": "SUSPECT 1: \"THE GLASSES, NO HAT\"",
+      "region": {
+        "x": 1440,
+        "y": 1015,
+        "w": 100,
+        "h": 85
+      },
+      "asset": "evidence/suspect-1.png",
+      "alt": "A man with black hair, round glasses, red-and-white stripes and blue trousers, with no hat.",
+      "has": [
+        "Round glasses",
+        "Red-and-white stripes",
+        "Blue trousers"
+      ],
+      "missing": [
+        "Bobble hat"
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "SUSPECT 2: \"THE STACK\"",
+      "region": {
+        "x": 1740,
+        "y": 812,
+        "w": 65,
+        "h": 75
+      },
+      "asset": "evidence/suspect-2.png",
+      "alt": "A man with black hair, round glasses and a striped shirt, with his head under another man's shoes.",
+      "has": [
+        "Round glasses",
+        "Red-and-white stripes",
+        "Black hair"
+      ],
+      "missing": [
+        "Bobble hat (not seen; only his glasses are visible under the shoes)"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "SUSPECT 3: \"THE NEIGHBOUR\"",
+      "region": {
+        "x": 1085,
+        "y": 108,
+        "w": 55,
+        "h": 85
+      },
+      "asset": "evidence/suspect-3.png",
+      "alt": "A man with black hair, round glasses and red-and-white stripes, standing beside a man in a blue-and-white striped hat.",
+      "has": [
+        "Round glasses",
+        "Red-and-white stripes",
+        "Black hair"
+      ],
+      "missing": [
+        "Bobble hat"
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "SUSPECT 4: \"THE DARK HAIR\"",
+      "region": {
+        "x": 1420,
+        "y": 1040,
+        "w": 60,
+        "h": 80
+      },
+      "asset": "evidence/suspect-4.png",
+      "alt": "A man with dark hair, round glasses and red-and-white stripes, with no hat.",
+      "has": [
+        "Round glasses",
+        "Red-and-white stripes"
+      ],
+      "missing": [
+        "Bobble hat"
+      ]
+    }
+  ],
+  "stripes": [
+    {
+      "id": "S01",
+      "label": "The man in front of the yellow heap: stripes on a shirt",
+      "region": {
+        "x": 1725,
+        "y": 715,
+        "w": 115,
+        "h": 165
+      }
+    },
+    {
+      "id": "S02",
+      "label": "The hatless man in the crowd: stripes on a shirt",
+      "region": {
+        "x": 1440,
+        "y": 1015,
+        "w": 100,
+        "h": 85
+      }
+    },
+    {
+      "id": "S03",
+      "label": "The man with his head under the shoes: stripes on a shirt",
+      "region": {
+        "x": 1740,
+        "y": 812,
+        "w": 65,
+        "h": 75
+      }
+    },
+    {
+      "id": "S04",
+      "label": "The man in a bobble hat against the red trousers (left)",
+      "region": {
+        "x": 1480,
+        "y": 830,
+        "w": 70,
+        "h": 110
+      }
+    },
+    {
+      "id": "S05",
+      "label": "The man in a bobble hat against the red trousers (right)",
+      "region": {
+        "x": 1555,
+        "y": 830,
+        "w": 60,
+        "h": 110
+      }
+    },
+    {
+      "id": "S06",
+      "label": "The man beside the blue-and-white hat: stripes on a shirt",
+      "region": {
+        "x": 1085,
+        "y": 108,
+        "w": 55,
+        "h": 85
+      }
+    },
+    {
+      "id": "S07",
+      "label": "The man with round glasses in the middle of the crowd",
+      "region": {
+        "x": 1040,
+        "y": 1075,
+        "w": 70,
+        "h": 70
+      }
+    },
+    {
+      "id": "S08",
+      "label": "The clear complete man on the white background",
+      "region": {
+        "x": 640,
+        "y": 215,
+        "w": 95,
+        "h": 115
+      }
+    },
+    {
+      "id": "S09",
+      "label": "The man in a bobble hat at the right edge",
+      "region": {
+        "x": 2340,
+        "y": 1440,
+        "w": 56,
+        "h": 95
+      }
+    },
+    {
+      "id": "S10",
+      "label": "The man in a bobble hat and round glasses, lower crowd",
+      "region": {
+        "x": 1000,
+        "y": 1090,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "id": "S11",
+      "label": "The dark-haired man with round glasses",
+      "region": {
+        "x": 1420,
+        "y": 1040,
+        "w": 60,
+        "h": 80
+      }
+    },
+    {
+      "id": "S12",
+      "label": "The striped man on the left edge of the crowd",
+      "region": {
+        "x": 600,
+        "y": 1000,
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "id": "S13",
+      "label": "The round-glasses man in a bobble hat, up and to the left of the monk",
+      "region": {
+        "x": 1104,
+        "y": 1306,
+        "w": 40,
+        "h": 46
+      }
+    }
+  ],
+  "censusComments": [
+    "Clicked the man in front of the yellow heap. He is still standing on someone. I did not unclick him.",
+    "Found thirteen. The thirteenth is up and to the left of the monk's head, where a stripe should not be standing next to a robe.",
+    "Counted the stripes on the giant's trousers. They are not stripes. They are a red sheet. I counted it anyway.",
+    "Every striped shirt in this crowd is the same red and white. I checked the blue one twice. He's the exception that proves the uniform."
+  ],
+  "guestbook": [
+    {
+      "name": "PATIENCE_IS_A_VIRTUE",
+      "date": "03/30/2004",
+      "text": "I see stripes. Stripes are on every shirt in every Waldo book. That's just the design, dude.",
+      "reply": "Yes. Every shirt. The same red and white. Who told the designer which shirt, PATIENCE? Read Proof #5 again on your own time.",
+      "claim": "P05"
+    },
+    {
+      "name": "tiny_hat_fan",
+      "date": "03/31/2004",
+      "text": "Your hat on the ground is just somebody's hat. People lose hats at parties.",
+      "reply": "People lose hats. Nobody loses a hat with NO HEAD UNDER IT. That's Proof #4. Come back when you've counted the legs.",
+      "claim": "P04"
+    },
+    {
+      "name": "stacks_are_fine",
+      "date": "04/01/2004",
+      "text": "Standing on someone's head is a photography trick, not a conspiracy.",
+      "reply": "Then why is the bottom man wearing the glasses and not the top one? Stacks don't swap glasses. Proof #1.",
+      "claim": "P01"
+    }
+  ],
+  "updates": [
+    {
+      "time": "Night 34, 3:31 AM",
+      "text": "Started counting stripes at 2. Stopped at 14 because my eyes started doing something.",
+      "claim": "P01"
+    },
+    {
+      "time": "Night 34, 4:40 AM",
+      "text": "Hats on the red, and a hatless man in the crowd below. The hats are on the red. The glasses are in the crowd.",
+      "claim": "P03"
+    },
+    {
+      "time": "Night 34, 6:15 AM",
+      "text": "Four near-misses. One clear man on a white background. The lineup is in the section marked THE LINEUP.",
+      "claim": "P06"
+    },
+    {
+      "time": "Night 34, 8:20 AM",
+      "text": "The arms are still up. Nobody is looking at them but me.",
+      "claim": "P10"
+    },
+    {
+      "time": "Night 34, 8:40 AM",
+      "text": "Counted the colourways again. Blue-and-white here. Black-and-yellow on Odlaw in the scroll. Two more on the shop floor. It's a RANGE.",
+      "claim": "P05"
+    }
+  ],
+  "receipts": [
+    {
+      "item": "Magnifying glass, 10×",
+      "price": "$14.99",
+      "note": "for the shoes on the head",
+      "claim": "P01"
+    },
+    {
+      "item": "Red-and-white bobble hats, 6-pack",
+      "price": "$22.00",
+      "note": "bought six to compare. they are all the same.",
+      "claim": "P03"
+    },
+    {
+      "item": "Green hat (for comparison, NOT for wearing)",
+      "price": "$31.50",
+      "note": "matches the giant's. I can't explain why I bought it.",
+      "claim": "P02"
+    }
+  ],
+  "verdict": {
+    "lines": [
+      "One man in a complete outfit, standing on a second man's head.",
+      "Hats on the red, one hatless man, one hat with no head, and one giant who won't show his face.",
+      "Waldo isn't here. Waldo is the thing they hand out, one piece at a time, and the dragon keeps the receipts."
+    ],
+    "button": "Request Further Investigation"
+  },
+  "cipher": {
+    "cipher": "YRNQ: GUR GBC BS GUR FGNPX VF N FRPBAQ ZNA'F URNQ. FRR CEBBS #1.",
+    "plain": "LEAD: THE TOP OF THE STACK IS A SECOND MAN'S HEAD. SEE PROOF #1.",
+    "claim": "P01"
+  },
+  "footer": "This is a parody. Waldo is a fictional character created by Martin Handford. No actual investigation occurred."
+}

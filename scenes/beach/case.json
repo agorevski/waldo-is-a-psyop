@@ -6,7 +6,7 @@
     "alt": "Crowded beach scene with striped umbrellas and beach huts, a postcard in the top-left corner, people in the surf, and a hovercraft on the right."
   },
   "site": {
-    "title": "WALDO IS A PSYOP",
+    "title": "THE BEACH POSTCARD",
     "subtitle": "A Free Investigation Into the Man in the Stripes",
     "caseNumber": "CASE #WDE-1956-∞",
     "banner": "⚠ THIS IS MIRROR #4. THE FIRST THREE WERE TAKEN DOWN. SAVE THIS PAGE TO YOUR COMPUTER. ⚠",
@@ -73,7 +73,14 @@
           "label": "COMPARE EVERY FACE TO THIS"
         }
       ],
-      "num": 1
+      "num": 1,
+      "crossLinks": [
+        {
+          "scene": "department-store",
+          "claim": "P04",
+          "label": "SAME STAMP, DIFFERENT CARD"
+        }
+      ]
     },
     {
       "id": "P02",
@@ -121,7 +128,14 @@
           "label": "WHO DELIVERED IT?"
         }
       ],
-      "num": 2
+      "num": 2,
+      "crossLinks": [
+        {
+          "scene": "department-store",
+          "claim": "P03",
+          "label": "SAME POSTMARK, NEW MIDDLE LINE"
+        }
+      ]
     },
     {
       "id": "P03",
@@ -169,7 +183,14 @@
           "label": "HE CHOSE WHERE IT LANDED"
         }
       ],
-      "num": 3
+      "num": 3,
+      "crossLinks": [
+        {
+          "scene": "department-store",
+          "claim": "P05",
+          "label": "ANOTHER ADDRESS THAT ISN'T"
+        }
+      ]
     },
     {
       "id": "P04",
@@ -369,7 +390,14 @@
           "label": "COMPARE TO THE STAMP"
         }
       ],
-      "num": 7
+      "num": 7,
+      "crossLinks": [
+        {
+          "scene": "dragon-feast",
+          "claim": "P06",
+          "label": "STILL MISSING A PIECE"
+        }
+      ]
     },
     {
       "id": "P08",
@@ -983,6 +1011,11 @@
       "time": "Night 31, 8:10 AM",
       "text": "Ran out of string.",
       "claim": "P11"
+    },
+    {
+      "time": "Night 31, 8:30 AM",
+      "text": "Opened the next envelope in the folder. A scroll with a wax seal. Same face. Pressed, not printed.",
+      "claim": "P01"
     }
   ],
   "receipts": [

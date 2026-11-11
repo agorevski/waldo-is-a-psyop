@@ -1,0 +1,940 @@
+{
+  "image": {
+    "src": "scene.webp",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Crowded ancient city siege scene: a huge wooden horse above the rooftops, a city wall with the word HELP above it, shields printed with prices and dollar signs, crowds of soldiers in the streets, and a red-clad diver leaping from the rocks into the sea."
+  },
+  "site": {
+    "title": "THE WALL THAT SAID HELP",
+    "subtitle": "A Free Investigation Into the Wooden Horse Nobody Checked",
+    "caseNumber": "CASE #WDE-1961-T",
+    "banner": "⚠ THIS IS MIRROR #7. THE OTHERS WERE REPORTED FOR \"INTERFERING WITH A CROWD.\" SAVE THIS PAGE. ⚠",
+    "marquee": "THEY SAY HE'S IN THE CROWD ★ NOBODY CHECKED THE HORSE ★ 101% IS NOT A NUMBER A PERSON CAN BE ★ THE WALL SAID HELP AND THEN LAUGHED ★ COUNT THE RINGS ★ WHO SENT THE INVOICE? ★",
+    "heroCaption": "EXHIBIT 0: The city of the siege. Every red pin is a proof. Every ringed shield is a clue. Click a pin. Click a shield. LOOK.",
+    "intro": [
+      "The teacher said, 'Find Waldo.' The book said, 'Find Waldo.' So I found the big picture with the wooden horse, and I looked.",
+      "Night 36. Thirty-one nights on the beach, one each for the rest of the folder, and now this ONE city. Somewhere around 2 AM I stopped asking WHERE he is and started asking the question nobody wants you to ask: ==why does the wall say HELP and then laugh at itself?==",
+      "Every proof below has a SEE FOR YOURSELF button. I am not asking you to trust me. I am asking you to LOOK. ~~I'm not crazy.~~ The beach had a postcard. This city has a horse, and nobody in the crowd is checking what's inside it.",
+      "Start with the wall. It always starts with the wall."
+    ],
+    "hitCounterBase": 1961,
+    "lastUpdated": "Night 36, 5:10 AM",
+    "censusInstructions": "Click every ringed, banded, or numbered shield in the city above, and the one striped tunic."
+  },
+  "claims": [
+    {
+      "id": "P01",
+      "num": 1,
+      "title": "THE WALL ASKS FOR HELP",
+      "region": {
+        "x": 600,
+        "y": 298,
+        "w": 74,
+        "h": 26
+      },
+      "facts": [
+        {
+          "text": "Outlined white letters spelling HELP sit just above a row of teal wall stones, under the wooden horse.",
+          "region": {
+            "x": 603,
+            "y": 302,
+            "w": 68,
+            "h": 20
+          }
+        },
+        {
+          "text": "Three HA groups are printed across the crowd further down, in a row.",
+          "region": {
+            "x": 586,
+            "y": 444,
+            "w": 140,
+            "h": 32
+          }
+        }
+      ],
+      "leap": "A cry for help that laughs three times is not a cry. It is a ==password==. Nobody on that wall needs rescuing. He is the rescue party, handed out at the gate one HA at a time.",
+      "update": {
+        "time": "1:12 AM",
+        "text": "I read the wall eleven times. It still says HELP. It still laughs. CONVENIENT."
+      },
+      "note": "IT'S A PASSWORD",
+      "stamp": "EXHIBIT A",
+      "asset": "evidence/p01.png",
+      "alt": "The word HELP in outlined white letters, just above the teal wall stones, under the wooden horse.",
+      "caption": "the wall. it asked first.",
+      "paranoia": 1,
+      "links": [
+        {
+          "to": "P03",
+          "label": "THE HORSE ABOVE THE WALL"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "num": 2,
+      "title": "THE PRICE OF A SHIELD",
+      "region": {
+        "x": 1400,
+        "y": 590,
+        "w": 110,
+        "h": 130
+      },
+      "facts": [
+        {
+          "text": "Three round shields in the crowd are printed 76%, 101%, and 41%.",
+          "region": {
+            "x": 1405,
+            "y": 686,
+            "w": 86,
+            "h": 30
+          }
+        },
+        {
+          "text": "Three round shields a little higher up in the same crowd carry dollar signs.",
+          "region": {
+            "x": 1409,
+            "y": 596,
+            "w": 46,
+            "h": 50
+          }
+        }
+      ],
+      "leap": "Nobody prices a shield unless somebody is buying shields. A shield cannot be ==101%== of itself. That is an overage, and overages happen when the same uniform is handed out twice and nobody can say which one is the original.",
+      "update": {
+        "time": "1:40 AM",
+        "text": "UPDATE: I counted the percent signs twice. 101 is over 100. You cannot be over 100 of yourself. Same wall, different currency. See Proof #1."
+      },
+      "note": "OVERAGE",
+      "stamp": "INVOICED",
+      "asset": "evidence/p02.png",
+      "alt": "Round crowd shields printed with 76%, 101%, and 41%, and three shields with dollar signs above them.",
+      "caption": "they are not discounts.",
+      "paranoia": 2,
+      "links": [
+        {
+          "to": "P01",
+          "label": "THE WALL WANTED HELP. IT ALSO GOT INVOICED."
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "troy-map",
+          "claim": "P01",
+          "label": "SAME PRICES, SECOND PRINTING"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "num": 3,
+      "title": "A GIFT NOBODY CHECKED",
+      "region": {
+        "x": 578,
+        "y": 106,
+        "w": 112,
+        "h": 170
+      },
+      "facts": [
+        {
+          "text": "The wooden horse is built from slatted planks and stands above the rooftops.",
+          "region": {
+            "x": 578,
+            "y": 106,
+            "w": 112,
+            "h": 170
+          }
+        },
+        {
+          "text": "A helmeted man is climbing up its side.",
+          "region": {
+            "x": 616,
+            "y": 134,
+            "w": 24,
+            "h": 46
+          }
+        }
+      ],
+      "leap": "A gift at the gate that nobody checked. Nobody asked what it was carrying. This is how Waldo gets in: wrapped, unchecked, and in pieces, one plank at a time. Look at the wall, then look at the horse. ==Same instructions.==",
+      "update": {
+        "time": "2:03 AM",
+        "text": "The horse is hollow. I can't prove it. That's the point. Nobody can prove what's inside a gift, and that is exactly what a gift is for."
+      },
+      "note": "NOBODY CHECKED",
+      "stamp": "UNINSPECTED",
+      "asset": "evidence/p03.png",
+      "alt": "A large wooden horse of slatted planks rising above the rooftops, with a helmeted man climbing its side.",
+      "caption": "the gift. the gate. the box.",
+      "paranoia": 2,
+      "links": [
+        {
+          "to": "P01",
+          "label": "THE WALL SAYS HELP"
+        },
+        {
+          "to": "P02",
+          "label": "THE INVOICE"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "num": 4,
+      "title": "THE SAME SHIELD IN TWO COLOURS",
+      "region": {
+        "x": 1248,
+        "y": 932,
+        "w": 74,
+        "h": 44
+      },
+      "facts": [
+        {
+          "text": "A round shield with a black field and concentric white rings.",
+          "region": {
+            "x": 1251,
+            "y": 940,
+            "w": 30,
+            "h": 32
+          }
+        },
+        {
+          "text": "A round shield with a red field and concentric rings, the same design.",
+          "region": {
+            "x": 1288,
+            "y": 936,
+            "w": 32,
+            "h": 36
+          }
+        }
+      ],
+      "leap": "Same shield, two colourways. He is not one man in one shield. The shield is the uniform, and the uniform comes in every colour they have in stock. Proof #3 showed you the gift nobody checked. Here is what came with it.",
+      "update": {
+        "time": "2:05 AM",
+        "text": "I checked the rings with a ruler. The red one is not a different shield. It's the same one, in a different mood."
+      },
+      "note": "SAME SHIELD",
+      "stamp": "ISSUED",
+      "asset": "evidence/p04.png",
+      "alt": "Two round shields side by side: one with a black field and white rings, one with a red field and rings in the same design.",
+      "caption": "left: black. right: red. same mould.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P03",
+          "label": "THE GIFT CAME WITH SHIELDS"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "department-store",
+          "claim": "P09",
+          "label": "THE FULL RANGE"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "num": 5,
+      "title": "THE BANDS AND THE TRIM",
+      "region": {
+        "x": 300,
+        "y": 330,
+        "w": 26,
+        "h": 42
+      },
+      "facts": [
+        {
+          "text": "A figure stands in a black-and-white banded tunic, with no hat on.",
+          "region": {
+            "x": 303,
+            "y": 341,
+            "w": 16,
+            "h": 18
+          }
+        },
+        {
+          "text": "A white tunic with red trim stands in the crowd.",
+          "region": {
+            "x": 1466,
+            "y": 808,
+            "w": 22,
+            "h": 38
+          }
+        }
+      ],
+      "leap": "Bands on one man, red trim on another. Two halves of one outfit. Somebody cut the uniform up and handed the stripes to one person and the trim to someone across the crowd, and neither of them was told the other exists.",
+      "update": {
+        "time": "2:31 AM",
+        "text": "The bands are black and white. The trim is red. I keep checking whether that's a coincidence. Every time, the answer gets a little more ==convenient==."
+      },
+      "note": "TWO HALVES",
+      "stamp": "CUT UP",
+      "asset": "evidence/p05.png",
+      "alt": "A figure in a black-and-white banded tunic, and a second white tunic trimmed in red.",
+      "caption": "the bands. the trim. no hat either time.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P04",
+          "label": "SAME SHIELD IN TWO COLOURS"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "num": 6,
+      "title": "EVERY SUSPECT IS MISSING THE HAT",
+      "region": {
+        "x": 1440,
+        "y": 254,
+        "w": 40,
+        "h": 36
+      },
+      "facts": [
+        {
+          "text": "The banded figure's head is bare, with dark hair and no bobble hat.",
+          "region": {
+            "x": 302,
+            "y": 323,
+            "w": 18,
+            "h": 16
+          }
+        },
+        {
+          "text": "The diver's head is bare: no hat, no glasses.",
+          "region": {
+            "x": 1456,
+            "y": 252,
+            "w": 16,
+            "h": 16
+          }
+        }
+      ],
+      "leap": "The hat is the one piece nobody is wearing. Every suspect is missing it. Hats do not go missing by accident. They go into a box, and the box goes into the horse.",
+      "update": {
+        "time": "3:02 AM",
+        "text": "I compared both heads to the stamp from the beach. Neither has a hat. I'm not saying that means anything. I'm saying it's ==convenient== that neither has a hat."
+      },
+      "note": "NO HAT",
+      "stamp": "MISSING PIECE",
+      "asset": "evidence/p06.png",
+      "alt": "Two bare heads: one dark-haired figure in a banded tunic, one diver in a red top, neither in a hat.",
+      "caption": "the missing hat. (the horse has the box.)",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P05",
+          "label": "THE BANDS AND THE TRIM"
+        },
+        {
+          "to": "P03",
+          "label": "THE HORSE HAS THE BOX"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "dragon-feast",
+          "claim": "P06",
+          "label": "STILL MISSING A PIECE"
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "num": 7,
+      "title": "MATCHING BLUE",
+      "region": {
+        "x": 1026,
+        "y": 708,
+        "w": 70,
+        "h": 50
+      },
+      "facts": [
+        {
+          "text": "Several figures stand side by side in matching blue tunics.",
+          "region": {
+            "x": 1026,
+            "y": 708,
+            "w": 70,
+            "h": 50
+          }
+        },
+        {
+          "text": "Beside them is a black-rimmed oval shield with a white symbol.",
+          "region": {
+            "x": 1094,
+            "y": 712,
+            "w": 24,
+            "h": 36
+          }
+        }
+      ],
+      "leap": "Matching tunics, one row. That is what a uniform looks like after it has been cut into pieces and put back together at the gate. Proof #6 says the hat is missing. Proof #7 says where the rest of the set is standing.",
+      "update": {
+        "time": "3:19 AM",
+        "text": "They are standing shoulder to shoulder, like they were issued together. I'm not going to tell you what they're waiting for. I haven't finished my tea."
+      },
+      "note": "SAME COLOUR",
+      "stamp": "UNIFORM",
+      "asset": "evidence/p07.png",
+      "alt": "Several figures in matching blue tunics standing side by side, with a black-rimmed oval shield beside them.",
+      "caption": "one row. one colour. no hats.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P06",
+          "label": "THE HAT IS MISSING"
+        },
+        {
+          "to": "P04",
+          "label": "SAME SHIELD IN TWO COLOURS"
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "num": 8,
+      "title": "THE DIVE NOBODY WATCHES",
+      "region": {
+        "x": 1440,
+        "y": 254,
+        "w": 40,
+        "h": 36
+      },
+      "facts": [
+        {
+          "text": "A red-clad figure dives from the rocks into the sea, arms out.",
+          "region": {
+            "x": 1440,
+            "y": 254,
+            "w": 40,
+            "h": 36
+          }
+        },
+        {
+          "text": "Other figures stand on the rock ledge above the water and do not dive.",
+          "region": {
+            "x": 1404,
+            "y": 252,
+            "w": 40,
+            "h": 56
+          }
+        }
+      ],
+      "leap": "Everybody on the rocks is watching the dive. Nobody is watching the horse. The sea has no gate and no guard, and the diver is the only one who leaves without being counted. Look at the bare head in Proof #6.",
+      "update": {
+        "time": "3:44 AM",
+        "text": "Everyone on that ledge is standing. Only one person is in the water, and it's the one in red. I've counted it four times and I still get the same answer."
+      },
+      "note": "THE SEA HAS NO GATE",
+      "stamp": "WATCHED",
+      "asset": "evidence/p08.png",
+      "alt": "A red-clad diver leaping from the rocks into the sea, with figures standing on the ledge above.",
+      "caption": "the dive. the ledge. the audience.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P06",
+          "label": "THE BARE HEAD"
+        },
+        {
+          "to": "P07",
+          "label": "THE BLUE ROW"
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "num": 9,
+      "title": "SOMEONE IS SENT UP",
+      "region": {
+        "x": 616,
+        "y": 134,
+        "w": 24,
+        "h": 46
+      },
+      "facts": [
+        {
+          "text": "A helmeted man climbs the side of the wooden horse.",
+          "region": {
+            "x": 616,
+            "y": 134,
+            "w": 24,
+            "h": 46
+          }
+        },
+        {
+          "text": "A helmeted figure stands on the roof beside a tall spear.",
+          "region": {
+            "x": 698,
+            "y": 126,
+            "w": 40,
+            "h": 50
+          }
+        }
+      ],
+      "leap": "One climbs and one stands beside a spear. That is a shift schedule. Waldo never climbs anything himself. He is sent up, and the one on the roof writes down the time.",
+      "update": {
+        "time": "4:02 AM",
+        "text": "Both of them wear the same helmet. Same helmet, different job. I'm not going to say whose job is worse. I'm just asking the question."
+      },
+      "note": "SHIFT CHANGE",
+      "stamp": "DISPATCHED",
+      "asset": "evidence/p09.png",
+      "alt": "A helmeted man climbing the wooden horse and a helmeted figure on the roof beside a tall spear.",
+      "caption": "up. and the one with the spear.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P03",
+          "label": "THE HORSE"
+        },
+        {
+          "to": "P08",
+          "label": "THE DIVE NOBODY WATCHES"
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "num": 10,
+      "title": "THE ANSWER WEARS RED",
+      "region": {
+        "x": 600,
+        "y": 286,
+        "w": 94,
+        "h": 40
+      },
+      "facts": [
+        {
+          "text": "A red-clad soldier stands right beside the HELP sign.",
+          "region": {
+            "x": 674,
+            "y": 290,
+            "w": 18,
+            "h": 28
+          }
+        },
+        {
+          "text": "The HELP sign sits just above the teal wall stones, directly below the wooden horse.",
+          "region": {
+            "x": 603,
+            "y": 302,
+            "w": 68,
+            "h": 20
+          }
+        }
+      ],
+      "leap": "The cry for help is answered by a man in red, standing right beside it. That is not a rescue. That is the uniform answering its own call. Proof #1 asked for help. Proof #9 says who was sent.",
+      "update": {
+        "time": "4:21 AM",
+        "text": "I don't think he's helping. I think he's the reply. ==I'm not sure what I'm saying.== I am sure about the red."
+      },
+      "note": "THE REPLY",
+      "stamp": "ANSWERED",
+      "asset": "evidence/p10.png",
+      "alt": "A red-clad soldier standing right beside the HELP sign, under the wooden horse.",
+      "caption": "he came when called. in red.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P01",
+          "label": "THE WALL ASKS FOR HELP"
+        },
+        {
+          "to": "P09",
+          "label": "SOMEONE IS SENT UP"
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "num": 11,
+      "title": "THE WARNING AND THE PRICE",
+      "region": {
+        "x": 533,
+        "y": 238,
+        "w": 24,
+        "h": 24
+      },
+      "facts": [
+        {
+          "text": "A round shield on the left side of the city is printed with an exclamation mark.",
+          "region": {
+            "x": 533,
+            "y": 238,
+            "w": 24,
+            "h": 24
+          }
+        },
+        {
+          "text": "A shield printed 41% sits in the crowd with the other prices.",
+          "region": {
+            "x": 1463,
+            "y": 688,
+            "w": 26,
+            "h": 26
+          }
+        }
+      ],
+      "leap": "There is a warning on the left and a price in the crowd, and they are the same sale. Forty-one percent of him is in stock. The rest is on the horse. Nobody will tell you which piece you bought, because you were never meant to be the buyer.",
+      "update": {
+        "time": "4:48 AM",
+        "text": "Proof #1 says HELP. Proof #2 says 101%. Proof #11 says the exclamation mark is a warning, and I have decided to believe the warning. Going to bed. ~~I am not going to bed.~~"
+      },
+      "note": "CLOSING ARGUMENT",
+      "stamp": "FINAL",
+      "asset": "evidence/p11.png",
+      "alt": "A round shield printed with an exclamation mark and a shield printed 41% in the crowd.",
+      "caption": "the warning. the price. the same sale.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P02",
+          "label": "THE PRICE OF A SHIELD"
+        },
+        {
+          "to": "P10",
+          "label": "THE ANSWER WEARS RED"
+        }
+      ]
+    }
+  ],
+  "lineup": [
+    {
+      "id": "L1",
+      "name": "SUSPECT 1: \"THE BANDED TUNIC\"",
+      "region": {
+        "x": 300,
+        "y": 330,
+        "w": 26,
+        "h": 42
+      },
+      "asset": "evidence/suspect-1.png",
+      "alt": "A dark-haired figure in a black-and-white banded tunic, bare-headed.",
+      "has": [
+        "Black-and-white bands across the tunic",
+        "Dark hair"
+      ],
+      "missing": [
+        "Bobble hat: none visible",
+        "Round glasses: none visible"
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "SUSPECT 2: \"THE DIVER\"",
+      "region": {
+        "x": 1440,
+        "y": 254,
+        "w": 40,
+        "h": 36
+      },
+      "asset": "evidence/suspect-2.png",
+      "alt": "A red-clad diver leaping from the rocks with arms out.",
+      "has": [
+        "Red top",
+        "Arms out, mid-dive"
+      ],
+      "missing": [
+        "Bobble hat: none visible",
+        "Round glasses: none visible",
+        "Banded top: none visible"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "SUSPECT 3: \"THE RED TRIM\"",
+      "region": {
+        "x": 1466,
+        "y": 808,
+        "w": 22,
+        "h": 38
+      },
+      "asset": "evidence/suspect-3.png",
+      "alt": "A figure in a white tunic with red trim, standing in the crowd.",
+      "has": [
+        "White tunic",
+        "Red trim"
+      ],
+      "missing": [
+        "Bobble hat: none visible",
+        "Round glasses: none visible",
+        "Banded top: none visible"
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "SUSPECT 4: \"THE BLUE ROW\"",
+      "region": {
+        "x": 1027,
+        "y": 712,
+        "w": 20,
+        "h": 44
+      },
+      "asset": "evidence/suspect-4.png",
+      "alt": "The left figure of a row in matching blue tunics.",
+      "has": [
+        "Blue tunic",
+        "Standing side by side"
+      ],
+      "missing": [
+        "Bobble hat: none visible",
+        "Round glasses: none visible",
+        "Banded top: none visible"
+      ]
+    }
+  ],
+  "stripes": [
+    {
+      "id": "S01",
+      "label": "round shield with an exclamation mark (left wall)",
+      "region": {
+        "x": 533,
+        "y": 238,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "id": "S02",
+      "label": "dollar-sign shield (upper crowd)",
+      "region": {
+        "x": 1408,
+        "y": 597,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "id": "S03",
+      "label": "dollar-sign shield (beside it)",
+      "region": {
+        "x": 1435,
+        "y": 609,
+        "w": 22,
+        "h": 24
+      }
+    },
+    {
+      "id": "S04",
+      "label": "shield printed 76%",
+      "region": {
+        "x": 1405,
+        "y": 688,
+        "w": 26,
+        "h": 26
+      }
+    },
+    {
+      "id": "S05",
+      "label": "shield printed 101%",
+      "region": {
+        "x": 1438,
+        "y": 690,
+        "w": 26,
+        "h": 26
+      }
+    },
+    {
+      "id": "S06",
+      "label": "shield printed 41%",
+      "region": {
+        "x": 1463,
+        "y": 688,
+        "w": 26,
+        "h": 26
+      }
+    },
+    {
+      "id": "S07",
+      "label": "black shield with concentric white rings",
+      "region": {
+        "x": 1251,
+        "y": 940,
+        "w": 30,
+        "h": 32
+      }
+    },
+    {
+      "id": "S08",
+      "label": "red shield with concentric rings",
+      "region": {
+        "x": 1288,
+        "y": 936,
+        "w": 32,
+        "h": 36
+      }
+    },
+    {
+      "id": "S09",
+      "label": "blue spiral shield",
+      "region": {
+        "x": 1320,
+        "y": 928,
+        "w": 30,
+        "h": 30
+      }
+    },
+    {
+      "id": "S10",
+      "label": "blue shield printed 55",
+      "region": {
+        "x": 1144,
+        "y": 860,
+        "w": 22,
+        "h": 22
+      }
+    },
+    {
+      "id": "S11",
+      "label": "blue shield with a painted hand",
+      "region": {
+        "x": 1178,
+        "y": 852,
+        "w": 16,
+        "h": 34
+      }
+    },
+    {
+      "id": "S12",
+      "label": "white oval shield with a blue band",
+      "region": {
+        "x": 1208,
+        "y": 492,
+        "w": 22,
+        "h": 28
+      }
+    },
+    {
+      "id": "S13",
+      "label": "white oval shield with a black band",
+      "region": {
+        "x": 1204,
+        "y": 520,
+        "w": 22,
+        "h": 26
+      }
+    },
+    {
+      "id": "S14",
+      "label": "blue-and-white round shield with a black rim",
+      "region": {
+        "x": 1270,
+        "y": 492,
+        "w": 36,
+        "h": 36
+      }
+    },
+    {
+      "id": "S15",
+      "label": "black-rimmed oval shield with a white symbol",
+      "region": {
+        "x": 1098,
+        "y": 712,
+        "w": 26,
+        "h": 44
+      }
+    },
+    {
+      "id": "S16",
+      "label": "black-and-white banded tunic (the only stripes on a person)",
+      "region": {
+        "x": 303,
+        "y": 343,
+        "w": 18,
+        "h": 20
+      }
+    }
+  ],
+  "censusComments": [
+    "Sixteen. I started with nine. Then I found the rings.",
+    "Every shield in the city is a ring if you stare long enough. That's what they're for.",
+    "The banded tunic is the only stripe I'd swear to on a person. The shields do the rest.",
+    "Why would a shield need a price if it weren't being resold?",
+    "Count again. I counted nineteen, then I remembered the wall."
+  ],
+  "guestbook": [
+    {
+      "name": "KaraM_1994",
+      "date": "04/05/2004",
+      "text": "the horse is a horse. the wall says help because it's a wall painted by a kid. please go to bed",
+      "reply": "Which kid, Kara. WHICH KID. Proof #1 has no kid in it. Look at the letters again. (Proof #1.)",
+      "claim": "P01"
+    },
+    {
+      "name": "dorian.k",
+      "date": "04/06/2004",
+      "text": "the 101% is a sale. 101% just means it's a sale on something that cost more than it did before. thats how i read prices",
+      "reply": "Thank you, Dorian. You are not wrong. You are ==issued==. (See Proof #2.)",
+      "claim": "P02"
+    },
+    {
+      "name": "grumpyDad",
+      "date": "04/07/2004",
+      "text": "i checked. theres no soldier in the horse. theres nothing in the horse. it's wood",
+      "reply": "Of course it's wood. Nobody said it was a soldier. I said it was a gift, and nobody checks a gift. (Proof #3.)",
+      "claim": "P03"
+    }
+  ],
+  "updates": [
+    {
+      "time": "Night 36, 12:40 AM",
+      "text": "Sent the shield prices to a friend in accounting. Their reply: 'nobody prices shields.' I think that is the point.",
+      "claim": "P02"
+    },
+    {
+      "time": "Night 36, 2:31 AM",
+      "text": "The bands and the trim are not from the same tailor. I'm sure of it. Same question as the beach postcard: who ordered this?",
+      "claim": "P05"
+    },
+    {
+      "time": "Night 36, 4:48 AM",
+      "text": "The horse is still there. The wall still says HELP. I have stopped expecting the picture to change.",
+      "claim": "P11"
+    },
+    {
+      "time": "Night 36, 5:10 AM",
+      "text": "Opened the next file in the folder to check something. It is THIS battle. Same horse. Same 76%. Same 101%. They printed the price list twice.",
+      "claim": "P02"
+    }
+  ],
+  "receipts": [
+    {
+      "item": "Gold paint, 1 tin (for the rings)",
+      "price": "$6.25",
+      "note": "for marking the shields. they don't come marked.",
+      "claim": "P04"
+    },
+    {
+      "item": "Stick-on exclamation marks, 40-pack",
+      "price": "$3.99",
+      "note": "for the wall. I'm not going to say why.",
+      "claim": "P11"
+    },
+    {
+      "item": "Magnifying glass, 3x",
+      "price": "$12.00",
+      "note": "the rings are much smaller than I expected.",
+      "claim": "P09"
+    }
+  ],
+  "verdict": {
+    "lines": [
+      "Waldo is not a man.",
+      "Waldo is a horse, a wall, and a row of matching shields.",
+      "The wall asks for help. The horse arrives as a gift. The shields come in every colour, and every one of them has a price.",
+      "On the wall he is a password. In the crowd he is a row. On the rocks he is a dive nobody watches.",
+      "And you have spent your whole life looking for him. Exactly like they wanted.",
+      "I'm going to bed. ~~I'm not going to bed.~~"
+    ],
+    "button": "Request Further Investigation"
+  },
+  "cipher": {
+    "cipher": "YRNQ: ABOBQL PURPXRQ GUR UBEFR. FRR CEBBS #3.",
+    "plain": "LEAD: NOBODY CHECKED THE HORSE. SEE PROOF #3.",
+    "claim": "P03"
+  },
+  "footer": "This is a parody. Waldo is a fictional character created by Martin Handford. No actual investigation occurred. No real person in any picture is identified or targeted."
+}

@@ -1,0 +1,911 @@
+{
+  "image": {
+    "src": "scene.jpg",
+    "width": 2040,
+    "height": 1260,
+    "alt": "A hiking-town scene with a complete Waldo holding a cup and walking stick above a printed packing list in the white margin, a striped lookalike with a blue skirt, and striped figures marching in rows under the letter."
+  },
+  "site": {
+    "title": "THE PACKING LIST",
+    "subtitle": "A Free Investigation Into the Packing List",
+    "caseNumber": "CASE #WDE-1960-H",
+    "banner": "⚠ THIS IS MIRROR #6. THE FIRST FIVE ARE GONE. PRINT THIS PAGE BEFORE THEY NOTICE. ⚠",
+    "marquee": "PACK THE LIST ★ TWELVE ITEMS, ONE MAN ★ TWENTY-FIVE WATCHERS, ONE OUTFIT ★ ODLAW'S STRIPES ARE THE WRONG COLOUR ★ THE CAMERA BELONGS TO WENDA ★ WHO IS ON THE LEDGE? ★",
+    "heroCaption": "EXHIBIT 0: The trail. Twelve things on a list, and one man wearing most of them. Click a pin. Click a stripe. LOOK.",
+    "intro": [
+      "This is the packing list. Not the picture, the LIST: printed in the white margin, in capitals, by a man who tells you his name before he tells you anything else.",
+      "Night 35. The beach took thirty-one of them. This hike took one, because this time he wrote it all down. Somewhere around 4 AM I stopped asking WHO he is and started counting what he carries. ==Twelve items.== ==One man.==",
+      "Every proof below has a SEE FOR YOURSELF button. I'm not asking you to trust me. I'm asking you to READ IT. ~~I'm not crazy.~~ Just read it.",
+      "Start with the first line. It always starts with the first line. (Same as the beach postcard: the name comes first.)"
+    ],
+    "hitCounterBase": 1960,
+    "lastUpdated": "Night 35, 6:30 AM",
+    "censusInstructions": "Click every striped thing in the scene above."
+  },
+  "claims": [
+    {
+      "id": "P01",
+      "num": 1,
+      "title": "HE SAYS HIS NAME, THEN HE PUTS ON THE HAT",
+      "region": {
+        "x": 240,
+        "y": 112,
+        "w": 130,
+        "h": 258
+      },
+      "facts": [
+        {
+          "text": "The letter in the margin says: \"MY NAME IS WALDO.\"",
+          "region": {
+            "x": 130,
+            "y": 394,
+            "w": 160,
+            "h": 20
+          }
+        },
+        {
+          "text": "The figure above the letter wears a red-and-white bobble hat and round glasses.",
+          "region": {
+            "x": 290,
+            "y": 111,
+            "w": 52,
+            "h": 48
+          }
+        }
+      ],
+      "leap": "A man who gives you his name and puts on the hat in the same breath is not introducing himself. He is being ==issued==. A name and a hat that arrive together are a uniform with a name tag.",
+      "update": {
+        "time": "3:47 AM",
+        "text": "I read the first line nine times. MY NAME IS WALDO. Then I looked at the hat. Then I looked at the hat again. CONVENIENT."
+      },
+      "note": "HE INTRODUCED HIMSELF WITH A HAT",
+      "stamp": "EXHIBIT A",
+      "asset": "evidence/p01-waldo.png",
+      "alt": "The complete Waldo figure: red-and-white bobble hat, round glasses, striped shirt, blue jeans, walking stick and cup, above the letter.",
+      "caption": "his name, his hat, his stick.",
+      "paranoia": 1,
+      "links": [
+        {
+          "to": "P02",
+          "label": "THE LIST THAT COMES WITH HIM"
+        },
+        {
+          "to": "P10",
+          "label": "STRIPES ALL THE WAY DOWN"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "num": 2,
+      "title": "THE KIT IS COMPLETE. ONE MAN IS WEARING IT.",
+      "region": {
+        "x": 140,
+        "y": 452,
+        "w": 346,
+        "h": 76
+      },
+      "facts": [
+        {
+          "text": "The letter lists twelve things he says he has: walking stick, kettle, mallet, cup, backpack, sleeping bag, binoculars, camera, snorkel, belt, bag and shovel.",
+          "region": {
+            "x": 140,
+            "y": 452,
+            "w": 346,
+            "h": 76
+          }
+        },
+        {
+          "text": "The complete Waldo carries a cup, a walking stick and a backpack, with a rolled bundle strapped on top.",
+          "region": {
+            "x": 236,
+            "y": 110,
+            "w": 140,
+            "h": 262
+          }
+        }
+      ],
+      "leap": "Twelve items on one list, and the man who signed it is carrying most of them at once. A packing list that fits one body this exactly is not a packing list. It's an ==issue sheet==. Nobody gets issued a whole kit. Except him.",
+      "update": {
+        "time": "4:02 AM",
+        "text": "I counted the list. Twelve. Then I counted what he is carrying, and it kept matching the list. Who packs for a hike and fits the whole thing to one man?"
+      },
+      "note": "ALL TWELVE. ONE BODY.",
+      "stamp": "INVENTORY",
+      "asset": "evidence/p02-gear-list.png",
+      "alt": "The packing list in the margin: walking stick, kettle, mallet, cup, backpack, sleeping bag, binoculars, camera, snorkel, belt, bag and shovel.",
+      "caption": "twelve items. one body.",
+      "paranoia": 2,
+      "links": [
+        {
+          "to": "P01",
+          "label": "HE ISSUED HIMSELF"
+        },
+        {
+          "to": "P08",
+          "label": "WHO HAS THE CAMERA?"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "num": 3,
+      "title": "TWENTY-FIVE WATCHERS FOR ONE OUTFIT",
+      "region": {
+        "x": 338,
+        "y": 1012,
+        "w": 48,
+        "h": 112
+      },
+      "facts": [
+        {
+          "text": "The letter says there are \"ALSO 25 WALDO-WATCHERS SOMEWHERE.\"",
+          "region": {
+            "x": 130,
+            "y": 610,
+            "w": 336,
+            "h": 42
+          }
+        },
+        {
+          "text": "This lookalike wears a bobble hat, a striped top and a blue skirt. No jeans.",
+          "region": {
+            "x": 348,
+            "y": 1060,
+            "w": 34,
+            "h": 30
+          }
+        }
+      ],
+      "leap": "Twenty-five people whose whole job is to watch for him. You don't post twenty-five watchers for one man. You post them for an outfit that ==keeps changing shape==. Look at the skirt: same hat, same stripes, new cut. That's what they're watching for.",
+      "update": {
+        "time": "4:12 AM",
+        "text": "I have now pictured twenty-five watchers. Every one of them was looking at the skirt."
+      },
+      "note": "SAME OUTFIT. NEW CUT.",
+      "stamp": "25 ON DUTY",
+      "asset": "evidence/p03-skirt.png",
+      "alt": "A lookalike in a red-and-white bobble hat, striped top, blue skirt and striped stockings, at the bottom middle of the scene.",
+      "caption": "same hat. new skirt.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P04",
+          "label": "THEY WALK IN STEP"
+        },
+        {
+          "to": "P05",
+          "label": "LINE THEM UP"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "book-page-challenge",
+          "claim": "P07",
+          "label": "TWENTY-FIVE AGAIN"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "num": 4,
+      "title": "THE MARCH: SAME STEP, SAME DIRECTION",
+      "region": {
+        "x": 215,
+        "y": 836,
+        "w": 262,
+        "h": 174
+      },
+      "facts": [
+        {
+          "text": "The letter says each of the 25 watchers appears \"ONLY ONCE IN MY TRAVELS.\"",
+          "region": {
+            "x": 205,
+            "y": 644,
+            "w": 232,
+            "h": 20
+          }
+        },
+        {
+          "text": "Two printed rows of striped walkers under the letter, most of them in bobble hats and most heading the same way.",
+          "region": {
+            "x": 215,
+            "y": 836,
+            "w": 262,
+            "h": 174
+          }
+        }
+      ],
+      "leap": "Twenty-five watchers, each turning up once and then gone. The walkers printed right under the letter do the opposite: most of them walk the same stride in the same direction. Watchers scatter. Uniforms march. ==One set of instructions does that.==",
+      "update": {
+        "time": "4:20 AM",
+        "text": "Closed the curtains. The rows are still marching in my head. Left foot. Left foot. CONVENIENT."
+      },
+      "note": "LEFT FOOT. LEFT FOOT.",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/p04-march.png",
+      "alt": "Two rows of striped walkers in red-and-white bobble hats, most walking in the same direction.",
+      "caption": "left foot, left foot.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P03",
+          "label": "25, ONE EACH"
+        },
+        {
+          "to": "P05",
+          "label": "THE PIECES ARE MISSING"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "book-page-challenge",
+          "claim": "P03",
+          "label": "SAME ROWS, FIRST PRINTING"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "num": 5,
+      "title": "LINE THEM UP. EVERY ONE IS MISSING A PIECE.",
+      "region": {
+        "x": 278,
+        "y": 838,
+        "w": 220,
+        "h": 290
+      },
+      "facts": [
+        {
+          "text": "The blond lookalike wears a red-and-white hat, with yellow hair showing beneath it.",
+          "region": {
+            "x": 278,
+            "y": 838,
+            "w": 32,
+            "h": 76
+          }
+        },
+        {
+          "text": "The glasses lookalike has a bobble hat, round glasses and blue jeans, but no walking stick.",
+          "region": {
+            "x": 436,
+            "y": 858,
+            "w": 34,
+            "h": 70
+          }
+        }
+      ],
+      "leap": "Four suspects, and every one is missing something: a stick, a backpack, or the jeans. None of them is the whole kit. The kit isn't a person. It is a set of parts that someone keeps ==handing out==.",
+      "update": {
+        "time": "4:44 AM",
+        "text": "I drew this lineup on the back of a receipt. Four faces. Four missing pieces. I checked twice."
+      },
+      "note": "NONE OF THEM IS COMPLETE",
+      "stamp": "LINEUP",
+      "asset": "evidence/p05-lineup.png",
+      "alt": "Four lookalikes in one strip: each wears some of the outfit and is missing other pieces.",
+      "caption": "four suspects. no full set.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P01",
+          "label": "THE COMPLETE ONE"
+        },
+        {
+          "to": "P03",
+          "label": "THE SKIRT IS IN THE LINEUP"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "num": 6,
+      "title": "ODLAW WEARS THE STRIPES IN THE WRONG COLOURS",
+      "region": {
+        "x": 195,
+        "y": 1012,
+        "w": 70,
+        "h": 112
+      },
+      "facts": [
+        {
+          "text": "Odlaw wears black-and-yellow stripes, a black hat and black trousers.",
+          "region": {
+            "x": 195,
+            "y": 1012,
+            "w": 70,
+            "h": 112
+          }
+        },
+        {
+          "text": "The letter asks: \"AND ODLAW'S BINOCULARS?\"",
+          "region": {
+            "x": 130,
+            "y": 731,
+            "w": 307,
+            "h": 33
+          }
+        }
+      ],
+      "leap": "Odlaw has stripes too. Yellow instead of red and white. The letter asks where his binoculars are, and the binoculars are on the list. ==Same kit, reversed, issued to the other side.==",
+      "update": {
+        "time": "5:01 AM",
+        "text": "Opposite stripes. Same cut. Two sets, one for each side, and one of them is in the wrong colours on purpose."
+      },
+      "note": "SAME CUT. OPPOSITE COLOURS.",
+      "stamp": "EYES ONLY",
+      "asset": "evidence/p06-odlaw.png",
+      "alt": "Odlaw in black-and-yellow stripes, a black hat and black trousers, walking across the lower left of the scene.",
+      "caption": "the other set.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P02",
+          "label": "THE BINOCULARS ARE ON THE LIST"
+        },
+        {
+          "to": "P07",
+          "label": "WHO IS WATCHING?"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "book-page-challenge",
+          "claim": "P08",
+          "label": "SAME ODLAW, SAME COLOURWAY"
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "num": 7,
+      "title": "THE MAN ON THE LEDGE IS WATCHING THE STRIPES",
+      "region": {
+        "x": 1926,
+        "y": 586,
+        "w": 68,
+        "h": 98
+      },
+      "facts": [
+        {
+          "text": "A man sits on the ledge with a dark object raised to his face.",
+          "region": {
+            "x": 1944,
+            "y": 598,
+            "w": 26,
+            "h": 22
+          }
+        },
+        {
+          "text": "A red-and-white striped awning runs into the red-brick wall just to his left.",
+          "region": {
+            "x": 1712,
+            "y": 522,
+            "w": 206,
+            "h": 108
+          }
+        }
+      ],
+      "leap": "He is up on the brick wall beside the awning, with something to his eye, and the list has binoculars on it. ==Nobody watches a street that closely unless they were told what to look for.==",
+      "update": {
+        "time": "5:18 AM",
+        "text": "The ledge is the one spot on the street nobody can reach from the ground. I checked. I didn't go up."
+      },
+      "note": "WHO SENT HIM UP THERE?",
+      "stamp": "SURVEILLANCE",
+      "asset": "evidence/p07-ledge.png",
+      "alt": "A man sits on a ledge beside a red-and-white awning, with a dark object raised to his face.",
+      "caption": "lookout. striped awning below.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P06",
+          "label": "WHO IS HE LOOKING FOR?"
+        },
+        {
+          "to": "P08",
+          "label": "THE CAMERA"
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "num": 8,
+      "title": "THE PROPS CHANGE HANDS",
+      "region": {
+        "x": 272,
+        "y": 1010,
+        "w": 54,
+        "h": 112
+      },
+      "facts": [
+        {
+          "text": "The letter says the camera is Wenda's, and the scroll belongs to Wizard Whitebeard.",
+          "region": {
+            "x": 130,
+            "y": 712,
+            "w": 305,
+            "h": 36
+          }
+        },
+        {
+          "text": "Wizard Whitebeard holds a staff striped in red, white and blue.",
+          "region": {
+            "x": 313,
+            "y": 1002,
+            "w": 16,
+            "h": 120
+          }
+        }
+      ],
+      "leap": "The camera on his list is Wenda's. The scroll is the wizard's. Every prop on the list has another owner, and the wizard is holding a striped pole. ==Stripes are what the props are dressed in.==",
+      "update": {
+        "time": "5:33 AM",
+        "text": "I can't find the camera. I can find the staff. The staff is striped. The camera is a rumour."
+      },
+      "note": "NOT IN HIS HANDS",
+      "stamp": "CHAIN OF CUSTODY",
+      "asset": "evidence/p08-wizard.png",
+      "alt": "Wizard Whitebeard in a red robe and blue pointed hat, holding a red, white and blue striped staff.",
+      "caption": "the props have new owners.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P02",
+          "label": "THE LIST AGAIN"
+        },
+        {
+          "to": "P09",
+          "label": "THE SIGNATURE"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "book-page-challenge",
+          "claim": "P02",
+          "label": "SAME WIZARD, SAME STAFF"
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "num": 9,
+      "title": "HE SIGNED THE SEARCH",
+      "region": {
+        "x": 328,
+        "y": 794,
+        "w": 74,
+        "h": 40
+      },
+      "facts": [
+        {
+          "text": "A handwritten \"Waldo\" with a scribbled underline sits just past the end of the letter's last printed line.",
+          "region": {
+            "x": 328,
+            "y": 794,
+            "w": 74,
+            "h": 40
+          }
+        },
+        {
+          "text": "The printed line beside it ends \"...A SEARCH!\"",
+          "region": {
+            "x": 236,
+            "y": 790,
+            "w": 86,
+            "h": 20
+          }
+        }
+      ],
+      "leap": "He wrote his name just past the word SEARCH, the way you sign for a delivery. Waldo is not the one looking. ==Waldo is what you sign for.==",
+      "update": {
+        "time": "5:47 AM",
+        "text": "He signed it. Nobody signs a crowd unless they want the credit. CONVENIENT."
+      },
+      "note": "SIGNED. WHO FOR?",
+      "stamp": "RECEIPT",
+      "asset": "evidence/p09-signature.png",
+      "alt": "Handwritten Waldo with a scribbled underline beside a line of printed text ending in A SEARCH.",
+      "caption": "he signed the search.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P01",
+          "label": "MY NAME IS WALDO"
+        },
+        {
+          "to": "P10",
+          "label": "THE DOG IS IN STRIPES"
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "num": 10,
+      "title": "EVEN THE DOG IS IN UNIFORM",
+      "region": {
+        "x": 382,
+        "y": 1080,
+        "w": 86,
+        "h": 44
+      },
+      "facts": [
+        {
+          "text": "The letter names the dog: \"WOOF (BUT ALL YOU CAN SEE IS HIS TAIL).\"",
+          "region": {
+            "x": 130,
+            "y": 576,
+            "w": 345,
+            "h": 38
+          }
+        },
+        {
+          "text": "The dog wears a red-and-white hat, and his body and tail are striped.",
+          "region": {
+            "x": 382,
+            "y": 1080,
+            "w": 86,
+            "h": 44
+          }
+        }
+      ],
+      "leap": "The letter names the dog and then tells you what you can see of him. What you can see is a hat and stripes, body and tail, all in the same uniform. ==He was dressed for the page, like everyone else.==",
+      "update": {
+        "time": "6:05 AM",
+        "text": "The dog is in the same uniform as the rest of them, and nobody in the letter asks why. Think about it."
+      },
+      "note": "STRIPES, NOSE TO TAIL",
+      "stamp": "EXHIBIT D",
+      "asset": "evidence/p10-woof.png",
+      "alt": "A dog in a red-and-white hat with a striped body and striped tail, on the lower middle of the scene.",
+      "caption": "all you can see.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P01",
+          "label": "THE HAT, THE STRIPES"
+        },
+        {
+          "to": "P09",
+          "label": "HE SIGNED IT"
+        }
+      ]
+    }
+  ],
+  "lineupReference": {
+    "claim": "P01",
+    "name": "WALDO (reference): THE COMPLETE KIT",
+    "has": [
+      "red-and-white bobble hat",
+      "round glasses",
+      "striped shirt",
+      "blue jeans",
+      "walking stick",
+      "backpack",
+      "cup"
+    ],
+    "missing": []
+  },
+  "lineup": [
+    {
+      "id": "L1",
+      "name": "SUSPECT 1: \"THE CANE\"",
+      "region": {
+        "x": 440,
+        "y": 1010,
+        "w": 56,
+        "h": 113
+      },
+      "asset": "evidence/suspect-1.png",
+      "alt": "A lookalike in a bobble hat, round glasses, striped shirt and blue jeans, holding a walking stick.",
+      "has": [
+        "red-and-white bobble hat",
+        "round glasses",
+        "striped shirt",
+        "blue jeans",
+        "walking stick"
+      ],
+      "missing": [
+        "backpack",
+        "cup"
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "SUSPECT 2: \"THE SKIRT\"",
+      "region": {
+        "x": 338,
+        "y": 1012,
+        "w": 48,
+        "h": 112
+      },
+      "asset": "evidence/suspect-2.png",
+      "alt": "A lookalike in a bobble hat, striped top, blue skirt and striped stockings.",
+      "has": [
+        "red-and-white bobble hat",
+        "striped top",
+        "striped stockings"
+      ],
+      "missing": [
+        "blue jeans (wears a skirt)",
+        "walking stick"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "SUSPECT 3: \"THE BLOND\"",
+      "region": {
+        "x": 278,
+        "y": 838,
+        "w": 32,
+        "h": 76
+      },
+      "asset": "evidence/suspect-3.png",
+      "alt": "A lookalike with a red-and-white hat, yellow hair showing beneath it, a striped top and a blue skirt.",
+      "has": [
+        "red-and-white hat",
+        "striped top",
+        "blue skirt"
+      ],
+      "missing": [
+        "blue jeans (wears a skirt)",
+        "walking stick"
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "SUSPECT 4: \"THE GLASSES\"",
+      "region": {
+        "x": 436,
+        "y": 858,
+        "w": 34,
+        "h": 70
+      },
+      "asset": "evidence/suspect-4.png",
+      "alt": "A lookalike in a bobble hat, round glasses, striped top and blue jeans, with no walking stick.",
+      "has": [
+        "red-and-white bobble hat",
+        "round glasses",
+        "striped top",
+        "blue jeans"
+      ],
+      "missing": [
+        "walking stick",
+        "backpack"
+      ]
+    }
+  ],
+  "stripes": [
+    {
+      "id": "S01",
+      "label": "Red-and-white café awning, top right",
+      "region": {
+        "x": 1712,
+        "y": 522,
+        "w": 206,
+        "h": 108
+      }
+    },
+    {
+      "id": "S02",
+      "label": "Red-and-white tent along the bottom edge",
+      "region": {
+        "x": 700,
+        "y": 1200,
+        "w": 200,
+        "h": 60
+      }
+    },
+    {
+      "id": "S03",
+      "label": "Green-and-white striped tent, bottom left of the market",
+      "region": {
+        "x": 1180,
+        "y": 1190,
+        "w": 140,
+        "h": 70
+      }
+    },
+    {
+      "id": "S04",
+      "label": "Red-and-white market booth",
+      "region": {
+        "x": 1322,
+        "y": 984,
+        "w": 118,
+        "h": 86
+      }
+    },
+    {
+      "id": "S05",
+      "label": "Blue-and-white market awning",
+      "region": {
+        "x": 1608,
+        "y": 1018,
+        "w": 152,
+        "h": 104
+      }
+    },
+    {
+      "id": "S06",
+      "label": "Woof, the striped dog",
+      "region": {
+        "x": 382,
+        "y": 1080,
+        "w": 86,
+        "h": 44
+      }
+    },
+    {
+      "id": "S07",
+      "label": "The wizard's red, white and blue staff",
+      "region": {
+        "x": 314,
+        "y": 1018,
+        "w": 14,
+        "h": 104
+      }
+    },
+    {
+      "id": "S08",
+      "label": "Odlaw's black-and-yellow shirt",
+      "region": {
+        "x": 200,
+        "y": 1034,
+        "w": 40,
+        "h": 32
+      }
+    },
+    {
+      "id": "S09",
+      "label": "Cane lookalike, striped shirt and bobble hat",
+      "region": {
+        "x": 440,
+        "y": 1010,
+        "w": 56,
+        "h": 113
+      }
+    },
+    {
+      "id": "S10",
+      "label": "Skirt lookalike's striped top",
+      "region": {
+        "x": 338,
+        "y": 1012,
+        "w": 48,
+        "h": 112
+      }
+    },
+    {
+      "id": "S11",
+      "label": "Blond lookalike's striped top",
+      "region": {
+        "x": 278,
+        "y": 838,
+        "w": 32,
+        "h": 76
+      }
+    },
+    {
+      "id": "S12",
+      "label": "Glasses lookalike's striped top",
+      "region": {
+        "x": 436,
+        "y": 858,
+        "w": 34,
+        "h": 70
+      }
+    },
+    {
+      "id": "S13",
+      "label": "Printed rows of striped walkers, under the letter",
+      "region": {
+        "x": 215,
+        "y": 836,
+        "w": 262,
+        "h": 174
+      }
+    },
+    {
+      "id": "S14",
+      "label": "The complete Waldo's striped shirt",
+      "region": {
+        "x": 276,
+        "y": 144,
+        "w": 96,
+        "h": 52
+      }
+    }
+  ],
+  "censusComments": [
+    "Fourteen stripes so far. Four of them are on the people with the hat. I did not expect that.",
+    "The café awning is red and white. Odlaw's shirt is black and yellow. Same cut, wrong colours. I've written it down twice.",
+    "The wizard's staff is stripes too. Even the pole is in uniform. Nobody told the pole.",
+    "UPDATE 5:52 AM: The blue awning in the market is not red and white. It counts anyway. Stripes are stripes.",
+    "Still counting. The more I look, the more I find. That's how you know it's the pattern."
+  ],
+  "guestbook": [
+    {
+      "name": "kestrel_mom_22",
+      "date": "04/02/2004",
+      "text": "It's a camping list. Waldo has a stick and a cup. You're reading a children's book like it's a file.",
+      "reply": "Kestrel. The list says \"I'VE GOT ALL I NEED.\" Read it again, then count what he is carrying.",
+      "claim": "P02"
+    },
+    {
+      "name": "gridlock_ben",
+      "date": "04/03/2004",
+      "text": "Odlaw is just the bad guy. Black and yellow is a bee. That's the whole theory.",
+      "reply": "A bee is also a uniform. ~~I'm not crazy.~~ Bees don't have binoculars. Odlaw's are on the list.",
+      "claim": "P06"
+    },
+    {
+      "name": "nope_nope_nope",
+      "date": "04/04/2004",
+      "text": "So there are 25 different men? Why would anyone make 25 men?",
+      "reply": "Nobody said 25 men. The letter said 25 Waldo-watchers. Those are not men. Ask the skirt.",
+      "claim": "P03"
+    }
+  ],
+  "updates": [
+    {
+      "time": "Night 35, 3:47 AM",
+      "text": "I scanned the letter forty times. Every line reads like an intro. None of them reads like a name tag. CONVENIENT.",
+      "claim": "P01"
+    },
+    {
+      "time": "Night 35, 4:31 AM",
+      "text": "The list is printed, not handwritten. Printed means issued. I called the office that prints things. Nobody there has heard of Waldo.",
+      "claim": "P02"
+    },
+    {
+      "time": "Night 35, 5:12 AM",
+      "text": "The watcher on the ledge hasn't moved in my notes. I have not looked away from him. Not once.",
+      "claim": "P07"
+    },
+    {
+      "time": "Night 35, 6:05 AM",
+      "text": "The dog is striped from the body to the tail, and nobody in the letter asks why. Think about it.",
+      "claim": "P10"
+    },
+    {
+      "time": "Night 35, 6:30 AM",
+      "text": "The walker strip under this letter is the scroll's strip. Same rows. Same Odlaw. Same wizard. Same 25 WALDO-WATCHERS. Not similar. THE SAME. You don't reprint a man. You reprint a catalogue.",
+      "claim": "P04"
+    }
+  ],
+  "receipts": [
+    {
+      "item": "Packing list, 12 items (printed)",
+      "price": "$0.00",
+      "note": "NOT ORDERED BY ME. \"I'VE GOT ALL I NEED.\"",
+      "claim": "P02"
+    },
+    {
+      "item": "Watcher count (x25), one outfit",
+      "price": "PAID",
+      "note": "one per watcher, each seen once",
+      "claim": "P03"
+    },
+    {
+      "item": "Black pen, used on a search",
+      "price": "$3.19",
+      "note": "see the underline",
+      "claim": "P09"
+    }
+  ],
+  "verdict": {
+    "lines": [
+      "He says his name is Waldo. He says it on a list of twelve things, and the man who signed it is carrying most of them.",
+      "Twenty-five watchers, each seen once, all watching one outfit. Four suspects, and none of them is complete.",
+      "The only complete kit is on the man who signed the search. Everyone else is wearing a piece of it, and the stripes are handed out to the rest."
+    ],
+    "button": "Request Further Investigation"
+  },
+  "cipher": {
+    "cipher": "YRNQ: GUR CNPXVAT YVFG VF GUR HAVSBEZ. FRR CEBBS #2.",
+    "plain": "LEAD: THE PACKING LIST IS THE UNIFORM. SEE PROOF #2.",
+    "claim": "P02"
+  },
+  "footer": "This is a parody. Waldo is a fictional character created by Martin Handford. No actual investigation occurred."
+}

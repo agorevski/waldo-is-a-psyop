@@ -82,6 +82,8 @@ python3 $S/new_scene.py path/to/image.jpg [--id <id>]
 
 This validates and derives the id, refuses to overwrite an existing scene (use `--force` only to deliberately replace one), copies the image to `scenes/<id>/scene.<ext>`, writes a `case.json` skeleton with the real `image.width`/`height` and `TODO` placeholders, creates `evidence/`, and appends the id to `scenes/index.json` (creating the manifest if it is missing). `validate_case.py` rejects every `TODO`, so nothing ships unfinished.
 
+If the user dropped images straight into `scenes/<id>/scene.<ext>` (no `case.json` yet), scaffold them in place: `python3 $S/new_scene.py scenes/<id>/scene.jpg --id <id>`. A folder without `case.json` is not treated as an existing scene.
+
 ### Step 2: Survey the image and verify hooks
 
 ```sh
@@ -141,6 +143,18 @@ At 360 px and 1440 px: no console errors, no 404s, no horizontal scroll. Open ev
 ### Step 8: Commit (and deploy)
 
 Commit `scenes/<id>/**` and `scenes/index.json`, plus every other scene the refinement touched and the engine files when bootstrapping. Never commit `.waldo-work/`; delete it when you're done. If the repo has `.github/workflows/pages.yml`, a push to `main` validates and deploys; the scene goes live at `https://<owner>.github.io/<repo>/scene.html?id=<id>`.
+
+## Building several scenes at once (parallel subagents)
+
+When several new images arrive together, you may give Steps 2–5 of each scene to its own subagent. These rules come from real failures:
+
+1. **Scaffold sequentially, in the orchestrator.** Run `new_scene.py` for every image yourself, one at a time, before dispatching anything. Parallel runs race on `scenes/index.json`.
+2. **Pre-assign the shared timeline.** Before dispatch, give each scene its own unique, increasing `site.caseNumber`, its `hitCounterBase`, and its **Night number** (in manifest order: the existing scenes keep theirs, and each new file is one night later). Tell each writer: "this is case file #N, written on Night M. Never write 'For 31 nights I have looked at this ONE …', 'the second case file', or another scene's Night." Left alone, parallel writers all claim Night 31 and all claim to be the second file.
+3. **Each writer prompt includes**: the scene id, the reading list (SKILL.md, hook-discovery.md, beach-hooks.md, voice.md, data-contract.md, and an existing finished `case.json` as a voice reference), its exclusive ownership (`scenes/<id>/**` only; never `scenes/index.json`, other scenes, or the engine), and "no `crossLinks` or theory; the orchestrator does that".
+4. **Audit before Layer 1 (mandatory for subagent-written scenes).** Writers routinely misquote printed text (wrong word, e.g. "LOOKALIKES" for "WATCHERS"; altered punctuation), miscount, misplace ("on the wall", "beside"), or describe the setting wrongly (white ground called "sand"). Send a **fresh** subagent per scene (not the writer) to re-view every fact on a `make_crops.py --no-write --facts` sheet and `zoom.py`, mark each TRUE/PARTIAL/FALSE, and fix it. Then the orchestrator greps for the old wording: an auditor fixes the fact but often leaves the claim title, marquee, receipts, guestbook, and verdict still built on the false version.
+5. **Image viewing can fail or come back empty** in subagents (quota or a large sheet). Tell writers and auditors to retry, split sheets with `--only P01,P02`, and fall back to per-region `zoom.py` views. Never accept a fact that was never actually viewed.
+6. **Check for duplicate artwork across scenes.** Two images may be scans of the same picture, or books may reprint the same legend strip. Compare thumbnails side by side. A duplicate is never independent corroboration, but it is a verifiable cross-scene fact in its own right (see grand-theory.md).
+7. **Give every scene a distinct `site.title`** (for example "THE BEACH POSTCARD", "THE SEALED SCROLL"). It is the gallery card heading and the label on every theory evidence chip ("→ <title> · PROOF #3"). Writers copying an existing `case.json` all reuse "WALDO IS A PSYOP", which makes every chip read the same. Subtitles must differ too.
 
 ## Bootstrap: build the engine (BOOTSTRAP mode only)
 

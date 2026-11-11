@@ -3,16 +3,17 @@
 > *"Stop looking for him. He's not on the beach. He's a stamp, a postmark, and a uniform, and somebody is counting on you to keep looking."*
 > — Night 31, 8:30 AM
 
-For thirty-one nights, one amateur theorist has stared at a single *Where's Waldo?* beach scene and concluded that the man in the stripes was never a man at all. He is a product launch. He is a postal question. He is two people in the same hat. He is, very possibly, a hovercraft.
+For thirty-one nights, one amateur theorist stared at a single *Where's Waldo?* beach scene and concluded that the man in the stripes was never a man at all. Then he opened the rest of the folder. Seven case files later (a beach, a sealed scroll, a department store, a dragon in a crowd, a packing list, and the same Trojan war twice), he has a **grand theory**: Waldo is a product, issued by THE DEPARTMENT, and the mailing list is you.
 
-This repository is the case file: a static website with no build step that presents the evidence as the investigator found it. Every "clue" is a deliberately absurd reading of something actually visible in `scenes/beach/scene.jpg`. The investigator is wrong. The pictures are right. Go check.
+This repository is the case files: a static website with no build step that presents the evidence as the investigator found it. Every "clue" is a deliberately absurd reading of something actually visible in the scene images under `scenes/<id>/`. The investigator is wrong. The pictures are right. Go check.
 
 ## What you'll find
 
-- **Twelve proofs** pinned to a corkboard and connected with red string. Each has two facts you can verify in five seconds and one leap you're not supposed to make.
-- **SEE FOR YOURSELF** buttons that zoom the real beach to the exact spot under discussion.
-- **The Lineup:** five beachgoers in red-and-white stripes, each missing exactly the piece that would make them Waldo.
-- **Stripe Census:** click every striped thing on the beach. The count is saved in your browser, so you can prove you counted.
+- **Seven case files** in a gallery, tied together by **The Grand Theory**: motifs and an eight-step chain where every link is a chip that jumps to the proof it cites.
+- **Ten to twelve proofs per case file**, pinned to a corkboard and connected with red string. Each has two facts you can verify in five seconds and one leap you're not supposed to make.
+- **SEE FOR YOURSELF** buttons that zoom the real scene to the exact spot under discussion.
+- **The Lineup:** the people in red-and-white stripes, each missing exactly the piece that would make them Waldo.
+- **Stripe Census:** click every striped thing in the scene. The count is saved in your browser, so you can prove you counted.
 - **Redacted documents** that reveal the jokes when clicked.
 - **A guestbook** where readers push back and the investigator replies, increasingly unwell.
 - **A paranoia meter** that rises as you look at more evidence. Reset it if you're getting too calm.

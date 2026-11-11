@@ -1,0 +1,866 @@
+{
+  "image": {
+    "src": "scene.jpg",
+    "width": 2828,
+    "height": 1828,
+    "alt": "A crowded battlefield of helmeted soldiers in red, blue, yellow and teal, with a wooden horse and ramp on the left, a galley on the left below a smoking volcano, and round shields with printed numbers, dollar signs and symbols in the crowd at the bottom right."
+  },
+  "site": {
+    "title": "THE PRICED SHIELDS",
+    "subtitle": "A Free Investigation Into the Shields With Numbers On Them",
+    "caseNumber": "CASE #WDE-1962-M",
+    "banner": "⚠ THIS IS MIRROR #7. THE OTHERS ARE GONE. SAVE THIS PAGE TO YOUR COMPUTER. ⚠",
+    "marquee": "THEY WANT YOU LOOKING FOR HIM ★ THE SHIELDS HAVE PRICES ★ 76 + 101 + 41 IS NOT 100 ★ COUNT THE SHIELDS ★ WHO IS ON WATCH? ★ IT'S A SCORE ★ NO SHIELD HAS THE WHOLE MAN ★",
+    "heroCaption": "EXHIBIT 0: The battlefield. Every printed number is a rating. Every shield is a line of the score. Click a pin. Click a shield. LOOK.",
+    "intro": [
+      "The beach had a stamp. The department store had a stamp. This time there isn't one. There are NUMBERS, painted on SHIELDS, in the middle of a war. Nobody else in the picture has a number on them. I checked. Three times.",
+      "Night 37. I have seen this battlefield before. Not one LIKE it. THIS ONE. It was in the siege file last night. Somewhere around 3 AM I stopped asking WHICH soldier is him and started asking the question nobody wants you to ask: ==why is every shield on this field rated, priced, or signed?==",
+      "Every proof below has a SEE FOR YOURSELF button. I'm not asking you to trust me. I'm asking you to LOOK. ~~I'm not crazy.~~ Just count.",
+      "Start with the shields at the bottom right. They always start with the shields."
+    ],
+    "hitCounterBase": 1962,
+    "lastUpdated": "Night 37, 9:40 AM",
+    "censusInstructions": "Click every shield with a symbol on it above."
+  },
+  "claims": [
+    {
+      "id": "P01",
+      "num": 1,
+      "title": "THE SHIELDS HAVE PRICES",
+      "region": {
+        "x": 2490,
+        "y": 1184,
+        "w": 110,
+        "h": 52
+      },
+      "facts": [
+        {
+          "text": "A round shield in the bottom-right crowd is printed with \"76%\" in black letters.",
+          "region": {
+            "x": 2495,
+            "y": 1188,
+            "w": 40,
+            "h": 44
+          }
+        },
+        {
+          "text": "The shield right beside it is printed with \"101%\".",
+          "region": {
+            "x": 2538,
+            "y": 1188,
+            "w": 54,
+            "h": 44
+          }
+        }
+      ],
+      "leap": "Shields don't come with percentages. Nobody is ==76 percent== of a soldier, and nobody is 101 percent of anything. Those are the numbers you put on something that gets rated and sold. So the shields are ISSUED, graded, and handed out. And a shield that's been graded is a shield that somebody is holding for him.",
+      "update": {
+        "time": "3:12 AM",
+        "text": "Counted the percent shields three times. Still 76 and 101. I can't find a number on anybody else on this field."
+      },
+      "note": "RATED = ISSUED",
+      "stamp": "EXHIBIT A",
+      "asset": "evidence/percent-76-101.png",
+      "alt": "Two round shields in the crowd, one printed 76% and the other printed 101%.",
+      "caption": "rated. like stock.",
+      "paranoia": 1,
+      "links": [
+        {
+          "to": "P02",
+          "label": "THE 41% ADDS IT UP"
+        },
+        {
+          "to": "P03",
+          "label": "WHO IS PAYING?"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "siege-of-troy",
+          "claim": "P02",
+          "label": "SAME PRICES, FIRST PRINTING"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "num": 2,
+      "title": "THE PERCENTAGES DON'T ADD UP",
+      "region": {
+        "x": 2488,
+        "y": 1186,
+        "w": 216,
+        "h": 48
+      },
+      "facts": [
+        {
+          "text": "A third shield, next to the others, is printed with \"41%\".",
+          "region": {
+            "x": 2590,
+            "y": 1192,
+            "w": 44,
+            "h": 40
+          }
+        },
+        {
+          "text": "On the far right, a round shield shows a crossed X and no number at all.",
+          "region": {
+            "x": 2658,
+            "y": 1190,
+            "w": 44,
+            "h": 40
+          }
+        }
+      ],
+      "leap": "76 + 101 + 41 is 218. Nobody can be more than 100 percent of anything, so these shields are not describing one man. They describe a crowd that's been ==split into pieces==, and the X shield is the piece nobody has been assigned yet. That's what a uniform is: a number of parts, handed out, that still adds up to more than one person.",
+      "update": {
+        "time": "4:05 AM",
+        "text": "Did the sum on the back of a receipt. Got 218. Did it again because 218 can't be right. It is right."
+      },
+      "note": "218% OF SOMEONE",
+      "stamp": "AUDIT FAILED",
+      "asset": "evidence/percent-sum.png",
+      "alt": "Three shields printed 76%, 101% and 41%, with a shield beside them that shows a crossed X and no number.",
+      "caption": "the sum doesn't close",
+      "paranoia": 2,
+      "links": [
+        {
+          "to": "P01",
+          "label": "THE SAME SHIELDS"
+        },
+        {
+          "to": "P03",
+          "label": "THE NUMBERS AGAIN"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "department-store",
+          "claim": "P02",
+          "label": "SOLD FROM STOCK"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "num": 3,
+      "title": "THE DOLLAR SIGNS AND THE EYE",
+      "region": {
+        "x": 2496,
+        "y": 1024,
+        "w": 144,
+        "h": 116
+      },
+      "facts": [
+        {
+          "text": "A cluster of round shields in the middle-right crowd each shows a dollar sign ($).",
+          "region": {
+            "x": 2500,
+            "y": 1025,
+            "w": 80,
+            "h": 92
+          }
+        },
+        {
+          "text": "Lower and to the right, one round shield has a single open eye in its centre.",
+          "region": {
+            "x": 2592,
+            "y": 1096,
+            "w": 44,
+            "h": 40
+          }
+        }
+      ],
+      "leap": "Money and an eye. You don't pay for something you aren't watching. The percentages say what he's worth, the dollar signs say who's buying, and the eye says who's watching the buyer. Nobody on this battlefield is paid to look away. ==Somebody is paying to look at him.==",
+      "update": {
+        "time": "4:40 AM",
+        "text": "Dollar signs in the middle of a WAR. Think about who prints those. Then think about who prints the eye."
+      },
+      "note": "WHO IS PAYING?",
+      "stamp": "SURVEILLANCE",
+      "asset": "evidence/dollars-and-eye.png",
+      "alt": "Round shields printed with dollar signs in the middle-right crowd, and a round shield with an open eye in its centre.",
+      "caption": "$ and an eye. NOT a coincidence.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P02",
+          "label": "THE NUMBERS AGAIN"
+        },
+        {
+          "to": "P04",
+          "label": "THE GIFT HORSE"
+        },
+        {
+          "to": "P10",
+          "label": "WHO IS WATCHING?"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "num": 4,
+      "title": "THE HORSE IS A DELIVERY",
+      "region": {
+        "x": 1005,
+        "y": 165,
+        "w": 215,
+        "h": 160
+      },
+      "facts": [
+        {
+          "text": "A giant wooden horse stands in the upper left-centre of the battlefield, with a wooden ramp running up its side.",
+          "region": {
+            "x": 1005,
+            "y": 165,
+            "w": 215,
+            "h": 160
+          }
+        },
+        {
+          "text": "Soldiers in red and blue are climbing that ramp and standing along the horse's side.",
+          "region": {
+            "x": 1080,
+            "y": 180,
+            "w": 130,
+            "h": 110
+          }
+        }
+      ],
+      "leap": "A hollow box, a ramp, and men going up it. That is a DELIVERY. Nobody checks a gift horse. Same as the shields: the thing is rated, shipped, and handed to people who never asked for it. Waldo came in a box. I'm sure of it. I just can't see the lid.",
+      "update": {
+        "time": "6:02 AM",
+        "text": "Whoever built the horse knew we'd open the gift. That's the whole design. The ramp is the receipt."
+      },
+      "note": "GIFT = DELIVERY",
+      "stamp": "DELIVERY",
+      "asset": "evidence/horse.png",
+      "alt": "A large wooden horse with a ramp on its side, with soldiers climbing up beside it.",
+      "caption": "the box has a RAMP",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P03",
+          "label": "WHO PAID FOR IT?"
+        },
+        {
+          "to": "P05",
+          "label": "THE OTHER EXIT"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "num": 5,
+      "title": "THE BOAT LEAVES BEFORE THE MOUNTAIN",
+      "region": {
+        "x": 0,
+        "y": 470,
+        "w": 120,
+        "h": 90
+      },
+      "facts": [
+        {
+          "text": "At the left edge, a red and yellow galley with a row of rowers sits in the water.",
+          "region": {
+            "x": 0,
+            "y": 470,
+            "w": 120,
+            "h": 90
+          }
+        },
+        {
+          "text": "Behind it, a volcano sends a column of grey smoke into the sky, with fire at its base.",
+          "region": {
+            "x": 170,
+            "y": 238,
+            "w": 78,
+            "h": 125
+          }
+        }
+      ],
+      "leap": "The boat is already in the water. The volcano is smoking. You don't launch a galley on a sea this calm unless you already know which way is out. And the smoke is the cover: ==nobody looks at a boat while the mountain is making a show.== The horse came in by the ramp. The galley goes out by the water. Two exits. Only one of them is in the brochure.",
+      "update": {
+        "time": "6:31 AM",
+        "text": "I counted the rowers. Some are facing the mountain. The one at the back is facing me."
+      },
+      "note": "BOAT BEFORE BOOM",
+      "stamp": "EXIT ROUTE",
+      "asset": "evidence/galley.png",
+      "alt": "A red and yellow galley with rowers on the left, and a smoking volcano in the background.",
+      "caption": "the exit is by the WATER",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P04",
+          "label": "THE OTHER EXIT"
+        },
+        {
+          "to": "P06",
+          "label": "WHO IS ON WATCH?"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "num": 6,
+      "title": "THE WALL THAT'S SLEEPING",
+      "region": {
+        "x": 2060,
+        "y": 206,
+        "w": 100,
+        "h": 105
+      },
+      "facts": [
+        {
+          "text": "Small z-shaped marks float above a plumed soldier standing just right of the wall, among the musical notes.",
+          "region": {
+            "x": 2125,
+            "y": 240,
+            "w": 50,
+            "h": 45
+          }
+        },
+        {
+          "text": "Along the top of the wall, teal crenellations stand with soldiers behind them.",
+          "region": {
+            "x": 2060,
+            "y": 206,
+            "w": 60,
+            "h": 40
+          }
+        }
+      ],
+      "leap": "The battlements above him are staffed, and the soldiers behind them are awake. The man under the z's is not. His z's rise right past the teal battlements like they were ==told what not to see==. A guard who sleeps on his shift has a reason to sleep. Somebody gave him the night off, and nobody signed the rota.",
+      "update": {
+        "time": "7:10 AM",
+        "text": "I'd like to know whose shift it was. Nobody signed the rota. CONVENIENT."
+      },
+      "note": "WHO IS ON WATCH?",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/sleepers.png",
+      "alt": "Small z marks above a plumed soldier standing beside a wall, with teal battlements along its top.",
+      "caption": "zzz. on duty.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P05",
+          "label": "THE BOAT"
+        },
+        {
+          "to": "P07",
+          "label": "THE BAND ON THE WALL"
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "num": 7,
+      "title": "THE SHIELDS ARE PLAYING MUSIC",
+      "region": {
+        "x": 2090,
+        "y": 230,
+        "w": 116,
+        "h": 116
+      },
+      "facts": [
+        {
+          "text": "Round shields in front of the wall are painted with musical notes.",
+          "region": {
+            "x": 2093,
+            "y": 296,
+            "w": 62,
+            "h": 46
+          }
+        },
+        {
+          "text": "Nearby, a man raises a long brass horn to his mouth.",
+          "region": {
+            "x": 2168,
+            "y": 280,
+            "w": 36,
+            "h": 22
+          }
+        }
+      ],
+      "leap": "A note painted on a shield is not decoration. It's a signal. The horn starts the tune, the notes say when, and every shield is a line of the score. Read it left to right and it's not a song. It's a ==plan==.",
+      "update": {
+        "time": "7:32 AM",
+        "text": "Tried humming it. I'm not going to say what it sounded like."
+      },
+      "note": "IT'S A SCORE",
+      "stamp": "OVERHEARD",
+      "asset": "evidence/music-shields.png",
+      "alt": "Round shields in front of the wall with musical notes, and a man raising a horn beside them.",
+      "caption": "a horn. and the NOTES.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P06",
+          "label": "WHO IS ON WATCH?"
+        },
+        {
+          "to": "P08",
+          "label": "THE HAMMERS"
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "num": 8,
+      "title": "THE HAMMERS AND THE ARROWS",
+      "region": {
+        "x": 1930,
+        "y": 1200,
+        "w": 80,
+        "h": 70
+      },
+      "facts": [
+        {
+          "text": "A round white shield near the centre-left shows two crossed hammers in black.",
+          "region": {
+            "x": 1010,
+            "y": 1580,
+            "w": 62,
+            "h": 56
+          }
+        },
+        {
+          "text": "Round shields on the right are marked with arrows pointing in several different directions.",
+          "region": {
+            "x": 1930,
+            "y": 1200,
+            "w": 80,
+            "h": 70
+          }
+        }
+      ],
+      "leap": "Hammers build the horse. Arrows point the way out. Put them on the same field and you have a work order with directions. ==Somebody made the shields the way they made the horse==, one piece at a time. Waldo isn't on any of them. He's the instructions.",
+      "update": {
+        "time": "8:05 AM",
+        "text": "The arrows don't agree with each other. I've decided that's deliberate."
+      },
+      "note": "WHERE DO THEY POINT?",
+      "stamp": "WORK ORDER",
+      "asset": "evidence/hammers-and-arrows.png",
+      "alt": "A round white shield with crossed hammers, and round shields with arrows pointing in different directions.",
+      "caption": "a work order with ARROWS",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P07",
+          "label": "THE SCORE"
+        },
+        {
+          "to": "P09",
+          "label": "THE RED CROSS"
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "num": 9,
+      "title": "THE RED CROSS IS THE PATTERN",
+      "region": {
+        "x": 530,
+        "y": 1528,
+        "w": 144,
+        "h": 80
+      },
+      "facts": [
+        {
+          "text": "A white shield on the left of the crowd carries a bold red cross.",
+          "region": {
+            "x": 535,
+            "y": 1535,
+            "w": 40,
+            "h": 50
+          }
+        },
+        {
+          "text": "A second white shield, a few figures to the right, carries the same bold red cross.",
+          "region": {
+            "x": 642,
+            "y": 1540,
+            "w": 32,
+            "h": 60
+          }
+        }
+      ],
+      "leap": "Two shields, the same red cross on white, a few figures apart. Red and white, the same colours as the outfit. The cross is the MARK: they printed it on the shield, then dressed the men to match. ==The uniform comes from the shield, not the other way round.== Nobody on this field is wearing his own colours.",
+      "update": {
+        "time": "8:40 AM",
+        "text": "Nobody in my family has ever been issued a shield. I checked. Twice."
+      },
+      "note": "THE CROSS IS THE CUT",
+      "stamp": "PATTERN",
+      "asset": "evidence/red-cross.png",
+      "alt": "Two white shields with bold red crosses, a few figures apart in the crowd.",
+      "caption": "red on white. the SAME pattern.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P08",
+          "label": "THE HAMMERS"
+        },
+        {
+          "to": "P10",
+          "label": "WHO CARRIES THE SHIELDS?"
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "num": 10,
+      "title": "NO SHIELD HAS THE WHOLE MAN",
+      "region": {
+        "x": 2480,
+        "y": 1180,
+        "w": 240,
+        "h": 92
+      },
+      "facts": [
+        {
+          "text": "Three percentage shields sit in a row at the bottom right, each printed with one number and no other.",
+          "region": {
+            "x": 2495,
+            "y": 1188,
+            "w": 200,
+            "h": 44
+          }
+        },
+        {
+          "text": "The shield with the crossed X sits at the end of that row, with no number printed on it.",
+          "region": {
+            "x": 2658,
+            "y": 1190,
+            "w": 44,
+            "h": 40
+          }
+        }
+      ],
+      "leap": "So here's the thing I keep coming back to. Every shield on this field carries ONE piece of him: one rating, one symbol, one signal, one red cross. The 76 has no face. The X has no number. The eye has no body. ==Nobody holds all of him.== He was never standing in this picture. He was ISSUED IN PIECES across it, and I'm the first one to add them up.",
+      "update": {
+        "time": "9:10 AM",
+        "text": "Printed the sheet. Taped each shield to the wall. It still adds up to 218. Waldo is not in the picture. Just the pieces."
+      },
+      "note": "NO SHIELD HAS HIM",
+      "stamp": "EYES ONLY",
+      "asset": "evidence/no-whole-man.png",
+      "alt": "A row of percentage shields and a crossed X shield at the bottom right of the battlefield, each showing one number or symbol and none showing a face.",
+      "caption": "one piece each. never the whole.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P01",
+          "label": "BACK TO THE PRICES"
+        },
+        {
+          "to": "P03",
+          "label": "THE EYE"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "beach",
+          "claim": "P07",
+          "label": "NOBODY HAS ALL OF HIM"
+        }
+      ]
+    }
+  ],
+  "lineup": [
+    {
+      "id": "L1",
+      "name": "SUSPECT 1: \"THE 76\"",
+      "region": {
+        "x": 2495,
+        "y": 1188,
+        "w": 40,
+        "h": 44
+      },
+      "asset": "evidence/suspect-1.png",
+      "alt": "Round shield printed with 76%.",
+      "has": [
+        "round frame",
+        "bold printed number"
+      ],
+      "missing": [
+        "bobble hat",
+        "round glasses",
+        "striped shirt"
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "SUSPECT 2: \"THE 101\"",
+      "region": {
+        "x": 2538,
+        "y": 1188,
+        "w": 54,
+        "h": 44
+      },
+      "asset": "evidence/suspect-2.png",
+      "alt": "Round shield printed with 101%.",
+      "has": [
+        "round frame",
+        "bold printed number"
+      ],
+      "missing": [
+        "bobble hat",
+        "round glasses",
+        "striped shirt"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "SUSPECT 3: \"THE 41\"",
+      "region": {
+        "x": 2590,
+        "y": 1192,
+        "w": 44,
+        "h": 40
+      },
+      "asset": "evidence/suspect-3.png",
+      "alt": "Round shield printed with 41%.",
+      "has": [
+        "round frame",
+        "bold printed number"
+      ],
+      "missing": [
+        "bobble hat",
+        "round glasses",
+        "striped shirt"
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "SUSPECT 4: \"THE X\"",
+      "region": {
+        "x": 2658,
+        "y": 1190,
+        "w": 44,
+        "h": 40
+      },
+      "asset": "evidence/suspect-4.png",
+      "alt": "Round shield with a crossed X.",
+      "has": [
+        "round frame",
+        "bold symbol"
+      ],
+      "missing": [
+        "printed number",
+        "bobble hat",
+        "round glasses"
+      ]
+    },
+    {
+      "id": "L5",
+      "name": "SUSPECT 5: \"THE EYE\"",
+      "region": {
+        "x": 2592,
+        "y": 1096,
+        "w": 44,
+        "h": 40
+      },
+      "asset": "evidence/suspect-5.png",
+      "alt": "Round shield with a single open eye in its centre.",
+      "has": [
+        "round frame",
+        "single eye"
+      ],
+      "missing": [
+        "printed number",
+        "bobble hat",
+        "round glasses"
+      ]
+    }
+  ],
+  "stripes": [
+    {
+      "id": "S01",
+      "label": "THE 76% SHIELD",
+      "region": {
+        "x": 2495,
+        "y": 1188,
+        "w": 40,
+        "h": 44
+      }
+    },
+    {
+      "id": "S02",
+      "label": "THE 101% SHIELD",
+      "region": {
+        "x": 2538,
+        "y": 1188,
+        "w": 54,
+        "h": 44
+      }
+    },
+    {
+      "id": "S03",
+      "label": "THE 41% SHIELD",
+      "region": {
+        "x": 2590,
+        "y": 1192,
+        "w": 44,
+        "h": 40
+      }
+    },
+    {
+      "id": "S04",
+      "label": "THE X SHIELD",
+      "region": {
+        "x": 2658,
+        "y": 1190,
+        "w": 44,
+        "h": 40
+      }
+    },
+    {
+      "id": "S05",
+      "label": "THE EYE SHIELD",
+      "region": {
+        "x": 2592,
+        "y": 1096,
+        "w": 44,
+        "h": 40
+      }
+    },
+    {
+      "id": "S06",
+      "label": "THE HAMMER SHIELD",
+      "region": {
+        "x": 1010,
+        "y": 1580,
+        "w": 62,
+        "h": 56
+      }
+    },
+    {
+      "id": "S07",
+      "label": "THE RED CROSS SHIELD",
+      "region": {
+        "x": 535,
+        "y": 1535,
+        "w": 40,
+        "h": 50
+      }
+    },
+    {
+      "id": "S08",
+      "label": "THE MUSIC SHIELDS",
+      "region": {
+        "x": 2093,
+        "y": 296,
+        "w": 62,
+        "h": 46
+      }
+    },
+    {
+      "id": "S09",
+      "label": "THE DOLLAR SHIELDS",
+      "region": {
+        "x": 2500,
+        "y": 1025,
+        "w": 80,
+        "h": 92
+      }
+    },
+    {
+      "id": "S10",
+      "label": "THE ARROW SHIELDS",
+      "region": {
+        "x": 1930,
+        "y": 1200,
+        "w": 80,
+        "h": 70
+      }
+    }
+  ],
+  "censusComments": [
+    "S01 through S03: the percentages. Rated, priced, and not adding up. Nobody is 218 percent of a soldier.",
+    "S05: the eye has no body. I went looking for it. It isn't attached to anybody.",
+    "S07: two shields carry the same cross. The print comes first; the men in the crowd come afterwards. Watch the order.",
+    "S09: three dollar signs in one cluster. A coincidence is one. This is a cluster.",
+    "S10: the arrows disagree with each other. A work order that can't decide which way to go is a work order somebody wants you to read twice."
+  ],
+  "guestbook": [
+    {
+      "name": "Ruth from Dayton",
+      "date": "04/08/2004",
+      "text": "Those are obviously just numbers on shields for a war. Historically, they're decoration, or a scoreboard. Please stop.",
+      "reply": "A scoreboard does not need a percent sign, Ruth. You don't score a SOLDIER out of 101. But thank you for being the first person to read the whole picture.",
+      "claim": "P01"
+    },
+    {
+      "name": "Gil, 3rd shift",
+      "date": "04/09/2004",
+      "text": "I counted the shields and got a different number than you. Probably my fault. Whose shift were the guards on?",
+      "reply": "Your count is a different number because you were looking for a man, Gil. I was looking for the rota. We're both right and you're still asleep.",
+      "claim": "P06"
+    }
+  ],
+  "updates": [
+    {
+      "time": "Night 37, 3:12 AM",
+      "text": "The percentages are the first thing I saw and the last thing I'll stop thinking about.",
+      "claim": "P01"
+    },
+    {
+      "time": "Night 37, 6:02 AM",
+      "text": "The horse's ramp is the receipt. I'm still deciding whether the horse came with a lid.",
+      "claim": "P04"
+    },
+    {
+      "time": "Night 37, 9:10 AM",
+      "text": "Every shield is one piece. Every piece adds up to a receipt. Nobody holds all of him.",
+      "claim": "P10"
+    },
+    {
+      "time": "Night 37, 9:40 AM",
+      "text": "Checked the 76% against the siege file. Same 76%. Same 101%. Same 41%. Second printing. Prices didn't change.",
+      "claim": "P01"
+    }
+  ],
+  "receipts": [
+    {
+      "item": "Shield, 76%",
+      "price": "RATED",
+      "note": "Graded. Issued. Not a discount.",
+      "claim": "P01"
+    },
+    {
+      "item": "Shield, 101%",
+      "price": "OVERRATED",
+      "note": "Above the maximum. Somebody approved it anyway.",
+      "claim": "P01"
+    },
+    {
+      "item": "Shield, 41% + Shield, X + Shield, 76%",
+      "price": "218%",
+      "note": "Does not close. Please see the sum.",
+      "claim": "P02"
+    },
+    {
+      "item": "Shield, $ (x3)",
+      "price": "PAID",
+      "note": "Somebody paid for the cluster. Ask who.",
+      "claim": "P03"
+    }
+  ],
+  "verdict": {
+    "lines": [
+      "The shields carry the numbers, the numbers don't add up, and the eye is watching whoever pays for the shields. So: the shields are issued.",
+      "The horse came in on a ramp. The galley leaves by water. A sleeper stands guard by the wall. The horn starts the tune and the arrows argue about which way to go.",
+      "Every shield on this field has one piece of him. Nobody holds the whole man. Waldo is not standing in this picture. He is ISSUED IN PIECES, and I can count all of them."
+    ],
+    "button": "Request Further Investigation"
+  },
+  "cipher": {
+    "cipher": "YRNQ: GUR FUVRYQF NER ENGRQ. NYY BS GURZ. FRR CEBBS #10.",
+    "plain": "LEAD: THE SHIELDS ARE RATED. ALL OF THEM. SEE PROOF #10.",
+    "claim": "P03"
+  },
+  "footer": "This is a parody. Waldo is a fictional character created by Martin Handford. No actual investigation occurred. No real person in any picture is identified or targeted."
+}

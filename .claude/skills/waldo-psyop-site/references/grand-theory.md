@@ -36,6 +36,8 @@ Scratch work goes in `.waldo-work/theory/` (never commit it). The final output i
 3. For every group member, record `scene`, `claim`, the fact index, and the fact text. Each member must point at an existing claim. If a strong recurring item exists in a scene but no claim covers it, mark it **NEEDS CLAIM**. Then either verify it and add it to that scene (back to Steps 2–5 for that scene) or drop it.
 4. Re-open the evidence for every group member: `make_crops.py scenes/<id> --no-write --facts --only P03,P07 --sheet .waldo-work/theory/<id>-sheet.png`. View the sheet, and confirm each cited fact really shows what the group claims it shows. Remove any member that fails.
 5. Keep groups that span **at least 2 scenes**. Rank them by how *checkable* and how *surprising* the recurrence is.
+6. **Duplicate artwork.** Put every scene's thumbnail side by side, along with any printed legend or roster strips. If two scenes are scans of the same picture, or two books print the identical strip, record it as its own group ("identical printed art across files"), verified side by side. It is a strong, checkable motif (for example, a reprinted catalogue), but never count the two copies as independent evidence for any *other* group.
+7. **Consistency sweep.** List every scene's `caseNumber`, `lastUpdated`, the Night numbers in its intro, updates, and guestbook, and any "Nth case file" wording. Scenes built in parallel usually collide. Fix them in Layer 2's consistency pass.
 
 **Output:** `.waldo-work/theory/layer1-inventory.md`, a table of `group | scene | claim | fact | verified?` plus a short "rejected" list with the reasons.
 

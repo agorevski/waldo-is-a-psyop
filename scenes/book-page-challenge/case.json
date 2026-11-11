@@ -1,0 +1,945 @@
+{
+  "image": {
+    "src": "scene.jpg",
+    "width": 2800,
+    "height": 1760,
+    "alt": "Busy Where's Waldo scene of a feast hall: a large parchment scroll titled The Gobbling Gluttons with a red wax seal, a bearded wizard with a striped staff, two rows of walkers in red-and-white stripes, a striped dog in a bobble hat, and a crowd of feasting people."
+  },
+  "site": {
+    "title": "THE SEALED SCROLL",
+    "subtitle": "A Free Investigation Into the Scroll Nobody Reads",
+    "caseNumber": "CASE #WDE-1957-B",
+    "banner": "⚠ THIS IS MIRROR #5. THE FIRST FOUR WERE TAKEN DOWN. SAVE THIS PAGE TO YOUR COMPUTER. ⚠",
+    "marquee": "THE SEAL HAS HIS FACE ★ READ THE FIRST LINE ★ ELEVEN IN A ROW ★ TWO ROWS ★ WHO IS COUNTING? ★ THE DOG HAS THE HAT ★ BINOCULARS ARE NOT A HOBBY ★",
+    "heroCaption": "EXHIBIT 0: The scroll. Every red pin is a proof. Every string is a question. Click a pin. Click a stripe. READ.",
+    "intro": [
+      "Somebody made this page as a storybook. Read the first two lines. They don't say \"a man named Waldo.\" They say ==ONCE UPON A TIME, WALDO==. The story starts with the name, and the name is already a uniform.",
+      "Night 32. The beach took thirty-one nights. This scroll took one. The beach taught me to count stripes. This scroll taught me to read the instructions, and the instructions are the worst part.",
+      "Start with the seal. Somebody pressed his face into wax. Who does that to a children's book? Every proof below has a SEE FOR YOURSELF button. I'm not asking you to trust me. I'm asking you to READ. ~~I'm not crazy.~~ Just read the words."
+    ],
+    "hitCounterBase": 1957,
+    "lastUpdated": "Night 32, 9:40 AM",
+    "censusInstructions": "Click every red-and-white striped thing on the page above."
+  },
+  "claims": [
+    {
+      "id": "P01",
+      "num": 1,
+      "title": "THE SEAL IS HIS FACE",
+      "region": {
+        "x": 562,
+        "y": 218,
+        "w": 116,
+        "h": 104
+      },
+      "facts": [
+        {
+          "text": "A red wax seal sits right of the title, pressed with a face: round glasses and a hat.",
+          "region": {
+            "x": 592,
+            "y": 236,
+            "w": 58,
+            "h": 78
+          }
+        },
+        {
+          "text": "The title to its left reads ==THE GOBBLING GLUTTONS==, and the line under the title reads ONCE UPON A TIME, WALDO.",
+          "region": {
+            "x": 150,
+            "y": 226,
+            "w": 390,
+            "h": 82
+          }
+        }
+      ],
+      "leap": "Nobody seals a storybook with a character. You seal a certificate, a permit, anything that has to be approved before it counts. The face in the wax is the approval, and it sits right beside ONCE UPON A TIME, WALDO. So the story didn't come first. The [[REDACTED|authorization]] did.",
+      "update": {
+        "time": "3:12 AM",
+        "text": "I tried to picture someone pressing him into the wax by hand. Somebody had to hold him steady. CONVENIENT."
+      },
+      "note": "WHO APPROVED HIM?",
+      "stamp": "SEALED",
+      "asset": "evidence/seal.png",
+      "alt": "Red wax seal with a face wearing round glasses and a hat, pressed onto the scroll beside the title.",
+      "caption": "approved. by whom?",
+      "paranoia": 1,
+      "links": [
+        {
+          "to": "P02",
+          "label": "THE WIZARD APPROVED IT"
+        },
+        {
+          "to": "P10",
+          "label": "SAME GLASSES AS THE SEAL"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "beach",
+          "claim": "P01",
+          "label": "SAME FACE, ON A STAMP"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "num": 2,
+      "title": "THE WIZARD GIVES THE ORDERS",
+      "region": {
+        "x": 364,
+        "y": 1320,
+        "w": 74,
+        "h": 170
+      },
+      "facts": [
+        {
+          "text": "The scroll says the wizard \"commanded him to find a scroll and then to find another at every stage of his journey.\"",
+          "region": {
+            "x": 150,
+            "y": 446,
+            "w": 520,
+            "h": 58
+          }
+        },
+        {
+          "text": "A bearded wizard in a red robe and blue pointed hat holds a staff banded red, white and blue.",
+          "region": {
+            "x": 416,
+            "y": 1320,
+            "w": 24,
+            "h": 166
+          }
+        }
+      ],
+      "leap": "The one who gives the orders carries a staff in the same red and white as the uniform he sends you to find. The commander isn't outside the pattern. He's holding it. ==Whoever sends you to look for Waldo is already holding a piece of him.==",
+      "update": {
+        "time": "4:02 AM",
+        "text": "Counted the scrolls in the wizard's instructions. Twelve. Counted again. Still twelve. Nobody puts a number like that in a children's book by accident."
+      },
+      "note": "WHO GIVES THE ORDERS?",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/wizard.png",
+      "alt": "A bearded wizard in a red robe and blue pointed hat, holding a staff banded red, white, and blue.",
+      "caption": "the orders. with stripes.",
+      "paranoia": 2,
+      "links": [
+        {
+          "to": "P01",
+          "label": "THE APPROVAL"
+        },
+        {
+          "to": "P03",
+          "label": "TWELVE PICTURES"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "intro-town-hike",
+          "claim": "P08",
+          "label": "SAME WIZARD, SAME STAFF"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "num": 3,
+      "title": "ELEVEN OF THEM. SAME SHIRT.",
+      "region": {
+        "x": 176,
+        "y": 1084,
+        "w": 470,
+        "h": 124
+      },
+      "facts": [
+        {
+          "text": "The top row holds eleven walkers, every one in a red-and-white striped shirt.",
+          "region": {
+            "x": 176,
+            "y": 1084,
+            "w": 470,
+            "h": 124
+          }
+        },
+        {
+          "text": "Directly above them: \"THING! CAN YOU FIND ANOTHER CHARACTER, NOT SHOWN BELOW, WHO APPEARS ONCE IN...\"",
+          "region": {
+            "x": 164,
+            "y": 962,
+            "w": 488,
+            "h": 58
+          }
+        }
+      ],
+      "leap": "They printed eleven walkers in the same shirt, then asked you to find one more character who is NOT SHOWN. Eleven shown. One not shown. The shirt is the thing being reproduced, and the man is the one they keep off the page.",
+      "update": {
+        "time": "4:40 AM",
+        "text": "Counted them four times. Eleven. Then I counted the stripes. Same order every time."
+      },
+      "note": "ELEVEN. ALL STRIPED.",
+      "stamp": "EYES ONLY",
+      "asset": "evidence/walkers.png",
+      "alt": "A row of eleven small walking figures, each in a red-and-white striped shirt, below the instructions.",
+      "caption": "eleven. same shirt.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P04",
+          "label": "TWO OF HIM"
+        },
+        {
+          "to": "P09",
+          "label": "EXCEPT THE LAST"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "intro-town-hike",
+          "claim": "P04",
+          "label": "SAME ROWS, REPRINTED"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "num": 4,
+      "title": "TWO HATS ON ONE PATH",
+      "region": {
+        "x": 596,
+        "y": 1332,
+        "w": 72,
+        "h": 160
+      },
+      "facts": [
+        {
+          "text": "Just left of the walking figure, a suspect in a red-and-white bobble hat, round glasses, a striped top, and a blue skirt.",
+          "region": {
+            "x": 452,
+            "y": 1334,
+            "w": 62,
+            "h": 162
+          }
+        },
+        {
+          "text": "Walking with a cane: red-and-white bobble hat, round glasses, striped shirt, blue trousers.",
+          "region": {
+            "x": 596,
+            "y": 1332,
+            "w": 72,
+            "h": 160
+          }
+        }
+      ],
+      "leap": "Same hat. Same round glasses. Same red and white. Same path. Two of him, side by side, one in a skirt. If he's one man, he can't be standing twice on the same path. Unless the other one is wearing the uniform. ==Waldo is what you put on, not who you are.==",
+      "update": {
+        "time": "5:10 AM",
+        "text": "Counted the glasses. Two pairs. Counted the hats. Two hats. I went to bed. I got up. Still two."
+      },
+      "note": "WHICH ONE IS HE?",
+      "stamp": "NO FURTHER COMMENT",
+      "asset": "evidence/waldo.png",
+      "alt": "Waldo walking with a cane: red-and-white bobble hat, round glasses, striped shirt, blue trousers.",
+      "caption": "#1 walking. #2 beside him.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P06",
+          "label": "LINE THEM UP"
+        },
+        {
+          "to": "P01",
+          "label": "SAME GLASSES AS THE SEAL"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "num": 5,
+      "title": "THE DOG IS WEARING HIM",
+      "region": {
+        "x": 512,
+        "y": 1434,
+        "w": 84,
+        "h": 56
+      },
+      "facts": [
+        {
+          "text": "The page says: \"IN EVERY PICTURE FIND WALDO, WOOF (BUT ALL YOU CAN SEE IS HIS TAIL)...\"",
+          "region": {
+            "x": 150,
+            "y": 628,
+            "w": 520,
+            "h": 64
+          }
+        },
+        {
+          "text": "Woof the dog is in full view: red-and-white stripes, a red-and-white bobble hat, a blue collar.",
+          "region": {
+            "x": 512,
+            "y": 1434,
+            "w": 84,
+            "h": 56
+          }
+        }
+      ],
+      "leap": "The page lists Woof as nothing but a tail, and then the dog walks onto the page in Waldo's hat and Waldo's stripes. The book doesn't hand out the man. It hands out the uniform, and it will put it on anything with four legs. ==Nobody inside the costume is required.==",
+      "update": {
+        "time": "5:45 AM",
+        "text": "I don't know what a dog is for. I know what a bobble hat is for."
+      },
+      "note": "WOOF HAS THE HAT",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/woof.png",
+      "alt": "A dog with a red-and-white striped body, a red-and-white bobble hat, and a blue collar, walking beside Waldo.",
+      "caption": "a dog. in the hat.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P04",
+          "label": "THE HAT, AGAIN"
+        },
+        {
+          "to": "P06",
+          "label": "SUSPECT 2"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "num": 6,
+      "title": "EVERY ONE IS MISSING A PIECE",
+      "region": {
+        "x": 240,
+        "y": 1330,
+        "w": 460,
+        "h": 170
+      },
+      "facts": [
+        {
+          "text": "Odlaw, on the left, wears black-and-yellow stripes and a black-and-yellow striped hat with round glasses: no red, no white.",
+          "region": {
+            "x": 246,
+            "y": 1332,
+            "w": 100,
+            "h": 164
+          }
+        },
+        {
+          "text": "The striped dog beside Waldo has a bobble hat, but no round glasses and no human face.",
+          "region": {
+            "x": 512,
+            "y": 1434,
+            "w": 84,
+            "h": 56
+          }
+        }
+      ],
+      "leap": "Odlaw has the stripes in the wrong colours. The skirt has the hat and no trousers. The dog has the hat and no glasses. Five near-misses, each missing a piece, and the piece that is always missing is the MAN. Put them together and you don't get a person. You get the uniform, scattered along the path.",
+      "update": {
+        "time": "6:15 AM",
+        "text": "Sun's up. The lineup is below. Don't look at the sun."
+      },
+      "note": "PIECES, NOT PEOPLE",
+      "stamp": "EYES ONLY",
+      "asset": "evidence/lineup.png",
+      "alt": "Crop of the walking path: Odlaw in black and yellow on the left, the skirt suspect, Waldo with a cane, and the striped dog beside him.",
+      "caption": "5 suspects. 0 whole men.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P04",
+          "label": "LINE THEM UP"
+        },
+        {
+          "to": "P01",
+          "label": "COMPARE TO THE SEAL"
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "num": 7,
+      "title": "TWENTY-FIVE WATCHERS. WHO'S COUNTING?",
+      "region": {
+        "x": 164,
+        "y": 797,
+        "w": 484,
+        "h": 107
+      },
+      "facts": [
+        {
+          "text": "The page says: \"THERE ARE ALSO 25 WALDO-WATCHERS, EACH OF WHOM APPEARS ONLY ONCE SOMEWHERE IN...\"",
+          "region": {
+            "x": 164,
+            "y": 862,
+            "w": 490,
+            "h": 62
+          }
+        },
+        {
+          "text": "Right above that line: a row of drawn items, including a key, a bone, a camera and a pair of binoculars.",
+          "region": {
+            "x": 330,
+            "y": 822,
+            "w": 228,
+            "h": 30
+          }
+        }
+      ],
+      "leap": "Twenty-five watchers, each appearing once, and above them the list of everything you'd carry to watch a crowd: a key, Woof's bone, a camera to prove it, binoculars to see far. Nobody needs binoculars to look for a man in a stripe. You need them when somebody is counting who's in the picture. ==Who is counting?==",
+      "update": {
+        "time": "6:58 AM",
+        "text": "Went through all twenty-five in my head. I can't remember one. That is how they work."
+      },
+      "note": "25 WATCHERS. WHO'S COUNTING?",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/watchers.png",
+      "alt": "The instructions about 25 Waldo-watchers, with four drawn items below them: a key, a bone, a camera and binoculars.",
+      "caption": "binoculars. WHY binoculars.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P02",
+          "label": "WHO GAVE THE ORDERS"
+        },
+        {
+          "to": "P08",
+          "label": "ODLAW'S BINOCULARS"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "intro-town-hike",
+          "claim": "P03",
+          "label": "TWENTY-FIVE AGAIN"
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "num": 8,
+      "title": "ODLAW IS WATCHING",
+      "region": {
+        "x": 246,
+        "y": 1332,
+        "w": 100,
+        "h": 164
+      },
+      "facts": [
+        {
+          "text": "Odlaw wears black and yellow: a black-and-yellow striped hat, a black-and-yellow striped top, round glasses.",
+          "region": {
+            "x": 246,
+            "y": 1332,
+            "w": 100,
+            "h": 164
+          }
+        },
+        {
+          "text": "The page says: \"WENDA'S CAMERA, AND ODLAW'S BINOCULARS.\"",
+          "region": {
+            "x": 164,
+            "y": 797,
+            "w": 510,
+            "h": 22
+          }
+        }
+      ],
+      "leap": "Everyone else on the path in stripes is wearing red and white. Odlaw wears a different uniform, and the page gives him the binoculars. Different uniform, different job. He isn't in the search. ==He is the one doing the watching.==",
+      "update": {
+        "time": "7:20 AM",
+        "text": "I'm not saying he's using the binoculars. I'm saying they're in the text."
+      },
+      "note": "THE OTHER UNIFORM",
+      "stamp": "EYES ONLY",
+      "asset": "evidence/odlaw.png",
+      "alt": "A figure in black-and-yellow stripes with a yellow hat with a black band and round glasses.",
+      "caption": "NOT RED. NOT WHITE.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P07",
+          "label": "THE BINOCULARS"
+        },
+        {
+          "to": "P06",
+          "label": "SUSPECT 3"
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "num": 9,
+      "title": "THE LAST PICTURE HAS NOBODY INSIDE",
+      "region": {
+        "x": 164,
+        "y": 998,
+        "w": 490,
+        "h": 330
+      },
+      "facts": [
+        {
+          "text": "The page asks for a character who \"APPEARS ONCE IN EVERY PICTURE EXCEPT THE LAST?\"",
+          "region": {
+            "x": 150,
+            "y": 996,
+            "w": 530,
+            "h": 60
+          }
+        },
+        {
+          "text": "Lower on the scroll, the second row of walkers, all in the same red-and-white stripes.",
+          "region": {
+            "x": 205,
+            "y": 1212,
+            "w": 445,
+            "h": 122
+          }
+        }
+      ],
+      "leap": "The question says he's in every picture except the last. Rows of the same striped shirt sit under that question. Every row has the shirt and no row has a name. ==So the last row is the one nobody is wearing, and the shirt keeps walking anyway.==",
+      "update": {
+        "time": "8:10 AM",
+        "text": "Ran out of paper to count rows on. The rows keep going past the edge of my screen. CONVENIENT."
+      },
+      "note": "NOBODY IS WEARING THE LAST ONE",
+      "stamp": "MISSING",
+      "asset": "evidence/except-last.png",
+      "alt": "The question about a character who appears in every picture except the last, above two rows of walkers in red-and-white stripes.",
+      "caption": "the last one. nobody in it.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P03",
+          "label": "NOT SHOWN BELOW"
+        },
+        {
+          "to": "P06",
+          "label": "PIECES, NOT PEOPLE"
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "num": 10,
+      "title": "THE SEAL, WALKING AROUND",
+      "region": {
+        "x": 2656,
+        "y": 1560,
+        "w": 60,
+        "h": 80
+      },
+      "facts": [
+        {
+          "text": "In the right-hand crowd: a red cap, round glasses and a red-and-white striped shirt.",
+          "region": {
+            "x": 2666,
+            "y": 1572,
+            "w": 32,
+            "h": 56
+          }
+        },
+        {
+          "text": "Right in front of him, a figure in a yellow top.",
+          "region": {
+            "x": 2660,
+            "y": 1618,
+            "w": 34,
+            "h": 22
+          }
+        }
+      ],
+      "leap": "The seal shows round glasses and a hat. This figure has round glasses and a red cap. The same mark, pressed in wax on the scroll and worn by a man in the crowd. The seal isn't on the page. ==It's walking around.==",
+      "update": {
+        "time": "8:30 AM",
+        "text": "Put the tea down. Watched the crowd. The crowd watched back."
+      },
+      "note": "THE SEAL, WALKING",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/red-cap.png",
+      "alt": "A figure in the crowd with a red cap, round glasses, and a red-and-white striped shirt, beside a figure in a yellow top.",
+      "caption": "same glasses as the seal.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P01",
+          "label": "SAME GLASSES AS THE SEAL"
+        },
+        {
+          "to": "P04",
+          "label": "TWO HATS"
+        }
+      ]
+    }
+  ],
+  "lineupReference": {
+    "claim": "P04",
+    "name": "THE WALKER (reference)",
+    "has": [
+      "Red-and-white bobble hat",
+      "Round glasses",
+      "Red-and-white striped shirt",
+      "Blue trousers"
+    ],
+    "missing": []
+  },
+  "lineup": [
+    {
+      "id": "L1",
+      "name": "SUSPECT 1: \"THE SKIRT\"",
+      "region": {
+        "x": 452,
+        "y": 1334,
+        "w": 62,
+        "h": 162
+      },
+      "asset": "evidence/suspect-1.png",
+      "alt": "Figure in a red-and-white bobble hat, round glasses, a striped top and striped stockings, wearing a blue skirt.",
+      "has": [
+        "Red-and-white bobble hat",
+        "Round glasses",
+        "Striped top",
+        "Striped stockings"
+      ],
+      "missing": [
+        "Blue trousers: wears a blue skirt"
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "SUSPECT 2: \"THE DOG\"",
+      "region": {
+        "x": 512,
+        "y": 1434,
+        "w": 84,
+        "h": 56
+      },
+      "asset": "evidence/suspect-2.png",
+      "alt": "A dog with red-and-white stripes, a red-and-white bobble hat and a blue collar.",
+      "has": [
+        "Red-and-white stripes",
+        "Red-and-white bobble hat",
+        "Blue collar"
+      ],
+      "missing": [
+        "Round glasses",
+        "Trousers",
+        "Human face"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "SUSPECT 3: \"THE OTHER UNIFORM\"",
+      "region": {
+        "x": 246,
+        "y": 1332,
+        "w": 100,
+        "h": 164
+      },
+      "asset": "evidence/suspect-3.png",
+      "alt": "Figure in black-and-yellow stripes, a black-and-yellow striped hat, and round glasses.",
+      "has": [
+        "Striped top",
+        "Round glasses",
+        "Black-and-yellow striped hat"
+      ],
+      "missing": [
+        "Red and white: wears black and yellow",
+        "Red-and-white bobble hat",
+        "Blue trousers: wears black"
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "SUSPECT 4: \"THE RED CAP\"",
+      "region": {
+        "x": 2666,
+        "y": 1572,
+        "w": 32,
+        "h": 56
+      },
+      "asset": "evidence/suspect-4.png",
+      "alt": "Figure in a red cap with round glasses and a red-and-white striped shirt, in the crowd.",
+      "has": [
+        "Round glasses",
+        "Red cap",
+        "Red-and-white striped shirt"
+      ],
+      "missing": [
+        "Visible trousers: hidden in the crowd"
+      ]
+    },
+    {
+      "id": "L5",
+      "name": "SUSPECT 5: \"THE APRON\"",
+      "region": {
+        "x": 690,
+        "y": 0,
+        "w": 60,
+        "h": 60
+      },
+      "asset": "evidence/suspect-5.png",
+      "alt": "Figure in a red-and-white striped bobble hat and a blue-and-white striped apron over a green top.",
+      "has": [
+        "Red-and-white striped bobble hat",
+        "Blue-and-white striped apron"
+      ],
+      "missing": [
+        "Red-and-white shirt: wears green",
+        "Round glasses: none visible"
+      ]
+    }
+  ],
+  "stripes": [
+    {
+      "id": "S01",
+      "label": "walking Waldo's striped shirt",
+      "region": {
+        "x": 602,
+        "y": 1364,
+        "w": 46,
+        "h": 44
+      }
+    },
+    {
+      "id": "S02",
+      "label": "Woof the dog's striped body and hat",
+      "region": {
+        "x": 512,
+        "y": 1434,
+        "w": 84,
+        "h": 56
+      }
+    },
+    {
+      "id": "S03",
+      "label": "skirt suspect's striped top",
+      "region": {
+        "x": 458,
+        "y": 1362,
+        "w": 46,
+        "h": 44
+      }
+    },
+    {
+      "id": "S04",
+      "label": "top row of eleven walkers",
+      "region": {
+        "x": 176,
+        "y": 1084,
+        "w": 470,
+        "h": 124
+      }
+    },
+    {
+      "id": "S05",
+      "label": "striped shirt, top-centre crowd",
+      "region": {
+        "x": 1210,
+        "y": 57,
+        "w": 34,
+        "h": 40
+      }
+    },
+    {
+      "id": "S06",
+      "label": "apron figure's striped bobble hat",
+      "region": {
+        "x": 706,
+        "y": 0,
+        "w": 28,
+        "h": 18
+      }
+    },
+    {
+      "id": "S07",
+      "label": "striped shirt on the brown-haired figure",
+      "region": {
+        "x": 2455,
+        "y": 1680,
+        "w": 34,
+        "h": 30
+      }
+    },
+    {
+      "id": "S08",
+      "label": "red-cap figure's striped shirt",
+      "region": {
+        "x": 2674,
+        "y": 1600,
+        "w": 20,
+        "h": 26
+      }
+    },
+    {
+      "id": "S09",
+      "label": "striped shirt under the green hat",
+      "region": {
+        "x": 79,
+        "y": 1494,
+        "w": 36,
+        "h": 34
+      }
+    },
+    {
+      "id": "S10",
+      "label": "striped shirt, top-left crowd",
+      "region": {
+        "x": 56,
+        "y": 96,
+        "w": 20,
+        "h": 38
+      }
+    },
+    {
+      "id": "S11",
+      "label": "striped bobble hat, top-left crowd",
+      "region": {
+        "x": 110,
+        "y": 105,
+        "w": 35,
+        "h": 30
+      }
+    },
+    {
+      "id": "S12",
+      "label": "wizard's staff, banded red, white and blue",
+      "region": {
+        "x": 416,
+        "y": 1320,
+        "w": 24,
+        "h": 166
+      }
+    }
+  ],
+  "censusComments": [
+    "Noted. Red and white. He's in the stripes again.",
+    "Another one. Write it down.",
+    "Stripe confirmed. Do not tell anyone you counted this.",
+    "Second row confirmed. Same shirt, different row.",
+    "The apron has them on its hat. Even the cooking.",
+    "Horizontal. They're ALWAYS horizontal. Think about it.",
+    "The staff too. Red, white, and blue. The one giving orders has them.",
+    "Logged. They can't hide them all. That's the point."
+  ],
+  "guestbook": [
+    {
+      "name": "Gerald_from_Leeds",
+      "date": "03/21/2004",
+      "text": "its a book for children. the stripes are just clothes",
+      "reply": "Clothes. On a dog. (See Proof #5.)",
+      "claim": "P05"
+    },
+    {
+      "name": "rosie_m",
+      "date": "03/22/2004",
+      "text": "found the wizard in one second, he's got a big beard and a staff",
+      "reply": "Yes. The staff has the stripes too. (See Proof #2.)",
+      "claim": "P02"
+    },
+    {
+      "name": "puzzlekid99",
+      "date": "03/23/2004",
+      "text": "i counted 12 but the second row has more? idk",
+      "reply": "Good. Keep counting. You will not stop at twelve.",
+      "claim": "P03"
+    },
+    {
+      "name": "anon",
+      "date": "03/24/2004",
+      "text": "the seal is just a sticker you can buy at a craft store",
+      "reply": "Then who sells the sticker? (See Proof #1.)",
+      "claim": "P01"
+    },
+    {
+      "name": "cousin_ro",
+      "date": "03/25/2004",
+      "text": "mom says come to bed. also the scroll is silly",
+      "reply": "Tell Mom the seal has his glasses on. (See Proof #10.)",
+      "claim": "P10"
+    },
+    {
+      "name": "odlaw_fan",
+      "date": "03/26/2004",
+      "text": "odlaw is my favourite. he's the bad guy but the binoculars are just for birdwatching lol",
+      "reply": "Birdwatching. Of which bird? Of which man? (See Proof #8.)",
+      "claim": "P08"
+    }
+  ],
+  "updates": [
+    {
+      "time": "Night 32, 1:08 AM",
+      "text": "Found this page behind the beach book. Same red. Same white. The beach was the first chapter.",
+      "claim": "P03"
+    },
+    {
+      "time": "Night 32, 3:33 AM",
+      "text": "Counted the stripes on the dog. Then counted them on the walker. They match. Nobody wrote that down.",
+      "claim": "P05"
+    },
+    {
+      "time": "Night 32, 8:10 AM",
+      "text": "Ran out of paper to count rows on.",
+      "claim": "P09"
+    },
+    {
+      "time": "Night 32, 9:40 AM",
+      "text": "The wax face is the beach stamp's face. Same hat. Same glasses. Pressed, not printed. Somebody approves him twice.",
+      "claim": "P01"
+    }
+  ],
+  "receipts": [
+    {
+      "item": "Red wax seal kit",
+      "price": "$11.49",
+      "note": "for the wax. one sealing. never again.",
+      "claim": "P01"
+    },
+    {
+      "item": "Storybook, second-hand",
+      "price": "$2.00",
+      "note": "the seller said the wizard was 'not in the picture.' I bought it anyway.",
+      "claim": "P02"
+    },
+    {
+      "item": "Striped bobble hat, red and white",
+      "price": "$9.99",
+      "note": "wore it to the beach. nobody noticed. good.",
+      "claim": "P04"
+    },
+    {
+      "item": "Binoculars, 8x",
+      "price": "$34.00",
+      "note": "for the Watchers. don't tell the Watchers.",
+      "claim": "P07"
+    },
+    {
+      "item": "Novelty dog bobble hat",
+      "price": "$4.25",
+      "note": "it fits. it's a dog. why does it fit.",
+      "claim": "P05"
+    },
+    {
+      "item": "Magnifier, 3x",
+      "price": "$6.75",
+      "note": "for the rows. the rows go past the edge.",
+      "claim": "P09"
+    }
+  ],
+  "verdict": {
+    "lines": [
+      "Waldo is not a man on this page.",
+      "Waldo is a seal, a wizard's orders, eleven shirts in a row, and a dog in a hat.",
+      "On the scroll he is approved. In the picture he is spread across the dog, the skirt, the apron, and the red cap, one piece each.",
+      "Waldo is a uniform with a seal on it, and the crowd keeps wearing it.",
+      "And you have been looking for him your whole life. Exactly as the scroll told you to.",
+      "I'm going to sleep. ~~I'm not going to sleep.~~"
+    ],
+    "button": "Request Further Investigation"
+  },
+  "cipher": {
+    "cipher": "YRNQ: PBHAG GUR EBJF. GUR YNFG BAR UNF ABOBQL VA VG. FRR CEBBS #9.",
+    "plain": "LEAD: COUNT THE ROWS. THE LAST ONE HAS NOBODY IN IT. SEE PROOF #9.",
+    "claim": "P09"
+  },
+  "footer": "This is a parody. Waldo is a fictional character created by Martin Handford. No actual investigation occurred."
+}

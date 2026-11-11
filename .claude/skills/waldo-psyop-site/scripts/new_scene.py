@@ -164,20 +164,30 @@ def main():
     repo = os.path.abspath(a.repo)
     scenes_dir = os.path.join(repo, "scenes")
     scene_dir = os.path.join(scenes_dir, sid)
-    if os.path.exists(scene_dir) and not a.force:
+    # A folder holding only a dropped-in image (no case.json yet) is not a finished scene.
+    has_case = os.path.isfile(os.path.join(scene_dir, "case.json"))
+    if has_case and not a.force:
         print(f"ERROR: scenes/{sid}/ already exists. Pick another --id, or pass --force to replace "
               "its image and case.json.")
         return 1
-    if os.path.abspath(a.image).startswith(scene_dir + os.sep):
-        print("ERROR: the source image is already inside the target scene folder; copy it elsewhere first")
-        return 1
 
     os.makedirs(os.path.join(scene_dir, "evidence"), exist_ok=True)
+    src = a.image
+    tmpdir = None
+    if os.path.abspath(src).startswith(scene_dir + os.sep):
+        # The image was dropped straight into scenes/<id>/; stage a copy so copy_image can replace it.
+        import tempfile
+        tmpdir = tempfile.mkdtemp(prefix="waldo-scene-")
+        src = os.path.join(tmpdir, os.path.basename(a.image))
+        shutil.copyfile(a.image, src)
     try:
-        name, w, h = copy_image(a.image, scene_dir)
+        name, w, h = copy_image(src, scene_dir)
     except OSError as e:
         print(f"ERROR: cannot copy image: {e}")
         return 1
+    finally:
+        if tmpdir:
+            shutil.rmtree(tmpdir, ignore_errors=True)
     with open(os.path.join(scene_dir, "case.json"), "w", encoding="utf-8") as f:
         json.dump(skeleton(name, w, h), f, indent=2, ensure_ascii=False)
         f.write("\n")

@@ -8,7 +8,7 @@ Usage:
 Accepts a scene folder (scenes/<id>) or its case.json. image.src and every
 asset path are resolved relative to the scene folder (override with --root).
 Writes each claim's and lineup suspect's `region` to its `asset` path, upscaled
-by --scale (default 6) with LANCZOS. --sheet writes a labelled contact sheet so
+by --scale (default 6) with LANCZOS, capped at --max-side px (default 1600). --sheet writes a labelled contact sheet so
 you can check every crop visually; --facts adds each fact region to the sheet.
 --no-write skips writing assets (use it to inspect regions only). Existing
 asset files are left alone unless --force is given, so hand-made composite
@@ -25,9 +25,12 @@ from PIL import Image, ImageDraw
 from _common import resolve_case
 
 
-def crop(im, r, scale):
+def crop(im, r, scale, max_side=0):
     c = im.crop((r["x"], r["y"], r["x"] + r["w"], r["y"] + r["h"]))
-    return c.resize((r["w"] * scale, r["h"] * scale), Image.LANCZOS)
+    # Never upscale a big region past max_side: a 1500px region at 6x is a multi-MB PNG.
+    if max_side:
+        scale = max(1.0, min(scale, max_side / max(r["w"], r["h"])))
+    return c.resize((max(1, round(r["w"] * scale)), max(1, round(r["h"] * scale))), Image.LANCZOS)
 
 
 def main():
@@ -35,6 +38,8 @@ def main():
     ap.add_argument("case", help="scene folder (scenes/<id>) or its case.json")
     ap.add_argument("--root", help="folder that case.json paths are relative to (default: the scene folder)")
     ap.add_argument("--scale", type=int, default=6)
+    ap.add_argument("--max-side", type=int, default=1600,
+                    help="cap the longest side of each written crop (keeps aspect; 0 = no cap)")
     ap.add_argument("--only", help="comma-separated ids to process")
     ap.add_argument("--sheet", help="write a labelled contact sheet PNG here")
     ap.add_argument("--facts", action="store_true", help="include fact regions on the sheet")
@@ -57,7 +62,7 @@ def main():
     for e in d.get("claims", []) + d.get("lineup", []):
         if only and e["id"] not in only:
             continue
-        out = crop(im, e["region"], a.scale)
+        out = crop(im, e["region"], a.scale, a.max_side)
         if not a.no_write:
             path = os.path.join(root, e["asset"])
             if os.path.exists(path) and not a.force:

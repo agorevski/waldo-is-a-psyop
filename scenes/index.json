@@ -3,14 +3,460 @@
     "title": "WALDO IS A PSYOP",
     "subtitle": "The case files. Every scene. Every stripe. Every \"coincidence.\"",
     "intro": [
-      "They tell you to FIND him. Have you ever asked yourself ==why he keeps needing to be found?== One scene is a coincidence. Two is a pattern. I have a whole folder.",
-      "Pick a case file. Look at the evidence. Then look at it ~~again~~ AGAIN. I'm just asking questions."
+      "They tell you to FIND him. Have you ever asked yourself ==why he keeps needing to be found?== One scene is a coincidence. Two is a pattern. I have seven case files, and they all came from the same ~~office~~ DEPARTMENT.",
+      "Pick a case file. Look at the evidence. Then scroll down to the grand theory and look at it ~~again~~ AGAIN. Same stamp. Same postmark. Same price list. I'm just asking questions."
     ],
     "footer": "This is a parody. Waldo is a fictional character created by Martin Handford. No actual investigation occurred. No real person in any picture is identified or targeted."
   },
   "scenes": [
     {
       "id": "beach"
+    },
+    {
+      "id": "book-page-challenge"
+    },
+    {
+      "id": "department-store"
+    },
+    {
+      "id": "dragon-feast"
+    },
+    {
+      "id": "intro-town-hike"
+    },
+    {
+      "id": "siege-of-troy"
+    },
+    {
+      "id": "troy-map"
     }
-  ]
+  ],
+  "theory": {
+    "title": "THE GRAND THEORY: THE DEPARTMENT",
+    "thesis": "Waldo is not a man. Waldo is a ==product==. His face is approved on stamps and pressed into wax. He is posted on one form postmark that only swaps the middle line. He comes in a range of colourways, he is graded and priced on shields, and his catalogue pages get ==reprinted== from file to file. He is shipped out in pieces: every crowd is near-misses, and the one complete set stands apart like a ==display model==. And every card goes to the same mailing list: [[the customers|THE WALDO-WATCHERS. YOU.]] One postmark tells you who sends him. It says ==DEPARTMENT==.",
+    "scenes": [
+      "beach",
+      "book-page-challenge",
+      "department-store",
+      "dragon-feast",
+      "intro-town-hike",
+      "siege-of-troy",
+      "troy-map"
+    ],
+    "motifs": [
+      {
+        "id": "M1",
+        "name": "THE ISSUED FACE",
+        "text": "On the beach card his face is a STAMP. On the store card, a STAMP again. On the scroll, a WAX SEAL. Three case files put his face on official matter. Nobody stamps a man. You stamp things that get ==issued==.",
+        "evidence": [
+          {
+            "scene": "beach",
+            "claim": "P01"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P04"
+          },
+          {
+            "scene": "book-page-challenge",
+            "claim": "P01"
+          }
+        ]
+      },
+      {
+        "id": "M2",
+        "name": "THE FORM LETTER",
+        "text": "Beach postmark: WHERE'S, then ON THE BEACH, then WALDO and a question mark. Store postmark: WHERE'S, then DEPARTMENT STORE, then WALDO and a question mark. Same round stamp. Same question. Only the middle line changes. That's a ==form==. Neither card has a real address, and both go to the people looking: WALDO-FOLLOWERS, WALDO-WATCHERS. The scroll even prints the head count: 25 WALDO-WATCHERS.",
+        "evidence": [
+          {
+            "scene": "beach",
+            "claim": "P02"
+          },
+          {
+            "scene": "beach",
+            "claim": "P03"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P02"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P03"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P05"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P01"
+          },
+          {
+            "scene": "book-page-challenge",
+            "claim": "P07"
+          }
+        ]
+      },
+      {
+        "id": "M3",
+        "name": "THE COLOURWAY RANGE",
+        "text": "Black-and-yellow on Odlaw, in the roster strip. Blue-and-white in the dragon crowd. Yellow-and-black AND blue-and-white on one shop floor. The same ringed shield in black and in red at Troy. One pattern, many colours. That's not a man's taste in shirts. That's a ==product range==.",
+        "evidence": [
+          {
+            "scene": "department-store",
+            "claim": "P09"
+          },
+          {
+            "scene": "book-page-challenge",
+            "claim": "P08"
+          },
+          {
+            "scene": "dragon-feast",
+            "claim": "P05"
+          },
+          {
+            "scene": "siege-of-troy",
+            "claim": "P04"
+          }
+        ]
+      },
+      {
+        "id": "M4",
+        "name": "THE PRICE TAG",
+        "text": "Shields printed 76%, 101% and 41%, with dollar signs beside them, at Troy. A postmark whose middle line reads DEPARTMENT STORE, and a bobble hat on a display stand on that store's floor. You don't grade, price and display a person. You do that to ==stock==.",
+        "evidence": [
+          {
+            "scene": "troy-map",
+            "claim": "P01"
+          },
+          {
+            "scene": "troy-map",
+            "claim": "P03"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P02"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P10"
+          },
+          {
+            "scene": "troy-map",
+            "claim": "P02"
+          }
+        ]
+      },
+      {
+        "id": "M5",
+        "name": "ISSUED IN PIECES",
+        "text": "Line up the suspects in the crowd, on the beach, in the scroll, on the hike, in the dragon crowd, at Troy, and every one is missing a piece: the hat, the glasses, the stick, the right colours. Where a whole set does turn up, it stands apart from the crowd, like the sample on the stand. In the dragon crowd there's even a spare hat with nobody under it. ==The crowd never gets the whole set.==",
+        "evidence": [
+          {
+            "scene": "beach",
+            "claim": "P07"
+          },
+          {
+            "scene": "book-page-challenge",
+            "claim": "P06"
+          },
+          {
+            "scene": "intro-town-hike",
+            "claim": "P05"
+          },
+          {
+            "scene": "dragon-feast",
+            "claim": "P06"
+          },
+          {
+            "scene": "dragon-feast",
+            "claim": "P04"
+          },
+          {
+            "scene": "siege-of-troy",
+            "claim": "P06"
+          }
+        ]
+      },
+      {
+        "id": "M6",
+        "name": "THE REPRINT",
+        "text": "Put the crops side by side. The walker rows in the scroll and in the hike letter: same rows. The wizard with the striped staff: in both. Odlaw in black-and-yellow: in both. And the siege file and the battlefield file show the same 76%, 101% and 41% shields, the same war. You don't reprint a man. You ==reprint a catalogue==.",
+        "evidence": [
+          {
+            "scene": "book-page-challenge",
+            "claim": "P03"
+          },
+          {
+            "scene": "intro-town-hike",
+            "claim": "P04"
+          },
+          {
+            "scene": "book-page-challenge",
+            "claim": "P02"
+          },
+          {
+            "scene": "intro-town-hike",
+            "claim": "P08"
+          },
+          {
+            "scene": "book-page-challenge",
+            "claim": "P08"
+          },
+          {
+            "scene": "intro-town-hike",
+            "claim": "P06"
+          },
+          {
+            "scene": "siege-of-troy",
+            "claim": "P02"
+          },
+          {
+            "scene": "troy-map",
+            "claim": "P01"
+          },
+          {
+            "scene": "troy-map",
+            "claim": "P02"
+          }
+        ]
+      }
+    ],
+    "chain": [
+      {
+        "text": "Start with his face. Three case files print it on official matter: a STAMP on the beach card, a STAMP on the store card, a WAX SEAL on the scroll. Stamps are issued. Seals are pressed by whoever approves things. His face was ==approved==.",
+        "evidence": [
+          {
+            "scene": "beach",
+            "claim": "P01"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P04"
+          },
+          {
+            "scene": "book-page-challenge",
+            "claim": "P01"
+          }
+        ],
+        "motifs": [
+          "M1"
+        ]
+      },
+      {
+        "text": "Then the postmarks. The beach and the store use the same round form, WHERE'S ___ WALDO?, ending in a printed question mark, and both cards go to places that aren't places. Step 1 told you his face is issued. This tells you ==it's issued by one office, on one form==.",
+        "evidence": [
+          {
+            "scene": "beach",
+            "claim": "P02"
+          },
+          {
+            "scene": "beach",
+            "claim": "P03"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P02"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P03"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P05"
+          }
+        ],
+        "motifs": [
+          "M2"
+        ]
+      },
+      {
+        "text": "The form has a blank in the middle, and on the store card it's filled in: DEPARTMENT STORE. Every other line is the same, so that line is the one that tells you who's ==doing the sending==. And on that store's floor, a bobble hat is sitting on a display stand.",
+        "evidence": [
+          {
+            "scene": "department-store",
+            "claim": "P02"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P10"
+          }
+        ],
+        "motifs": [
+          "M2",
+          "M4"
+        ]
+      },
+      {
+        "text": "A department stocks a range. And there it is, across four case files: the same stripes in black-and-yellow, blue-and-white and red-and-white, and the same ringed shield in two colours. ==One pattern, every colour in stock.==",
+        "evidence": [
+          {
+            "scene": "department-store",
+            "claim": "P09"
+          },
+          {
+            "scene": "book-page-challenge",
+            "claim": "P08"
+          },
+          {
+            "scene": "dragon-feast",
+            "claim": "P05"
+          },
+          {
+            "scene": "siege-of-troy",
+            "claim": "P04"
+          }
+        ],
+        "motifs": [
+          "M3"
+        ]
+      },
+      {
+        "text": "Stock gets graded and priced. At Troy, the shields carry the grades: 76%, 101%, 41%, and dollar signs next to them. 101% is what you print when the same item has been ==issued more than once==.",
+        "evidence": [
+          {
+            "scene": "troy-map",
+            "claim": "P01"
+          },
+          {
+            "scene": "troy-map",
+            "claim": "P02"
+          },
+          {
+            "scene": "troy-map",
+            "claim": "P03"
+          }
+        ],
+        "motifs": [
+          "M4"
+        ]
+      },
+      {
+        "text": "And the catalogue gets reprinted. The scroll and the hike letter print the same walker rows, the same wizard with his striped staff, the same Odlaw. The siege file and the battlefield file are the same war with the same prices. Two pairs of files. Two pages, ==each printed twice==.",
+        "evidence": [
+          {
+            "scene": "book-page-challenge",
+            "claim": "P03"
+          },
+          {
+            "scene": "intro-town-hike",
+            "claim": "P04"
+          },
+          {
+            "scene": "book-page-challenge",
+            "claim": "P02"
+          },
+          {
+            "scene": "intro-town-hike",
+            "claim": "P08"
+          },
+          {
+            "scene": "siege-of-troy",
+            "claim": "P02"
+          },
+          {
+            "scene": "troy-map",
+            "claim": "P01"
+          },
+          {
+            "scene": "book-page-challenge",
+            "claim": "P08"
+          },
+          {
+            "scene": "intro-town-hike",
+            "claim": "P06"
+          }
+        ],
+        "motifs": [
+          "M6"
+        ]
+      },
+      {
+        "text": "Then it's shipped in pieces. On the beach, in the scroll, on the hike, in the dragon crowd and at Troy, each suspect in the lineup is missing a piece. Where a complete set turns up, it stands apart like the sample on the stand. In the dragon crowd there's a hat on the ground with nobody under it, because the pieces outnumber the people. ==The crowd never gets the whole set.==",
+        "evidence": [
+          {
+            "scene": "beach",
+            "claim": "P07"
+          },
+          {
+            "scene": "book-page-challenge",
+            "claim": "P06"
+          },
+          {
+            "scene": "intro-town-hike",
+            "claim": "P05"
+          },
+          {
+            "scene": "dragon-feast",
+            "claim": "P06"
+          },
+          {
+            "scene": "dragon-feast",
+            "claim": "P04"
+          },
+          {
+            "scene": "siege-of-troy",
+            "claim": "P06"
+          }
+        ],
+        "motifs": [
+          "M5"
+        ]
+      },
+      {
+        "text": "So who is the customer? Read the addresses. TO: WALDO-FOLLOWERS. HEY, WALDO-WATCHERS! The scroll and the hike letter both print the head count: 25 WALDO-WATCHERS. And on the hike letter he signs his name right after A SEARCH!, the way you sign for a delivery. The mailing list is the people looking. ==The mailing list is you.==",
+        "evidence": [
+          {
+            "scene": "beach",
+            "claim": "P03"
+          },
+          {
+            "scene": "department-store",
+            "claim": "P01"
+          },
+          {
+            "scene": "book-page-challenge",
+            "claim": "P07"
+          },
+          {
+            "scene": "intro-town-hike",
+            "claim": "P03"
+          },
+          {
+            "scene": "intro-town-hike",
+            "claim": "P09"
+          }
+        ],
+        "motifs": [
+          "M2"
+        ]
+      }
+    ],
+    "verdict": [
+      "Waldo is not a man. Waldo is a product.",
+      "Approved on a stamp. Sealed in wax. Posted on a form. Priced on a shield. Reprinted from file to file. Shipped in pieces.",
+      "Seven case files. One postmark. One price list. One mailing list.",
+      "The postmark says DEPARTMENT. The mailing list says WALDO-WATCHERS.",
+      "Every time you find him, you sign for him. ~~I have signed for him seven times.~~ I'm not signing for another one."
+    ],
+    "refinement": [
+      {
+        "layer": 1,
+        "name": "Evidence inventory",
+        "summary": "Six fresh per-scene auditor subagents re-viewed every fact of the six new scenes on fact contact sheets and zooms (beach was previously verified). Fixed: misquoted printed text (hike 'LOOKALIKES' -> 'WATCHERS', 'WOOF' quote, several punctuation slips), wrong counts (book rows, siege dollar shields, troy note shields, dragon 'two men'), wrong positions, dragon setting ('sand' -> white ground), and 4 unverifiable facts replaced (troy P06/P09, dragon P09, siege P07). Orchestrator then fixed claim titles/marquee/receipts/verdict still built on the hike 'lookalikes' error. Built 10 recurrence groups across all 7 scenes; side-by-side check confirmed book/hike print an identical roster strip and siege/troy-map are two scans of one artwork, recorded as a separate 'identical printed art' group. Rejected: vehicle/delivery group (beach hovercraft, Troy horse, galley) as too loose; dragon covered face (single scene)."
+      },
+      {
+        "layer": 2,
+        "name": "Synthesis",
+        "summary": "Thesis: Waldo is a product issued by a 'department' (face approved on stamps/seal, posted on a form postmark, sold in colourways, graded/priced, catalogue reprinted, shipped in pieces) whose mailing list is the watchers. Kept 6 motifs: issued face, form letter (postmark + addresses + 25 watchers), colourway range, price tag, issued in pieces, reprint. 8-step chain citing all 7 scenes. Added 24 crossLinks (3-4 per scene) and one cross-referencing update per scene. Consistency pass: unique increasing case numbers 1956..1962; one global night counter (beach Night 31, then 32-37 in manifest order) applied to lastUpdated, intros, update timestamps; guestbook dates made sequential in 2004; removed parallel-writer 'For 31 nights on this ONE scene' and 'second case file' collisions. Gallery intro updated to set up the theory."
+      },
+      {
+        "layer": 3,
+        "name": "Skeptic review",
+        "summary": "Fresh rubber-duck reviewer, two rounds. Round 1: 5 BLOCKER (face 'never on a man' false; 'nobody ever complete' contradicted by complete figures; dept 'WHERE'S' not in a cited fact; dept 'four colourways' not in cited facts; reprint sameness not stated by cited facts), 6 MAJOR (duplicate scans/strips counted as independent evidence; book Night 22 timeline; updates referencing not-yet-opened files; payoff step lacking motif support), 8 MINOR. Fixed all: dept P02 fact rewritten to the full postmark (re-verified at zoom); display-model framing; M2 widened to the mailing list; duplicates counted once outside M6; timeline and updates reordered; minor wording fixes. Round 2: 2 BLOCKER (41%/horse not in cited claims) and 2 MAJOR (Odlaw citations; 'every lineup' vs dept complete suspect) fixed by adding troy-map P02 citations, cutting 'the same horse', citing Odlaw claims, and scoping the lineup step to named scenes; troy-map P10 dropped from that step to avoid double-counting Troy. No open BLOCKER/MAJOR."
+      }
+    ]
+  }
 }

@@ -1,0 +1,884 @@
+{
+  "image": {
+    "src": "scene.jpg",
+    "width": 2800,
+    "height": 1760,
+    "alt": "Crowded department store floor with clothing rails, a shoe display, a hat stand, and a postcard with a postmark in the top-left corner."
+  },
+  "site": {
+    "title": "THE DEPARTMENT STORE",
+    "subtitle": "A Free Investigation Into the Shop That Stocks Him",
+    "caseNumber": "CASE #WDE-1958-D",
+    "banner": "⚠ THIS IS MIRROR #7. THE OTHERS WERE TAKEN DOWN. SAVE THIS PAGE TO YOUR COMPUTER. ⚠",
+    "marquee": "THE STAMP IS ISSUED ★ DEPARTMENTS SELL THINGS ★ SOMEONE IS BURNING TROUSERS ★ WHO SIGNED 'WALDO'? ★ THE TIE IS LONG AND THIN ★ NOBODY DELIVERS TO NOW ★ PHEW! INCREDIBLE! ★",
+    "heroCaption": "EXHIBIT 0: The department store floor. Every red pin is a proof. Every stripe is a clue. Click a pin. Click a stripe. LOOK.",
+    "intro": [
+      "The beach took me 31 nights. The scroll took one more. This floor took one more after that, and a lot less sleep. Same man, same stripes, different shop.",
+      "The postcard on this floor opens with ==HEY, WALDO-WATCHERS!== and it is signed WALDO. Nobody writes to the people looking for him. Somebody writes AS him, then mails the card to us.",
+      "Every proof below has a SEE FOR YOURSELF button. I'm not asking you to trust me. I'm asking you to LOOK. ~~I'm not crazy.~~ Start with the postmark. It says DEPARTMENT."
+    ],
+    "hitCounterBase": 1958,
+    "lastUpdated": "Night 33, 8:30 AM",
+    "censusInstructions": "Click every striped thing on the store floor above."
+  },
+  "claims": [
+    {
+      "id": "P01",
+      "num": 1,
+      "title": "HE SIGNED IT, THEN WROTE TO US",
+      "region": {
+        "x": 100,
+        "y": 118,
+        "w": 660,
+        "h": 432
+      },
+      "facts": [
+        {
+          "text": "The first printed line on the postcard reads \"HEY, WALDO-WATCHERS!\"",
+          "region": {
+            "x": 134,
+            "y": 198,
+            "w": 266,
+            "h": 38
+          }
+        },
+        {
+          "text": "It is signed \"Waldo\" by hand, with a line underneath.",
+          "region": {
+            "x": 158,
+            "y": 436,
+            "w": 92,
+            "h": 52
+          }
+        }
+      ],
+      "leap": "He signed it WALDO, then wrote to the Waldo-watchers. Waldo doesn't write to the people looking for him. Somebody writing AS Waldo is writing TO us, which means somebody is holding the pen, and it isn't ==the man in the picture==.",
+      "update": {
+        "time": "3:12 AM",
+        "text": "Read the postcard out loud twice. Both times it sounded like it was written by a committee."
+      },
+      "note": "WHO HOLDS THE PEN?",
+      "stamp": "EXHIBIT A",
+      "asset": "evidence/postcard.png",
+      "alt": "The postcard over the top-left corner of the store floor, with its printed message and the signature Waldo.",
+      "caption": "signed. by who??",
+      "paranoia": 1,
+      "links": [
+        {
+          "to": "P02",
+          "label": "WHICH STORE?"
+        },
+        {
+          "to": "P04",
+          "label": "SIGNED WALDO"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "num": 2,
+      "title": "THE POSTMARK SAYS DEPARTMENT STORE",
+      "region": {
+        "x": 485,
+        "y": 134,
+        "w": 122,
+        "h": 126
+      },
+      "facts": [
+        {
+          "text": "The round postmark reads \"WHERE'S\" across the top, then \"DEPARTMENT\" and \"STORE\" through the middle.",
+          "region": {
+            "x": 485,
+            "y": 134,
+            "w": 122,
+            "h": 126
+          }
+        },
+        {
+          "text": "The round postmark has no date, no town and no year printed on it.",
+          "region": {
+            "x": 485,
+            "y": 134,
+            "w": 122,
+            "h": 126
+          }
+        }
+      ],
+      "leap": "A postmark says where a letter was SENT FROM. This one was sent from a department. Departments are where things get sorted, priced and put on shelves. You don't mail yourself from the shelf. Somebody ==stocked him==.",
+      "update": {
+        "time": "3:40 AM",
+        "text": "Nobody mails from a shop floor. Unless the shop floor is where they keep him."
+      },
+      "note": "STOCKED? SHELVED?",
+      "stamp": "FOIA REQUEST DENIED",
+      "asset": "evidence/postmark.png",
+      "alt": "Round postmark reading WHERE'S, DEPARTMENT, STORE, WALDO? with no date.",
+      "caption": "no date. no town. a DEPARTMENT.",
+      "paranoia": 2,
+      "links": [
+        {
+          "to": "P03",
+          "label": "WHAT IT ASKS"
+        },
+        {
+          "to": "P05",
+          "label": "NO DATE, NO TOWN"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "troy-map",
+          "claim": "P01",
+          "label": "THE PRICE LIST"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "num": 3,
+      "title": "THE POSTMARK ASKS A QUESTION",
+      "region": {
+        "x": 500,
+        "y": 234,
+        "w": 66,
+        "h": 24
+      },
+      "facts": [
+        {
+          "text": "The postmark ends in a question mark, and it is printed, not handwritten.",
+          "region": {
+            "x": 550,
+            "y": 234,
+            "w": 28,
+            "h": 30
+          }
+        },
+        {
+          "text": "The line it sits on reads \"WALDO?\" in capitals, like the other lines.",
+          "region": {
+            "x": 496,
+            "y": 226,
+            "w": 76,
+            "h": 30
+          }
+        }
+      ],
+      "leap": "Nobody prints a question mark by accident on a postmark. It asks where he is. And the only place he has ever been ==printed== is the stamp on the same card. The post office is asking for a face it already issued.",
+      "update": {
+        "time": "4:05 AM",
+        "text": "Checked my own mail. No real postmark has a question in it. Mine say THANK YOU FOR SHOPPING."
+      },
+      "note": "WHERE IS HE?? WE GAVE HIM A STAMP.",
+      "stamp": "EXHIBIT B",
+      "asset": "evidence/question.png",
+      "alt": "The end of the postmark: the WALDO? line with its question mark.",
+      "caption": "the question is PRINTED.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P04",
+          "label": "THE FACE ON THE STAMP"
+        },
+        {
+          "to": "P01",
+          "label": "WHO WROTE IT?"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "beach",
+          "claim": "P02",
+          "label": "THE FORM, FIRST EDITION"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "num": 4,
+      "title": "THE STAMP IS THE ONLY FACE",
+      "region": {
+        "x": 596,
+        "y": 106,
+        "w": 110,
+        "h": 118
+      },
+      "facts": [
+        {
+          "text": "The stamp shows a cartoon face with a red-and-white bobble hat and round glasses.",
+          "region": {
+            "x": 596,
+            "y": 106,
+            "w": 110,
+            "h": 118
+          }
+        },
+        {
+          "text": "Upper, just left of centre: a man in the same red-and-white bobble hat, round glasses and red-and-white striped shirt.",
+          "region": {
+            "x": 1150,
+            "y": 280,
+            "w": 66,
+            "h": 100
+          }
+        }
+      ],
+      "leap": "One is printed on paper and one is walking around. Same hat. Same glasses. Same stripes. You don't print your own face on a stamp unless the face is ==issued==. Look at the one in the crowd and ask who handed him the shirt.",
+      "update": {
+        "time": "4:40 AM",
+        "text": "Compared them for forty minutes. The stamp doesn't blink. He does. CONVENIENT."
+      },
+      "note": "STAMP = ISSUE SAMPLE",
+      "stamp": "EXHIBIT C",
+      "asset": "evidence/stamp.png",
+      "alt": "Close-up of the postage stamp: a cartoon face with a red-and-white bobble hat and round glasses on a blue background.",
+      "caption": "the ORIGINAL. the copy is in the crowd.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P01",
+          "label": "SIGNED WALDO"
+        },
+        {
+          "to": "P09",
+          "label": "SAME STRIPES"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "book-page-challenge",
+          "claim": "P01",
+          "label": "SAME FACE, PRESSED IN WAX"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "num": 5,
+      "title": "ADDRESSED TO NOW",
+      "region": {
+        "x": 515,
+        "y": 292,
+        "w": 215,
+        "h": 130
+      },
+      "facts": [
+        {
+          "text": "The address is printed on five lines: \"TO:\", \"WALDO-WATCHERS\", \"OVER THE MOON,\", \"THE WILD WEST,\" and \"NOW\".",
+          "region": {
+            "x": 515,
+            "y": 292,
+            "w": 215,
+            "h": 130
+          }
+        },
+        {
+          "text": "The postmark beside it has no date and no town.",
+          "region": {
+            "x": 485,
+            "y": 134,
+            "w": 122,
+            "h": 126
+          }
+        }
+      ],
+      "leap": "No street. No town. No postcode. A card to the moon, to the Wild West, and to NOW. Nobody delivers to NOW unless they already know where every watcher is standing. That isn't an address. It's a ==stock list== with the times removed.",
+      "update": {
+        "time": "5:02 AM",
+        "text": "NOW is not a place. I checked three maps. It is not on any of them. ~~I checked twice.~~"
+      },
+      "note": "NO STREET. ONLY NOW.",
+      "stamp": "EYES ONLY",
+      "asset": "evidence/address.png",
+      "alt": "The printed address: TO WALDO-WATCHERS, OVER THE MOON, THE WILD WEST, NOW.",
+      "caption": "delivered to NOW.",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P02",
+          "label": "SAME POSTMARK"
+        },
+        {
+          "to": "P10",
+          "label": "THE CARD SAYS INCREDIBLE"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "num": 6,
+      "title": "SOMEONE IS BURNING TROUSERS",
+      "region": {
+        "x": 1365,
+        "y": 98,
+        "w": 26,
+        "h": 68
+      },
+      "facts": [
+        {
+          "text": "The message reads: \"SOMEONE BURNING TROUSERS WITH AN IRON;\"",
+          "region": {
+            "x": 136,
+            "y": 250,
+            "w": 306,
+            "h": 80
+          }
+        },
+        {
+          "text": "Top centre of the store: a pair of red-and-white striped trousers on a figure in the crowd.",
+          "region": {
+            "x": 1365,
+            "y": 98,
+            "w": 26,
+            "h": 68
+          }
+        }
+      ],
+      "leap": "Somebody is burning trousers with an iron, and somebody else is wearing red-and-white striped ones across the floor. Nobody burns striped trousers by accident. You press the uniform BEFORE you issue it. The trousers are the part that has to be ironed.",
+      "update": {
+        "time": "5:30 AM",
+        "text": "Ironed my own trousers to test the theory. They are not striped. They are not him. The iron is still warm."
+      },
+      "note": "IRONED = ISSUED",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/trousers.png",
+      "alt": "Red-and-white striped trousers near the top of the store floor.",
+      "caption": "pressed. ready. (no iron.)",
+      "paranoia": 3,
+      "links": [
+        {
+          "to": "P04",
+          "label": "WHO GETS THE SHIRT"
+        },
+        {
+          "to": "P07",
+          "label": "THE LONG THIN MAN"
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "num": 7,
+      "title": "THE LONG THIN MAN",
+      "region": {
+        "x": 402,
+        "y": 628,
+        "w": 66,
+        "h": 116
+      },
+      "facts": [
+        {
+          "text": "The message reads: \"A LONG THIN MAN WITH A LONG THIN TIE;\"",
+          "region": {
+            "x": 136,
+            "y": 296,
+            "w": 330,
+            "h": 60
+          }
+        },
+        {
+          "text": "The man in the brown suit, left of centre, has a long thin grey-green tie at his collar.",
+          "region": {
+            "x": 428,
+            "y": 652,
+            "w": 24,
+            "h": 40
+          }
+        }
+      ],
+      "leap": "He described a long thin man in a long thin tie. And there is a long thin man in a long thin tie, standing on the floor in plain view. The card is a lineup, and the suspect is already in it. ==Whoever wrote the card was looking at him.==",
+      "update": {
+        "time": "6:10 AM",
+        "text": "Stood up for a better look at the tie. He was not looking at me. I checked. He was looking at the card."
+      },
+      "note": "LONG THIN TIE = SUSPECT",
+      "stamp": "NO FURTHER COMMENT",
+      "asset": "evidence/tie-man.png",
+      "alt": "A slim man in a brown suit with a long thin tie at his collar.",
+      "caption": "the thin man. the thin tie.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P01",
+          "label": "WHO WROTE IT?"
+        },
+        {
+          "to": "P08",
+          "label": "WHO IS HOLDING HIM?"
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "num": 8,
+      "title": "A GLOVE ATTACKING A MAN",
+      "region": {
+        "x": 820,
+        "y": 1270,
+        "w": 50,
+        "h": 100
+      },
+      "facts": [
+        {
+          "text": "The message reads: \"A GLOVE ATTACKING A MAN.\"",
+          "region": {
+            "x": 136,
+            "y": 344,
+            "w": 350,
+            "h": 30
+          }
+        },
+        {
+          "text": "Lower left of centre: a man in a red hat and red-and-white striped shirt, his legs hidden behind a woman in a pink dress.",
+          "region": {
+            "x": 820,
+            "y": 1270,
+            "w": 50,
+            "h": 100
+          }
+        }
+      ],
+      "leap": "A glove is never just a glove. It's what does the grabbing. And in the crowd, the man in the red hat is the one whose legs disappear behind a pink dress. Somebody is holding him back, and the card says what with.",
+      "update": {
+        "time": "6:44 AM",
+        "text": "I can't find a glove in the picture. I can find a dress. The dress is pink. I am not saying anything about the dress."
+      },
+      "note": "GLOVE = GRIP",
+      "stamp": "MISSING",
+      "asset": "evidence/two-behind-pink.png",
+      "alt": "A figure in a red hat and red-and-white striped shirt, legs hidden behind a woman in a pink dress.",
+      "caption": "held back?",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P07",
+          "label": "WHO IS HOLDING HIM?"
+        },
+        {
+          "to": "P04",
+          "label": "SAME STRIPED SHIRT"
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "num": 9,
+      "title": "THE STRIPES COME IN A RANGE",
+      "region": {
+        "x": 540,
+        "y": 1280,
+        "w": 40,
+        "h": 50
+      },
+      "facts": [
+        {
+          "text": "Lower left: a figure in a yellow-and-black striped sweater.",
+          "region": {
+            "x": 540,
+            "y": 1280,
+            "w": 40,
+            "h": 50
+          }
+        },
+        {
+          "text": "Upper right of centre: a blue-and-white striped top with a yellow bag on one shoulder.",
+          "region": {
+            "x": 1725,
+            "y": 120,
+            "w": 60,
+            "h": 75
+          }
+        }
+      ],
+      "leap": "Yellow and black. Blue and white. Red and white. Green and white. Four colourways, one pattern. That isn't fashion. That's a ==PRODUCT LINE==: the same uniform in different colours, sold to different people on the same floor.",
+      "update": {
+        "time": "7:12 AM",
+        "text": "Stopped counting stripes at eleven. The census below has eleven. There are more. I am not going back to count them."
+      },
+      "note": "4 COLOURWAYS",
+      "stamp": "INVENTORY",
+      "asset": "evidence/yellow-bee.png",
+      "alt": "A yellow-and-black striped sweater on a figure in the crowd.",
+      "caption": "colourway: BEE.",
+      "paranoia": 4,
+      "links": [
+        {
+          "to": "P04",
+          "label": "SAME STRIPES"
+        },
+        {
+          "to": "P10",
+          "label": "THE CLOSEST ONE"
+        }
+      ],
+      "crossLinks": [
+        {
+          "scene": "dragon-feast",
+          "claim": "P05",
+          "label": "ANOTHER COLOURWAY"
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "num": 10,
+      "title": "PHEW! INCREDIBLE!",
+      "region": {
+        "x": 1918,
+        "y": 774,
+        "w": 34,
+        "h": 34
+      },
+      "facts": [
+        {
+          "text": "The message ends: \"PHEW! INCREDIBLE!\"",
+          "region": {
+            "x": 136,
+            "y": 376,
+            "w": 250,
+            "h": 32
+          }
+        },
+        {
+          "text": "Middle right: a bobble hat with a red band and a yellow-green top, on a display stand.",
+          "region": {
+            "x": 1918,
+            "y": 774,
+            "w": 34,
+            "h": 34
+          }
+        }
+      ],
+      "leap": "PHEW. That's what you say when the thing you were worried about arrives and it's almost right. The store puts the near-miss on a stand. Somewhere on this floor is the hat that fits, and Waldo's hat is in stock. Nearly right is how they sell him.",
+      "update": {
+        "time": "8:02 AM",
+        "text": "Phew. Incredible. That is exactly what they want me to say. Going back to the beach. The beach has no stock."
+      },
+      "note": "NEARLY RIGHT = SOLD",
+      "stamp": "CLASSIFIED",
+      "asset": "evidence/bobble.png",
+      "alt": "A bobble hat with a red band and a yellow-green top on a display stand.",
+      "caption": "almost. close enough for a shop.",
+      "paranoia": 5,
+      "links": [
+        {
+          "to": "P09",
+          "label": "THE RANGE"
+        },
+        {
+          "to": "P05",
+          "label": "ADDRESSED TO NOW"
+        }
+      ]
+    }
+  ],
+  "lineupReference": {
+    "claim": "P04",
+    "name": "THE STAMP (reference)",
+    "has": [
+      "Red-and-white bobble hat",
+      "Round glasses",
+      "Red-and-white stripes"
+    ],
+    "missing": []
+  },
+  "lineup": [
+    {
+      "id": "L1",
+      "name": "SUSPECT 1: \"THE CLOSEST ONE\"",
+      "region": {
+        "x": 1150,
+        "y": 280,
+        "w": 66,
+        "h": 100
+      },
+      "asset": "evidence/suspect-1.png",
+      "alt": "Figure in a red-and-white bobble hat, round glasses and a red-and-white striped shirt, standing in the upper middle of the store.",
+      "has": [
+        "Red-and-white bobble hat",
+        "Round glasses",
+        "Red-and-white striped shirt"
+      ],
+      "missing": [
+        "Nothing you can see. That is the problem."
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "SUSPECT 2: \"THE PINK DRESS\"",
+      "region": {
+        "x": 820,
+        "y": 1270,
+        "w": 50,
+        "h": 100
+      },
+      "asset": "evidence/suspect-2.png",
+      "alt": "Figure in a red hat and red-and-white striped shirt, legs hidden behind a woman in a pink dress.",
+      "has": [
+        "Red hat",
+        "Red-and-white striped shirt"
+      ],
+      "missing": [
+        "Trousers: hidden behind a pink dress",
+        "Round glasses: not visible at this size"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "SUSPECT 3: \"THE BEE\"",
+      "region": {
+        "x": 522,
+        "y": 1262,
+        "w": 62,
+        "h": 70
+      },
+      "asset": "evidence/suspect-3.png",
+      "alt": "Figure with round glasses, a yellow-and-black striped hat and a yellow-and-black striped sweater.",
+      "has": [
+        "Round glasses",
+        "Yellow-and-black striped hat",
+        "Yellow-and-black striped sweater"
+      ],
+      "missing": [
+        "Red-and-white stripes",
+        "Red bobble hat"
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "SUSPECT 4: \"THE TROUSERS\"",
+      "region": {
+        "x": 1365,
+        "y": 98,
+        "w": 26,
+        "h": 68
+      },
+      "asset": "evidence/suspect-4.png",
+      "alt": "Red-and-white striped trousers on a figure in the crowd near the top of the store.",
+      "has": [
+        "Red-and-white striped trousers"
+      ],
+      "missing": [
+        "Hat: NOT SHOWN",
+        "Glasses: NOT SHOWN"
+      ]
+    },
+    {
+      "id": "L5",
+      "name": "SUSPECT 5: \"THE BAG\"",
+      "region": {
+        "x": 1725,
+        "y": 120,
+        "w": 60,
+        "h": 75
+      },
+      "asset": "evidence/suspect-5.png",
+      "alt": "Figure in a blue-and-white striped top, carrying a yellow bag.",
+      "has": [
+        "Blue-and-white striped top",
+        "Yellow bag"
+      ],
+      "missing": [
+        "Red-and-white stripes",
+        "Bobble hat"
+      ]
+    }
+  ],
+  "stripes": [
+    {
+      "id": "S01",
+      "label": "red-and-white striped trousers, top centre",
+      "region": {
+        "x": 1365,
+        "y": 98,
+        "w": 26,
+        "h": 68
+      }
+    },
+    {
+      "id": "S02",
+      "label": "red-and-white striped top, beside a green jumper",
+      "region": {
+        "x": 1118,
+        "y": 938,
+        "w": 46,
+        "h": 66
+      }
+    },
+    {
+      "id": "S03",
+      "label": "red-and-white striped top with a yellow bag",
+      "region": {
+        "x": 1488,
+        "y": 866,
+        "w": 58,
+        "h": 72
+      }
+    },
+    {
+      "id": "S04",
+      "label": "blue-and-white striped top with a yellow bag",
+      "region": {
+        "x": 1725,
+        "y": 120,
+        "w": 60,
+        "h": 75
+      }
+    },
+    {
+      "id": "S05",
+      "label": "green-and-white striped jumper",
+      "region": {
+        "x": 160,
+        "y": 826,
+        "w": 48,
+        "h": 58
+      }
+    },
+    {
+      "id": "S06",
+      "label": "red-and-white striped top with a bag",
+      "region": {
+        "x": 88,
+        "y": 812,
+        "w": 46,
+        "h": 66
+      }
+    },
+    {
+      "id": "S07",
+      "label": "yellow-and-black striped sweater",
+      "region": {
+        "x": 540,
+        "y": 1280,
+        "w": 40,
+        "h": 50
+      }
+    },
+    {
+      "id": "S08",
+      "label": "red-and-white striped shorts",
+      "region": {
+        "x": 1240,
+        "y": 1320,
+        "w": 30,
+        "h": 44
+      }
+    },
+    {
+      "id": "S09",
+      "label": "red-and-white striped shirt (lower left, behind the pink dress)",
+      "region": {
+        "x": 820,
+        "y": 1270,
+        "w": 50,
+        "h": 100
+      }
+    },
+    {
+      "id": "S10",
+      "label": "red-and-white striped shirt (upper middle)",
+      "region": {
+        "x": 1150,
+        "y": 280,
+        "w": 66,
+        "h": 100
+      }
+    },
+    {
+      "id": "S11",
+      "label": "green-and-white striped trousers, left edge",
+      "region": {
+        "x": 14,
+        "y": 1380,
+        "w": 40,
+        "h": 45
+      }
+    }
+  ],
+  "censusComments": [
+    "11 stripes logged. The 12th is my own shirt in the mirror, and I'm not counting it.",
+    "The yellow-and-black one is the BEE. I didn't name it. The stripes named it.",
+    "Shorts at the bottom, trousers at the top. Pick a side. They're both the uniform.",
+    "Counted the blue-and-white one twice. The bag is yellow. It is always yellow.",
+    "Striped trousers at the top. Striped shorts at the bottom. Same shop, same pattern, one department."
+  ],
+  "guestbook": [
+    {
+      "name": "Reader in Ohio",
+      "date": "03/27/2004",
+      "text": "My nephew wears a red-and-white bobble hat every Christmas. Does that make him a stamp?",
+      "reply": "Your nephew is a SAMPLE. Ask him where he got the hat. Ask him who he's been talking to.",
+      "claim": "P04"
+    },
+    {
+      "name": "Pat (retired stockroom)",
+      "date": "03/28/2004",
+      "text": "Department stores mail catalogues, so they have postmarks. I worked in stock for 22 years. That's all a postmark is.",
+      "reply": "Catalogues. Right. Then why is the catalogue asking WALDO?? Thank you for your service in the stacks, Pat.",
+      "claim": "P02"
+    },
+    {
+      "name": "anonymous",
+      "date": "03/29/2004",
+      "text": "The striped trousers are on a mannequin. Look again.",
+      "reply": "A mannequin doesn't walk across a shop floor and get ironed. ~~I'm not saying the trousers are alive.~~ I'm saying nobody has checked the head.",
+      "claim": "P06"
+    }
+  ],
+  "updates": [
+    {
+      "time": "Night 33, 3:12 AM",
+      "text": "Posted the postcard. Eight people wrote back. Five of them are the same person.",
+      "claim": "P01"
+    },
+    {
+      "time": "Night 33, 5:02 AM",
+      "text": "Checked the address against the store's own directory. The directory has no NOW.",
+      "claim": "P05"
+    },
+    {
+      "time": "Night 33, 7:12 AM",
+      "text": "Eleven stripes. Eleven colourways. The census below is the full list, and it is still not the full list.",
+      "claim": "P09"
+    },
+    {
+      "time": "Night 33, 8:30 AM",
+      "text": "Put this postmark next to the beach postmark. WHERE'S. Middle line. WALDO, question mark. Somebody fills these in. The middle line here says DEPARTMENT.",
+      "claim": "P03"
+    }
+  ],
+  "receipts": [
+    {
+      "item": "Postage stamp, one (Waldo face)",
+      "price": "FREE",
+      "note": "Issued. Not for sale. They make you ask.",
+      "claim": "P04"
+    },
+    {
+      "item": "Ink, black, for question marks",
+      "price": "1.99",
+      "note": "Ran out at the second WALDO?",
+      "claim": "P03"
+    },
+    {
+      "item": "Iron, borrowed",
+      "price": "0.00",
+      "note": "Still warm. Nobody will say whose.",
+      "claim": "P06"
+    }
+  ],
+  "verdict": {
+    "lines": [
+      "Waldo is not in the picture. Waldo is a uniform, and the uniform is on the floor.",
+      "The stamp is the issue sample. The postmark asks where he is. The card says PHEW, because the shop has him in stock.",
+      "Find him in the crowd and somebody else is already wearing the hat."
+    ],
+    "button": "Request Further Investigation"
+  },
+  "cipher": {
+    "cipher": "YRNQ: GUR FGNZC VF VFFHRQ. FRR CEBBS #4.",
+    "plain": "LEAD: THE STAMP IS ISSUED. SEE PROOF #4.",
+    "claim": "P04"
+  },
+  "footer": "This is a parody. Waldo is a fictional character created by Martin Handford. No actual investigation occurred."
+}
